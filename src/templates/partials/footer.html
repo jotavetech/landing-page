@@ -1,0 +1,20 @@
+{% from "macros.html" import field, social_links %}
+{% set c = site.company %}
+<footer class="ftr" aria-labelledby="rodape-titulo"><div class="wrap" style="padding-top:72px;padding-bottom:40px">
+<h2 id="rodape-titulo" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">{{ t.footer.heading }}</h2>
+<div class="ftrgrid" style="display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:40px">
+<div style="display:flex;flex-direction:column;gap:18px;grid-column:span 1"><div class="flogo"><div style="width:434px;height:58px;flex:none">{{ svg('logo-footer') }}</div></div>
+<p style="color:#C9C2B6;font-size:16px;max-width:340px">{{ t.footer.tagline }}</p>
+<ul aria-label="{{ t.footer.social_label }}" style="flex-direction:row;flex-wrap:wrap;gap:10px 16px">{{ social_links(site.social, t) }}</ul>
+{% include "partials/lang.html" %}
+</div>
+<div style="display:flex;flex-direction:column;gap:16px"><h2>{{ t.footer.navigation }}</h2><ul><li><a href="{{ url('home') }}">{{ t.ui.nav.home }}</a></li><li><a href="{{ url('products') }}">{{ t.ui.nav.products }}</a></li><li><a href="{{ url('solutions') }}">{{ t.ui.nav.solutions_long }}</a></li><li><a href="{{ url('about') }}">{{ t.ui.nav.about }}</a></li><li><a href="{{ url('faq') }}">{{ t.ui.nav.faq }}</a></li><li><a href="{{ url('contact') }}">{{ t.ui.nav.contact }}</a></li></ul></div>
+<div style="display:flex;flex-direction:column;gap:16px"><h2>{{ t.footer.products }}</h2><ul>{% for k in app_keys %}<li><a href="{{ url(k) }}">{{ t.apps[k].name }}</a></li>{% endfor %}</ul>
+<h2 style="margin-top:14px">{{ t.footer.legal }}</h2><ul><li><a href="{{ url('privacy') }}">{{ t.footer.privacy }}</a></li><li><a href="{{ url('terms') }}">{{ t.footer.terms }}</a></li></ul></div>
+<div style="display:flex;flex-direction:column;gap:16px"><h2>{{ t.footer.contact }}</h2><ul>
+<li>{{ t.footer.email }}: {{ field(c.email, t.placeholders.email, "mailto:" ~ c.email) }}</li><li>{{ t.footer.phone }}: {{ field(c.phone, t.placeholders.phone, "tel:+" ~ (c.phone | digits)) }}</li><li>{{ t.footer.whatsapp }}: {{ field(c.whatsapp, t.placeholders.whatsapp, "https://wa.me/" ~ (c.whatsapp | digits)) }}</li><li>{{ field(c.address, t.placeholders.address) }} · {{ field(c.city_state, t.placeholders.city_state) }}</li></ul></div></div>
+<div style="height:1px;background:#2E3E57;margin:48px 0 24px"></div>
+<div class="stack" style="display:flex;justify-content:space-between;gap:16px;font-size:14px;align-items:flex-start">
+<p style="color:#C9C2B6;font-size:14px">© <span data-year>{{ year }}</span> {{ site.brand_name }}. {{ t.footer.rights }}<br>{{ field(c.legal_name, t.placeholders.legal_name) }} · {{ t.footer.cnpj }} {{ field(c.cnpj, t.placeholders.cnpj) }}</p>
+<p style="color:#C9C2B6;font-size:14px;max-width:480px">{{ field(c.extra_legal_info[lang], t.placeholders.extra_legal_info) }}</p></div>
+</div></footer>

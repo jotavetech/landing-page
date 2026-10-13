@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% from "macros.html" import cta, crumbs, app_icon, store_buttons %}
+{% set p = t.pages.product %}
+{% set title = p.title | fmt(name=app.name) %}
+{% set description = p.description | fmt(name=app.name) %}
+{% set k = app_key %}
+{% set n = app_site.screenshots %}
+{% set gallery = [2, 3, 4] if n >= 4 else [1, 2, 3] %}
+{% macro shot(i, w=None, h=None) -%}
+<img src="{{ asset('img/apps/' ~ k ~ '/screen-' ~ i ~ '.webp') }}" alt="{{ p.screenshot_alt | fmt(name=app.name, caption=app.screenshots[i - 1]) }}" loading="{{ 'eager' if not w else 'lazy' }}" decoding="async">
+{%- endmacro %}
+{% block main %}
+<section class="phhero" aria-labelledby="h-{{ k }}"><div class="wrap stack" style="display:flex;align-items:center;gap:56px;padding-top:64px;padding-bottom:72px">
+<div style="flex:1.3;display:flex;flex-direction:column;gap:22px">
+{{ crumbs(t, url, [(url('products'), t.ui.nav.products), (None, app.name)]) }}
+<div style="display:flex;align-items:center;gap:18px">{{ app_icon(t, asset, k, 72, 16) }}<span class="eyebrow">{{ t.ui.app_kind }}</span></div>
+<h1 id="h-{{ k }}">{{ app.name }}</h1>
+<p class="lead">{{ app.lead | rich }}</p>
+{{ store_buttons(t, app, app_site) }}{% if not app_site.app_store %}<p style="font-size:14px;margin-top:10px"><span class="ph">{{ t.ui.app_store_missing }}</span></p>{% endif %}</div>
+<div style="flex:1;display:flex;justify-content:center"><div class="phone"><div class="shot">{{ shot(1) }}</div></div></div></div></section>
+<section class="sec" aria-labelledby="o-{{ k }}"><div class="wrap g2" style="align-items:start;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px"><span class="eyebrow">{{ p.what_eyebrow }}</span><h2 id="o-{{ k }}">{{ p.what_h2 | fmt(name=app.name) }}</h2>{% for para in app.about %}<p style="font-size:19px">{{ para | rich }}</p>{% endfor %}<p style="font-size:14px">{{ p.source_note }}</p></div>
+<div class="card" style="display:flex;flex-direction:column;gap:16px"><h3>{{ p.audience_h3 }}</h3>
+<ul style="margin:0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--ink)">{% for item in app.audience %}<li>{{ item | rich }}</li>{% endfor %}</ul></div></div></section>
+<section class="sec" style="background:var(--bege)" aria-labelledby="r-{{ k }}"><div class="wrap" style="display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:14px"><span class="eyebrow">{{ p.features_eyebrow }}</span><h2 id="r-{{ k }}">{{ p.features_h2 }}</h2></div>
+<div class="g3">{% for f in app.features %}<div class="card" style="display:flex;flex-direction:column;gap:12px">{{ svg('feature-' ~ loop.index) }}<h3 style="font-size:20px">{{ f.title | rich }}</h3><p style="font-size:16px">{{ f.text | rich }}</p></div>{% endfor %}</div></div></section>
+<section class="sec" aria-labelledby="v-{{ k }}"><div class="wrap" style="display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:14px"><span class="eyebrow">{{ p.versions_eyebrow }}</span><h2 id="v-{{ k }}">{{ p.versions_h2 }}</h2>{% if app.versions_note %}<p>{{ app.versions_note | rich }}</p>{% endif %}</div>
+<div class="g2">
+<div class="card" style="display:flex;flex-direction:column;gap:16px"><span class="eyebrow" style="color:var(--ink)">{{ p.free }}</span><h3 style="font-size:30px">{{ app.free_price | rich }}</h3><ul style="margin:0;padding-left:22px;color:var(--ink);display:flex;flex-direction:column;gap:8px">{% for item in app.free_items %}<li>{{ item | rich }}</li>{% endfor %}</ul></div>
+<div class="card" style="display:flex;flex-direction:column;gap:16px;border:2px solid var(--navy)"><span class="eyebrow">{{ p.paid }}</span><h3 style="font-size:30px">{{ app.paid_price | rich }}</h3><ul style="margin:0;padding-left:22px;color:var(--ink);display:flex;flex-direction:column;gap:8px">{% for item in app.paid_items %}<li>{{ item | rich }}</li>{% endfor %}</ul></div></div></div></section>
+<section class="sec" style="background:var(--bege)" aria-labelledby="t-{{ k }}"><div class="wrap" style="display:flex;flex-direction:column;gap:36px">
+<h2 id="t-{{ k }}">{{ p.screens_h2 }}</h2><div class="g3">{% for i in gallery %}<div class="phone" style="width:220px;height:440px;margin:0 auto"><div class="shot">{{ shot(i, 220, 440) }}</div></div>{% endfor %}</div></div></section>
+<section class="sec" aria-labelledby="f-{{ k }}"><div class="wrap faq" style="max-width:860px;display:flex;flex-direction:column;gap:28px"><h2 id="f-{{ k }}">{{ p.faq_h2 | fmt(name=app.name) }}</h2><div><details open><summary>{{ p.faq_free_q | fmt(name=app.name) }}</summary><div><p>{{ app.faq_free_a | rich }}</p></div></details><details><summary>{{ p.faq_devices_q | fmt(name=app.name) }}</summary><div><p>{{ p.faq_devices_a | fmt(name=app.name) | rich }}</p><p style="margin-top:10px"><a href="{{ app_site.google_play }}" target="_blank" rel="noopener">{{ t.ui.get_on_google_play_label | fmt(name=app.name) }} <span class="sr">{{ t.ui.new_tab }}</span><span aria-hidden="true">↗</span></a></p></div></details><details><summary>{{ p.faq_contact_q | fmt(name=app.name) }}</summary><div><p>{{ p.faq_contact_a | rich }}</p><p style="margin-top:10px"><a href="{{ url('contact') }}">{{ p.faq_contact_link }} <span aria-hidden="true">→</span></a></p></div></details></div></div></section>
+{{ cta(t, url, "cta-" ~ k, p.cta_h2 | fmt(name=app.name), p.cta_p, "cta-" ~ k) }}
+{% endblock %}

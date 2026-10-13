@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% from "macros.html" import crumbs %}
+{% set p = t.pages[page] %}
+{% set title = p.title %}
+{% set description = p.description %}
+{% block main %}
+<section class="phhero" aria-labelledby="h-legal"><div class="wrap" style="padding-top:72px;padding-bottom:72px;display:flex;flex-direction:column;gap:20px">
+{{ crumbs(t, url, [(None, p.crumb)]) }}
+<h1 id="h-legal">{{ p.h1 }}</h1></div></section>
+<section class="sec"><div class="wrap" style="max-width:900px;display:flex;flex-direction:column;gap:18px">
+<p style="font-size:19px">{{ p.body | rich }}</p></div></section>
+{% endblock %}

@@ -1,0 +1,57 @@
+{
+  "_comment": "Informações editáveis do site. Campos vazios (\"\") aparecem no site como marcadores destacados, por exemplo [inserir CNPJ]. Preencha e publique novamente.",
+
+  "domain": "https://www.jotavetech.com",
+  "brand_name": "Jotave Tech",
+
+  "company": {
+    "legal_name": "",
+    "cnpj": "",
+    "address": "",
+    "city_state": "",
+    "email": "",
+    "phone": "",
+    "whatsapp": "",
+    "_whatsapp_comment": "Use o número com DDI e DDD, por exemplo +55 11 90000-0000. O link do WhatsApp é gerado automaticamente.",
+    "business_hours": {
+      "pt-br": "",
+      "en": ""
+    },
+    "extra_legal_info": {
+      "pt-br": "",
+      "en": ""
+    }
+  },
+
+  "social": [
+    { "name": "", "url": "" },
+    { "name": "", "url": "" },
+    { "name": "", "url": "" }
+  ],
+
+  "contact_form": {
+    "_comment": "O GitHub Pages não processa formulários. Sem um serviço externo, o formulário abre o programa de e-mail do visitante com a mensagem pronta, endereçada a company.email. Para usar um serviço de formulários, informe a URL de envio (action) abaixo.",
+    "action_url": ""
+  },
+
+  "apps": {
+    "gro": {
+      "google_play": "https://play.google.com/store/apps/details?id=br.com.joaoov",
+      "app_store": "",
+      "screenshots": 4
+    },
+    "balanca-diaria": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.br.weightcontrol",
+      "app_store": "",
+      "screenshots": 3
+    },
+    "spokn": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.br.spokn",
+      "app_store": "",
+      "screenshots": 5
+    }
+  },
+
+  "_editorial_notes_comment": "Quando true, exibe os avisos amarelos do design (\"Para aprovação\", \"Para preencher\"). Mude para false quando os textos forem aprovados.",
+  "show_editorial_notes": true
+}

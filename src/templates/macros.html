@@ -1,0 +1,42 @@
+{# Valor configurado em content/site.json ou, se vazio, o marcador destacado. #}
+{% macro field(value, placeholder, href=None) -%}
+{% if value %}{% if href %}<a href="{{ href }}">{{ value }}</a>{% else %}{{ value }}{% endif %}{% else %}<span class="ph">{{ placeholder }}</span>{% endif %}
+{%- endmacro %}
+
+{% macro social_links(items, t) -%}
+{% for s in items %}<li>{% if s.name and s.url %}<a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.name }}</a>{% else %}<span class="ph">{{ t.placeholders.social | fmt(n=loop.index) }}</span>{% endif %}</li>{% endfor %}
+{%- endmacro %}
+
+{# Topo das páginas internas: migalhas, título e texto de apoio. #}
+{% macro crumbs(t, url, trail) -%}
+<nav class="crumbs" aria-label="{{ t.ui.breadcrumb_label }}"><a href="{{ url('home') }}">{{ t.ui.nav.home }}</a>{% for href, label in trail %}<span aria-hidden="true">›</span>{% if href %}<a href="{{ href }}">{{ label }}</a>{% else %}<span aria-current="page">{{ label }}</span>{% endif %}{% endfor %}</nav>
+{%- endmacro %}
+
+{% macro simple_hero(t, url, id, crumb, h1, lead) -%}
+<section class="phhero" aria-labelledby="{{ id }}"><div class="wrap" style="padding-top:72px;padding-bottom:72px;display:flex;flex-direction:column;gap:20px">
+{{ crumbs(t, url, [(None, crumb)]) }}
+<h1 id="{{ id }}">{{ h1 }}</h1>
+<p class="lead">{{ lead | rich }}</p></div></section>
+{%- endmacro %}
+
+{# Faixa azul de chamada para contato, com a ilustração em pixels de cada página. #}
+{% macro cta(t, url, id, h2, p, art) -%}
+<section class="sec" style="padding-top:72px" aria-labelledby="{{ id }}"><div class="wrap">
+<div style="background:var(--navy);border-radius:24px;overflow:hidden;display:grid;grid-template-columns:1.4fr 1fr" class="ctag">
+<div style="padding:56px;display:flex;flex-direction:column;gap:18px"><h2 id="{{ id }}" style="color:var(--bege)">{{ h2 }}</h2><p style="color:#C9C2B6;font-size:19px">{{ p }}</p>
+<div class="btns" style="margin-top:8px"><a class="btn acc" href="{{ url('contact') }}">{{ t.ui.talk_to_team }}</a></div></div>
+<div class="hide-m" style="display:flex;align-items:flex-end;justify-content:flex-end" aria-hidden="true">{{ svg(art) }}</div></div></div></section>
+{%- endmacro %}
+
+{# Aviso editorial amarelo do design ("Para aprovação" / "Para preencher"). #}
+{% macro note(site, label, text, icon=False) -%}
+{% if site.show_editorial_notes %}<div class="note" role="note">{% if icon %}{{ svg('note-icon') }}{% endif %}<p style="color:#5E4D18;font-size:16px"><b>{{ label }}</b> {{ text }}</p></div>{% endif %}
+{%- endmacro %}
+
+{% macro app_icon(t, asset, key, size, radius) -%}
+<img class="appicon" src="{{ asset('img/apps/' ~ key ~ '/icon.webp') }}" width="{{ size }}" height="{{ size }}" alt="{{ t.ui.app_icon_alt | fmt(name=t.apps[key].name) }}" style="width:{{ size }}px;height:{{ size }}px;flex:none;border-radius:{{ radius }}px" decoding="async">
+{%- endmacro %}
+
+{% macro store_buttons(t, app, app_site, extra_style="") -%}
+<div class="btns"{% if extra_style %} style="{{ extra_style }}"{% endif %}><a class="btn pri" href="{{ app_site.google_play }}" target="_blank" rel="noopener" aria-label="{{ t.ui.get_on_google_play_label | fmt(name=app.name) }} {{ t.ui.new_tab }}">{{ svg('google-play') }} {{ t.ui.get_on_google_play }}</a>{% if app_site.app_store %}<a class="btn out" href="{{ app_site.app_store }}" target="_blank" rel="noopener" aria-label="{{ t.ui.get_on_app_store_label | fmt(name=app.name) }} {{ t.ui.new_tab }}">{{ t.ui.get_on_app_store }}</a>{% endif %}</div>
+{%- endmacro %}

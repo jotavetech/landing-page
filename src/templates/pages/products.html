@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% from "macros.html" import cta, simple_hero, app_icon %}
+{% set p = t.pages.products %}
+{% set title = p.title %}
+{% set description = p.description %}
+{% block main %}
+{{ simple_hero(t, url, "h-prod", p.crumb, p.h1, p.lead) }}
+<section class="sec" aria-label="{{ p.list_label }}"><div class="wrap" style="display:flex;flex-direction:column;gap:24px">{% for k in app_keys %}{% set a = t.apps[k] %}<article class="card stack" style="display:flex;gap:40px;align-items:center;padding:40px" aria-labelledby="p-{{ k }}">
+{{ app_icon(t, asset, k, 140, 30) }}
+<div style="flex:1;display:flex;flex-direction:column;gap:14px"><h2 id="p-{{ k }}" style="font-size:34px">{{ a.name }}</h2>
+<p style="font-size:19px">{{ a.card | rich }}</p>
+<div style="display:flex;flex-wrap:wrap;gap:10px;font-size:15px">{% for b in a.badges %}<span class="sug{% if '[' not in b %} fact{% endif %}" style="text-transform:none;letter-spacing:0">{{ b }}</span>{% endfor %}</div></div>
+<a class="btn pri" href="{{ url(k) }}">{{ t.ui.learn_more | fmt(name=a.name) }}</a></article>{% endfor %}</div></section>
+{{ cta(t, url, "cta-860", p.cta_h2, p.cta_p, "cta-products") }}
+{% endblock %}

@@ -1,0 +1,11 @@
+{% set nav = [("home", t.ui.nav.home), ("products", t.ui.nav.products), ("solutions", t.ui.nav.solutions), ("about", t.ui.nav.about), ("faq", t.ui.nav.faq), ("contact", t.ui.nav.contact)] %}
+{% set nav_mobile = [("home", t.ui.nav.home), ("products", t.ui.nav.products), ("solutions", t.ui.nav.solutions_long), ("about", t.ui.nav.about), ("faq", t.ui.nav.faq), ("contact", t.ui.nav.contact)] %}
+<header class="hdr"><div class="langbar"><div class="wrap"><span aria-hidden="true">{{ t.ui.lang_label }}</span>{% include "partials/lang.html" %}</div></div><div class="wrap">
+<a class="logo" href="{{ url('home') }}" aria-label="{{ t.ui.home_label }}" style="display:flex"><div style="width:295px;height:34px;flex:none">{{ svg('logo') }}</div></a>
+<nav class="nav" aria-label="{{ t.ui.nav_main }}">{% for key, label in nav %}<a href="{{ url(key) }}"{% if page == key %} aria-current="page"{% endif %}>{{ label }}</a>{% endfor %}</nav>
+<div class="hdr-end">
+<a class="btn pri cta" href="{{ url('contact') }}" style="min-height:46px;font-size:16px;white-space:nowrap;padding:0 22px">{{ t.ui.talk_to_team }}</a>
+<details class="menu"><summary aria-label="{{ t.ui.open_menu }}">{{ t.ui.menu }} {{ svg('menu-icon') }}</summary>
+<nav aria-label="{{ t.ui.nav_mobile }}" style="position:absolute;left:0;right:0;background:var(--navy);padding:8px 20px 20px;z-index:5"><ul style="list-style:none;margin:0;padding:0">{% for key, label in nav_mobile %}<li><a href="{{ url(key) }}" style="display:block;padding:12px 0;font-size:18px;color:var(--bege);text-decoration:none{% if page == key %};font-weight:700{% endif %}"{% if page == key %} aria-current="page"{% endif %}>{{ label }}</a></li>{% endfor %}</ul></nav></details>
+</div>
+</div></header>

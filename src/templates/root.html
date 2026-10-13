@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ strings[default_lang].meta.html_lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ strings[default_lang].pages.home.title }}</title>
+<meta name="description" content="{{ strings[default_lang].pages.home.description }}">
+<link rel="canonical" href="{{ domain }}/">
+{% for l in langs %}
+<link rel="alternate" hreflang="{{ strings[l].meta.html_lang }}" href="{{ domain }}/{{ l }}/">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ domain }}/">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#1B2A41">
+<script>
+/* Escolhe o idioma: domínio .com.br -> português; senão, a escolha salva pelo visitante;
+   senão, o idioma do navegador (português -> pt-br, demais -> en). */
+(function () {
+  var langs = {{ langs | tojson }}, lang = null;
+  if (/\.com\.br$/i.test(location.hostname)) { location.replace("{{ domain }}/pt-br/"); return; }
+  try { lang = localStorage.getItem("jt-lang"); } catch (e) {}
+  if (langs.indexOf(lang) < 0) {
+    var nav = (navigator.languages && navigator.languages[0]) || navigator.language || "";
+    lang = /^pt/i.test(nav) ? "pt-br" : "en";
+  }
+  location.replace(lang + "/");
+})();
+</script>
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#F3EEE5;color:#1B2A41;font:18px/1.6 Georgia,serif}
+a{color:#3A7368;font-weight:700;margin:0 12px}
+</style>
+</head>
+<body>
+<p>{% for l in langs %}<a href="{{ l }}/" hreflang="{{ strings[l].meta.html_lang }}" lang="{{ strings[l].meta.html_lang }}">{{ strings[l].meta.lang_name }}</a>{% endfor %}</p>
+</body>
+</html>
