@@ -21,7 +21,6 @@
 <div class="g3">{% for k in app_keys %}{% set a = t.apps[k] %}<article class="card" style="display:flex;flex-direction:column;gap:18px">
 <div style="display:flex;align-items:center;gap:16px">{{ app_icon(t, asset, k, 64, 14) }}<h3 style="font-size:26px">{{ a.name }}</h3></div>
 <p>{{ a.card | rich }}</p>
-<p style="font-size:15px">{{ t.ui.versions }} {{ a.versions_line | rich }}</p>
 <a href="{{ url(k) }}" style="margin-top:auto;font-weight:700">{{ t.ui.learn_more | fmt(name=a.name) }} <span aria-hidden="true">→</span></a></article>{% endfor %}</div></div></section>
 {{ cta(t, url, "cta-79", p.cta_h2, p.cta_p, "cta-home") }}
 {% endblock %}

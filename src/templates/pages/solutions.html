@@ -1,14 +1,14 @@
 {% extends "base.html" %}
-{% from "macros.html" import cta, simple_hero, note %}
+{% from "macros.html" import cta, simple_hero %}
 {% set p = t.pages.solutions %}
 {% set title = p.title %}
 {% set description = p.description %}
 {% block main %}
 {{ simple_hero(t, url, "h-sol", p.crumb, p.h1, p.lead) }}
 <section class="sec" aria-labelledby="h-ex"><div class="wrap" style="display:flex;flex-direction:column;gap:36px">
-{{ note(site, t.editorial.approval, p.note, icon=True) }}
-<h2 id="h-ex">{{ p.examples_h2 }}</h2>
-<div class="g3">{% for ex in p.examples %}<article class="card" style="display:flex;flex-direction:column;gap:14px">{{ svg('solution-' ~ loop.index) }}{% if site.show_editorial_notes %}<span class="sug" style="align-self:flex-start">{{ p.example_badge }}</span>{% endif %}<h3>{{ ex.title }}</h3><p style="font-size:17px">{{ ex.text }}</p></article>{% endfor %}</div></div></section>
+<div style="display:flex;flex-direction:column;gap:16px"><h2 id="h-ex">{{ p.examples_h2 }}</h2>
+<p style="font-size:19px">{{ p.examples_p }}</p></div>
+<div class="g3">{% for ex in p.examples %}<article class="card" style="display:flex;flex-direction:column;gap:14px">{{ svg('solution-' ~ ex.icon) }}<h3>{{ ex.title }}</h3><p style="font-size:17px">{{ ex.text }}</p></article>{% endfor %}</div></div></section>
 <section class="sec" style="background:var(--bege)" aria-labelledby="h-pub"><div class="wrap g2" style="align-items:center;gap:56px">
 <div style="display:flex;flex-direction:column;gap:16px"><span class="eyebrow">{{ p.audience_eyebrow }}</span><h2 id="h-pub">{{ p.audience_h2 }}</h2>
 <p style="font-size:19px">{{ p.audience_p }}</p></div>

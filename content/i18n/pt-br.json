@@ -36,7 +36,6 @@
     "get_on_app_store_label": "Baixar o {name} na App Store",
     "app_store_missing": "[inserir link da App Store ou remover, se não houver]",
     "learn_more": "Conhecer o {name}",
-    "versions": "Versões:",
     "new_tab": "(abre em nova aba)"
   },
 
@@ -145,18 +144,20 @@
       "title": "Soluções e possibilidades · Jotave Tech",
       "description": "Veja exemplos de ideias, rotinas e processos que podem ser organizados em aplicativos para celular com a Jotave Tech.",
       "crumb": "Soluções e possibilidades",
-      "h1": "Soluções e possibilidades",
-      "lead": "Muitas ideias, rotinas e processos podem ganhar forma em um aplicativo de celular. Veja alguns exemplos do que pode ser organizado na palma da mão.",
-      "note": "os exemplos abaixo são ilustrativos. Eles não representam serviços ou funcionalidades já oferecidos e devem ser aprovados, ajustados ou substituídos antes da publicação.",
-      "examples_h2": "O que pode ir para o celular",
-      "example_badge": "Exemplo para aprovação",
+      "h1": "Sua ideia pode ganhar forma no celular",
+      "lead": "A Jotave Tech ajuda pessoas, profissionais e empresas a organizar ideias e processos em soluções para celular. Você pode começar por um de nossos aplicativos ou conversar com a equipe sobre uma necessidade específica.",
+      "examples_h2": "O que pode ser organizado no celular?",
+      "examples_p": "Estes são exemplos de necessidades que podem inspirar uma solução. Cada ideia precisa ser avaliada de acordo com seu objetivo e suas funcionalidades.",
       "examples": [
-        { "title": "Rotinas e hábitos", "text": "Acompanhar tarefas, horários ou hábitos que se repetem no dia a dia." },
-        { "title": "Registros e controles", "text": "Anotar informações com frequência e consultar o histórico depois." },
-        { "title": "Checklists de processos", "text": "Seguir etapas padronizadas e marcar o que já foi feito." },
-        { "title": "Coleta de informações", "text": "Reunir dados ou respostas pelo celular, em qualquer lugar." },
-        { "title": "Acompanhamento de metas", "text": "Definir objetivos e ver a evolução ao longo do tempo." },
-        { "title": "Organização de ideias", "text": "Transformar uma ideia solta em um passo a passo usável no celular." }
+        { "icon": 1, "title": "Rotinas e hábitos", "text": "Organize atividades recorrentes e acompanhe o que já foi feito." },
+        { "icon": 5, "title": "Metas e progresso", "text": "Registre avanços e consulte sua evolução ao longo do tempo." },
+        { "icon": 2, "title": "Registros e históricos", "text": "Anote informações importantes e encontre os registros quando precisar." },
+        { "icon": 3, "title": "Checklists e inspeções", "text": "Organize etapas de uma tarefa, vistoria ou conferência e acompanhe sua execução." },
+        { "icon": 4, "title": "Formulários e coleta de dados", "text": "Reúna informações e respostas pelo celular, durante uma atividade ou atendimento." },
+        { "icon": 6, "title": "Pedidos de venda", "text": "Registre pedidos, organize os dados de clientes e produtos e acompanhe o andamento de cada venda." },
+        { "icon": 5, "title": "Orçamentos e oportunidades comerciais", "text": "Organize contatos, propostas e próximas etapas de uma negociação." },
+        { "icon": 2, "title": "Estoque e movimentações", "text": "Registre entradas e saídas de produtos e consulte informações de estoque durante a operação." },
+        { "icon": 3, "title": "Equipes, serviços e aprovações", "text": "Organize atividades em campo, solicitações e etapas de aprovação em um só fluxo." }
       ],
       "audience_eyebrow": "Para quem",
       "audience_h2": "Para diferentes públicos",
@@ -312,7 +313,6 @@
     "gro": {
       "name": "GRO",
       "card": "Gestor de Riscos Ocupacionais: auxilia o profissional de SST no levantamento ambiental e gera um relatório detalhado dos ambientes e funções analisadas.",
-      "versions_line": "download gratuito na Google Play · versão paga [confirmar]",
       "badges": ["Download gratuito", "Versão paga: [confirmar]", "Loja: Google Play", "App Store: [confirmar]"],
       "lead": "Gestor de Riscos Ocupacionais: auxilia o profissional de SST no levantamento ambiental, nos mais diversos ramos.",
       "about": [
@@ -341,7 +341,6 @@
     "balanca-diaria": {
       "name": "Balança Diária",
       "card": "Registre o seu peso diariamente, crie metas e acompanhe o IMC e o progresso em gráficos para alcançar o seu peso ideal.",
-      "versions_line": "download gratuito na Google Play, com anúncios · versão paga [confirmar]",
       "badges": ["Download gratuito", "Contém anúncios", "Versão paga: [confirmar]", "Loja: Google Play", "App Store: [confirmar]"],
       "lead": "Monitore diariamente o seu peso e crie metas para alcançar o seu peso ideal.",
       "about": [
@@ -370,7 +369,6 @@
     "spokn": {
       "name": "Spokn",
       "card": "Diário de voz com IA: você fala sobre o seu dia e o app transcreve, resume e identifica o seu humor, sem precisar digitar.",
-      "versions_line": "primeira entrada grátis · assinatura para entradas ilimitadas, com 7 dias de teste grátis",
       "badges": ["Download gratuito", "Primeira entrada grátis", "Assinatura com 7 dias de teste grátis", "Loja: Google Play", "App Store: [confirmar]"],
       "lead": "Diário de voz com IA. Fale sobre seu dia: a IA transcreve e resume — privado, local no seu celular.",
       "about": [

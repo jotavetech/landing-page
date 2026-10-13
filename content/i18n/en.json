@@ -36,7 +36,6 @@
     "get_on_app_store_label": "Download {name} on the App Store",
     "app_store_missing": "[insert the App Store link, or remove if there is none]",
     "learn_more": "Discover {name}",
-    "versions": "Versions:",
     "new_tab": "(opens in a new tab)"
   },
 
@@ -145,18 +144,20 @@
       "title": "Solutions and possibilities · Jotave Tech",
       "description": "See examples of ideas, routines and processes that can be organized in mobile apps with Jotave Tech.",
       "crumb": "Solutions and possibilities",
-      "h1": "Solutions and possibilities",
-      "lead": "Many ideas, routines and processes can take shape as a mobile app. Here are a few examples of what can be organized in the palm of your hand.",
-      "note": "the examples below are illustrative. They do not represent services or features already offered and must be approved, adjusted or replaced before publication.",
-      "examples_h2": "What can go mobile",
-      "example_badge": "Example pending approval",
+      "h1": "Your idea can take shape on mobile",
+      "lead": "Jotave Tech helps individuals, professionals and companies organize ideas and processes into mobile solutions. You can start with one of our apps or talk to the team about a specific need.",
+      "examples_h2": "What can be organized on mobile?",
+      "examples_p": "These are examples of needs that can inspire a solution. Each idea needs to be assessed according to its goal and its features.",
       "examples": [
-        { "title": "Routines and habits", "text": "Keep track of tasks, schedules or habits that repeat day to day." },
-        { "title": "Records and logs", "text": "Write down information often and check the history later." },
-        { "title": "Process checklists", "text": "Follow standardized steps and check off what is done." },
-        { "title": "Data collection", "text": "Gather data or answers from your phone, anywhere." },
-        { "title": "Goal tracking", "text": "Set objectives and see progress over time." },
-        { "title": "Organizing ideas", "text": "Turn a loose idea into a step-by-step flow you can use on your phone." }
+        { "icon": 1, "title": "Routines and habits", "text": "Organize recurring activities and keep track of what has been done." },
+        { "icon": 5, "title": "Goals and progress", "text": "Record progress and check how you have evolved over time." },
+        { "icon": 2, "title": "Records and history", "text": "Write down important information and find your records when you need them." },
+        { "icon": 3, "title": "Checklists and inspections", "text": "Organize the steps of a task, inspection or check and track how it is carried out." },
+        { "icon": 4, "title": "Forms and data collection", "text": "Gather information and answers on your phone, during an activity or a customer visit." },
+        { "icon": 6, "title": "Sales orders", "text": "Record orders, organize customer and product data and track the progress of each sale." },
+        { "icon": 5, "title": "Quotes and sales opportunities", "text": "Organize contacts, proposals and the next steps of a negotiation." },
+        { "icon": 2, "title": "Inventory and stock movements", "text": "Record products coming in and going out and check stock information during operations." },
+        { "icon": 3, "title": "Teams, services and approvals", "text": "Organize field activities, requests and approval steps in a single flow." }
       ],
       "audience_eyebrow": "Who it is for",
       "audience_h2": "For different audiences",
@@ -312,7 +313,6 @@
     "gro": {
       "name": "GRO",
       "card": "Occupational Risk Manager: helps occupational safety and health professionals carry out environmental surveys and produces a detailed report of the environments and job roles analyzed.",
-      "versions_line": "free download on Google Play · paid version [confirm]",
       "badges": ["Free download", "Paid version: [confirm]", "Store: Google Play", "App Store: [confirm]"],
       "lead": "Occupational Risk Manager: helps occupational safety and health professionals carry out environmental surveys in a wide range of fields.",
       "about": [
@@ -341,7 +341,6 @@
     "balanca-diaria": {
       "name": "Balança Diária",
       "card": "Record your weight every day, set goals and track your BMI and progress in charts to reach your ideal weight.",
-      "versions_line": "free download on Google Play, with ads · paid version [confirm]",
       "badges": ["Free download", "Contains ads", "Paid version: [confirm]", "Store: Google Play", "App Store: [confirm]"],
       "lead": "Track your weight every day and set goals to reach your ideal weight.",
       "about": [
@@ -370,7 +369,6 @@
     "spokn": {
       "name": "Spokn",
       "card": "AI voice journal: talk about your day and the app transcribes it, summarizes it and tags your mood — no typing required.",
-      "versions_line": "first entry free · subscription for unlimited entries, with a 7-day free trial",
       "badges": ["Free download", "First entry free", "Subscription with 7-day free trial", "Store: Google Play", "App Store: [confirm]"],
       "lead": "AI voice journal. Talk it out: AI transcribes and summarizes your day — private, local-first.",
       "about": [
