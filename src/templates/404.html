@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ strings['pt-br'].not_found.title }}</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<div class="site">
+<header class="hdr"><div class="wrap"><a class="logo" href="/" aria-label="Jotave Tech" style="display:flex"><div style="width:295px;height:34px;flex:none">{{ svg('logo') }}</div></a></div></header>
+<main id="conteudo">
+<section class="phhero"><div class="wrap g2" style="padding-top:88px;padding-bottom:88px;gap:56px">
+{% for l in langs %}{% set nf = strings[l].not_found %}
+<div lang="{{ strings[l].meta.html_lang }}" style="display:flex;flex-direction:column;gap:20px"><span class="eyebrow">404 · {{ strings[l].meta.lang_name }}</span><h1 style="font-size:44px">{{ nf.h1 }}</h1><p class="lead">{{ nf.p }}</p><div class="btns"><a class="btn pri" href="/{{ l }}/">{{ nf.back }}</a></div></div>
+{% endfor %}
+</div></section>
+</main>
+<footer class="ftr"><div class="wrap" style="padding-top:32px;padding-bottom:32px"><p style="color:#C9C2B6;font-size:14px">© <span data-year>{{ year }}</span> {{ site.brand_name }}</p></div></footer>
+</div>
+</body>
+</html>

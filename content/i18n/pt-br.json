@@ -1,0 +1,409 @@
+{
+  "_comment": "Textos em português. Trechos entre colchetes, como [inserir CNPJ], aparecem destacados no site como campos a preencher. O arquivo en.json deve ter exatamente as mesmas chaves (o build verifica).",
+
+  "meta": {
+    "html_lang": "pt-BR",
+    "og_locale": "pt_BR",
+    "lang_name": "Português",
+    "lang_short": "PT"
+  },
+
+  "ui": {
+    "skip": "Pular para o conteúdo",
+    "home_label": "Jotave Tech, página inicial",
+    "nav_main": "Principal",
+    "nav_mobile": "Principal (celular)",
+    "menu": "Menu",
+    "open_menu": "Abrir menu",
+    "talk_to_team": "Fale com a equipe",
+    "breadcrumb_label": "Você está em",
+    "lang_label": "Idioma",
+    "lang_switch_to": "Ver o site em português",
+    "nav": {
+      "home": "Início",
+      "products": "Produtos",
+      "solutions": "Soluções",
+      "solutions_long": "Soluções e possibilidades",
+      "about": "Sobre",
+      "faq": "Perguntas frequentes",
+      "contact": "Contato"
+    },
+    "app_icon_alt": "Ícone do aplicativo {name}",
+    "app_kind": "Aplicativo Jotave Tech",
+    "get_on_google_play": "Baixar na Google Play",
+    "get_on_google_play_label": "Baixar o {name} na Google Play",
+    "get_on_app_store": "Baixar na App Store",
+    "get_on_app_store_label": "Baixar o {name} na App Store",
+    "app_store_missing": "[inserir link da App Store ou remover, se não houver]",
+    "learn_more": "Conhecer o {name}",
+    "versions": "Versões:",
+    "new_tab": "(abre em nova aba)"
+  },
+
+  "placeholders": {
+    "legal_name": "[inserir razão social]",
+    "cnpj": "[inserir CNPJ]",
+    "address": "[inserir endereço]",
+    "city_state": "[cidade/UF]",
+    "email": "[inserir e-mail]",
+    "phone": "[inserir telefone]",
+    "whatsapp": "[inserir WhatsApp]",
+    "social": "[rede social {n}]",
+    "social_contact": "[inserir links das redes sociais]",
+    "address_contact": "[inserir endereço, se aplicável]",
+    "business_hours": "[inserir horário, se houver]",
+    "extra_legal_info": "[espaço para informações legais ou comerciais adicionais]"
+  },
+
+  "footer": {
+    "heading": "Rodapé",
+    "tagline": "Aplicativos próprios e soluções para levar ideias e processos ao celular.",
+    "social_label": "Redes sociais",
+    "navigation": "Navegação",
+    "products": "Produtos",
+    "legal": "Legal",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Uso",
+    "contact": "Contato",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "whatsapp": "WhatsApp",
+    "rights": "Todos os direitos reservados.",
+    "cnpj": "CNPJ"
+  },
+
+  "editorial": {
+    "approval": "Para aprovação:",
+    "fill": "Para preencher:"
+  },
+
+  "pages": {
+    "home": {
+      "title": "Jotave Tech · Soluções mobile e aplicativos",
+      "description": "A Jotave Tech ajuda a sistematizar ideias e processos no celular e desenvolve aplicativos próprios, como GRO, Balança Diária e Spokn.",
+      "eyebrow": "Soluções mobile de outro nível",
+      "h1": "Ideias e processos que cabem no seu celular.",
+      "lead": "A Jotave Tech ajuda a sistematizar ideias e processos em dispositivos móveis e desenvolve aplicativos próprios, disponíveis na Google Play e na App Store, em versões gratuitas e pagas.",
+      "cta_products": "Conheça nossos produtos",
+      "illustration_label": "Ilustração de um celular montado com pixels",
+      "what_eyebrow": "O que fazemos",
+      "what_h2": "Criamos aplicativos de duas formas.",
+      "apps_label": "01 · Aplicativos próprios",
+      "apps_h3": "Nossos aplicativos, prontos para baixar",
+      "apps_p": "Desenvolvemos e publicamos nossos próprios aplicativos na Google Play e na App Store. É só baixar e começar a usar, com versões gratuitas e pagas.",
+      "apps_link": "Conheça nossos produtos",
+      "ideas_label": "02 · Aplicativos sob medida",
+      "ideas_h3": "Um aplicativo feito para o seu negócio",
+      "ideas_p": "Você traz a ideia, nós desenvolvemos o aplicativo. Criamos apps personalizados para a rotina, os processos e as necessidades da sua empresa.",
+      "ideas_link": "Conte sua ideia",
+      "products_eyebrow": "Produtos",
+      "products_h2": "Conheça nossos aplicativos",
+      "products_all": "Ver todos os produtos",
+      "cta_h2": "Tem uma ideia ou um processo para levar ao celular?",
+      "cta_p": "Conte para a gente o que você precisa. Atendemos públicos variados, de pessoas a empresas, sem foco em um único setor."
+    },
+
+    "products": {
+      "title": "Produtos · Jotave Tech",
+      "description": "Conheça os aplicativos da Jotave Tech: GRO, Balança Diária e Spokn, com versões gratuitas e pagas.",
+      "crumb": "Produtos",
+      "h1": "Nossos produtos",
+      "lead": "Aplicativos criados e mantidos pela Jotave Tech, disponíveis para download na Google Play e na App Store, em versões gratuitas e pagas.",
+      "list_label": "Lista de produtos",
+      "cta_h2": "Quer saber mais sobre algum produto?",
+      "cta_p": "Fale com a equipe para tirar dúvidas sobre recursos, versões ou uso dos aplicativos."
+    },
+
+    "product": {
+      "title": "{name} · Aplicativo · Jotave Tech",
+      "description": "Conheça o {name}, aplicativo da Jotave Tech: o que faz, recursos, versões e download.",
+      "main_screenshot_label": "Captura de tela principal do {name}",
+      "what_eyebrow": "O que é",
+      "what_h2": "O que o {name} faz",
+      "audience_h3": "Para quem pode ser útil",
+      "features_eyebrow": "Recursos",
+      "features_h2": "Recursos disponíveis",
+      "versions_eyebrow": "Versões",
+      "versions_h2": "Versão gratuita e versão paga",
+      "free": "Gratuita",
+      "paid": "Paga",
+      "screens_h2": "Telas do aplicativo",
+      "screenshot_alt": "Captura de tela do {name}: {caption}",
+      "faq_h2": "Dúvidas sobre o {name}",
+      "faq_free_q": "O {name} é gratuito?",
+      "faq_devices_q": "Em quais celulares o {name} funciona?",
+      "faq_contact_q": "Como falo com a equipe sobre o {name}?",
+      "faq_devices_a": "O {name} está disponível para Android, na Google Play. [confirmar disponibilidade para iPhone, na App Store]",
+      "faq_contact_a": "Pela página de contato, escolhendo o assunto “Dúvida sobre um produto” ou “Ajuda com um aplicativo”.",
+      "faq_contact_link": "Ir para a página de contato",
+      "cta_h2": "Quer saber mais sobre o {name}?",
+      "cta_p": "Fale com a equipe para tirar dúvidas, dar sugestões ou pedir ajuda com o aplicativo.",
+      "source_note": "Informações do aplicativo conforme a página oficial na Google Play."
+    },
+
+    "solutions": {
+      "title": "Soluções e possibilidades · Jotave Tech",
+      "description": "Veja exemplos de ideias, rotinas e processos que podem ser organizados em aplicativos para celular com a Jotave Tech.",
+      "crumb": "Soluções e possibilidades",
+      "h1": "Soluções e possibilidades",
+      "lead": "Muitas ideias, rotinas e processos podem ganhar forma em um aplicativo de celular. Veja alguns exemplos do que pode ser organizado na palma da mão.",
+      "note": "os exemplos abaixo são ilustrativos. Eles não representam serviços ou funcionalidades já oferecidos e devem ser aprovados, ajustados ou substituídos antes da publicação.",
+      "examples_h2": "O que pode ir para o celular",
+      "example_badge": "Exemplo para aprovação",
+      "examples": [
+        { "title": "Rotinas e hábitos", "text": "Acompanhar tarefas, horários ou hábitos que se repetem no dia a dia." },
+        { "title": "Registros e controles", "text": "Anotar informações com frequência e consultar o histórico depois." },
+        { "title": "Checklists de processos", "text": "Seguir etapas padronizadas e marcar o que já foi feito." },
+        { "title": "Coleta de informações", "text": "Reunir dados ou respostas pelo celular, em qualquer lugar." },
+        { "title": "Acompanhamento de metas", "text": "Definir objetivos e ver a evolução ao longo do tempo." },
+        { "title": "Organização de ideias", "text": "Transformar uma ideia solta em um passo a passo usável no celular." }
+      ],
+      "audience_eyebrow": "Para quem",
+      "audience_h2": "Para diferentes públicos",
+      "audience_p": "A Jotave Tech não trabalha com um único setor. O ponto de partida é sempre a sua ideia ou o seu processo, seja você uma pessoa, um profissional ou uma empresa.",
+      "start_h3": "Como começar",
+      "start_steps": [
+        "Conte sua ideia ou o processo que você quer levar ao celular pelo formulário de contato.",
+        "[inserir próximo passo do atendimento]",
+        "[inserir etapa seguinte, se houver]"
+      ],
+      "start_cta": "Contar minha ideia",
+      "cta_h2": "Sua ideia pode virar um aplicativo.",
+      "cta_p": "Fale com a equipe e conte o que você precisa organizar no celular."
+    },
+
+    "about": {
+      "title": "Sobre · Jotave Tech",
+      "description": "Conheça a Jotave Tech, empresa de tecnologia dedicada a soluções mobile e a aplicativos próprios.",
+      "crumb": "Sobre",
+      "h1": "Sobre a Jotave Tech",
+      "lead": "A Jotave Tech é uma empresa de tecnologia dedicada a soluções mobile. Ajudamos a sistematizar ideias e processos em dispositivos móveis e desenvolvemos aplicativos próprios, disponíveis na Google Play e na App Store.",
+      "history": "[inserir história da empresa, ano de fundação e cidade, se desejar]",
+      "note": "missão, visão e valores abaixo são sugestões iniciais e não são declarações oficiais da empresa até serem aprovados.",
+      "mvv_h2": "Missão, visão e valores",
+      "suggestion_badge": "Sugestão para aprovação",
+      "mission_h3": "Missão",
+      "mission": "Transformar ideias e processos em aplicativos simples de usar, que facilitam o dia a dia de quem os utiliza.",
+      "vision_h3": "Visão",
+      "vision": "Ser reconhecida pela qualidade, pela clareza e pelo cuidado com os detalhes dos aplicativos que desenvolve.",
+      "values_h3": "Valores",
+      "values": [
+        { "title": "Clareza", "text": "Explicar de forma simples e direta." },
+        { "title": "Cuidado com os detalhes", "text": "Atenção a cada tela, cada texto e cada pixel." },
+        { "title": "Transparência", "text": "Conversas abertas sobre o que é possível fazer." },
+        { "title": "Evolução contínua", "text": "Melhorar os aplicativos a cada versão." }
+      ],
+      "team_eyebrow": "Quem faz",
+      "team_h2": "Equipe",
+      "team_p": "[inserir apresentação da equipe ou dos fundadores, se desejar]",
+      "team_photo_label": "Espaço para foto",
+      "team_photo": "[foto]",
+      "team_name": "[nome]",
+      "team_role": "[função]",
+      "cta_h2": "Vamos conversar?",
+      "cta_p": "Conte sua ideia ou tire dúvidas sobre nossos aplicativos."
+    },
+
+    "faq": {
+      "title": "Perguntas frequentes · Jotave Tech",
+      "description": "Respostas sobre os aplicativos da Jotave Tech, versões gratuitas e pagas, download, uso e contato com a equipe.",
+      "crumb": "Perguntas frequentes",
+      "h1": "Perguntas frequentes",
+      "lead": "Dúvidas sobre os produtos, as versões, o download e como falar com a equipe.",
+      "note": "as respostas aguardam informações confirmadas. Nenhuma resposta será publicada sem aprovação.",
+      "groups": [
+        {
+          "title": "Produtos",
+          "items": [
+            { "q": "O que são o GRO, o Balança Diária e o Spokn?", "a": "São aplicativos da Jotave Tech. O GRO (Gestor de Riscos Ocupacionais) auxilia o profissional de SST no levantamento ambiental. O Balança Diária ajuda a registrar o peso diariamente e a criar metas para alcançar o peso ideal. O Spokn é um diário de voz: você fala sobre o seu dia e a IA transcreve e resume.", "links": "products" },
+            { "q": "Os aplicativos estão disponíveis para Android e iPhone?", "a": "Os três aplicativos estão disponíveis para Android, na Google Play. [confirmar disponibilidade para iPhone, na App Store]" }
+          ]
+        },
+        {
+          "title": "Versões gratuitas e pagas",
+          "items": [
+            { "q": "Qual a diferença entre a versão gratuita e a paga?", "a": "[inserir resposta confirmada]" },
+            { "q": "Como faço para assinar ou comprar a versão paga?", "a": "[inserir resposta confirmada]" },
+            { "q": "Posso cancelar a versão paga?", "a": "[inserir resposta confirmada]" }
+          ]
+        },
+        {
+          "title": "Download e uso",
+          "items": [
+            { "q": "Onde baixo os aplicativos?", "a": "Na Google Play, pelos links abaixo. [inserir links da App Store, se houver]", "links": "stores" },
+            { "q": "Preciso de internet para usar os aplicativos?", "a": "[inserir resposta confirmada]" },
+            { "q": "Como recebo ajuda com algum problema no aplicativo?", "a": "Pela página de contato, escolhendo o assunto “Ajuda com um aplicativo”.", "links": "contact" }
+          ]
+        },
+        {
+          "title": "Ideias e projetos",
+          "items": [
+            { "q": "Posso levar uma ideia ou um processo da minha empresa para o celular?", "a": "Sim. A Jotave Tech ajuda a sistematizar ideias e processos em dispositivos móveis, para pessoas e empresas de diferentes áreas. [inserir detalhes confirmados do atendimento]", "links": "solutions" },
+            { "q": "Como converso com a equipe sobre a minha ideia?", "a": "Pelo formulário da página de contato, escolhendo o assunto “Quero levar uma ideia ao celular”.", "links": "contact" }
+          ]
+        }
+      ],
+      "link_products": "Ver os produtos",
+      "link_solutions": "Ver soluções e possibilidades",
+      "link_contact": "Ir para a página de contato",
+      "cta_h2": "Não encontrou sua dúvida?",
+      "cta_p": "Mande sua pergunta para a equipe."
+    },
+
+    "contact": {
+      "title": "Contato · Jotave Tech",
+      "description": "Fale com a equipe da Jotave Tech: dúvidas sobre os aplicativos, versões pagas, suporte ou uma ideia para levar ao celular.",
+      "crumb": "Contato",
+      "h1": "Fale com a equipe",
+      "lead": "Conte sua ideia, tire dúvidas sobre os produtos ou peça ajuda com algum aplicativo.",
+      "form_h2": "Envie uma mensagem",
+      "required_note": "Campos com * são obrigatórios.",
+      "name": "Nome *",
+      "email": "E-mail *",
+      "phone": "Telefone ou WhatsApp",
+      "optional": "Opcional",
+      "subject": "Assunto *",
+      "subject_select": "Selecione",
+      "subjects": [
+        "Dúvida sobre um produto",
+        "Versão paga",
+        "Ajuda com um aplicativo",
+        "Quero levar uma ideia ao celular",
+        "Outro assunto"
+      ],
+      "message": "Mensagem *",
+      "consent_before": "Li e concordo com a ",
+      "consent_link": "Política de Privacidade",
+      "consent_after": ". *",
+      "submit": "Enviar mensagem",
+      "after_submit": "[inserir o que acontece após o envio, por exemplo, prazo de resposta]",
+      "mail_opening": "Abrimos o seu programa de e-mail com a mensagem pronta. Se nada acontecer, escreva para {email}.",
+      "mail_missing": "[configurar o e-mail de destino do formulário em content/site.json]",
+      "mail_body_name": "Nome",
+      "mail_body_email": "E-mail",
+      "mail_body_phone": "Telefone ou WhatsApp",
+      "channels_h2": "Outros canais",
+      "channel_email": "E-mail",
+      "channel_phone": "Telefone",
+      "channel_whatsapp": "WhatsApp",
+      "channel_social": "Redes sociais",
+      "channel_address": "Endereço",
+      "channel_hours": "Horário de atendimento"
+    },
+
+    "privacy": {
+      "title": "Política de Privacidade · Jotave Tech",
+      "description": "Política de Privacidade da Jotave Tech.",
+      "crumb": "Política de Privacidade",
+      "h1": "Política de Privacidade",
+      "body": "[inserir o texto da Política de Privacidade, revisado pela empresa]"
+    },
+
+    "terms": {
+      "title": "Termos de Uso · Jotave Tech",
+      "description": "Termos de Uso do site da Jotave Tech.",
+      "crumb": "Termos de Uso",
+      "h1": "Termos de Uso",
+      "body": "[inserir o texto dos Termos de Uso, revisado pela empresa]"
+    }
+  },
+
+  "apps": {
+    "gro": {
+      "name": "GRO",
+      "card": "Gestor de Riscos Ocupacionais: auxilia o profissional de SST no levantamento ambiental e gera um relatório detalhado dos ambientes e funções analisadas.",
+      "versions_line": "download gratuito na Google Play · versão paga [confirmar]",
+      "badges": ["Download gratuito", "Versão paga: [confirmar]", "Loja: Google Play", "App Store: [confirmar]"],
+      "lead": "Gestor de Riscos Ocupacionais: auxilia o profissional de SST no levantamento ambiental, nos mais diversos ramos.",
+      "about": [
+        "O aplicativo Gestor de Riscos Ocupacionais (GRO) tem por objetivo auxiliar o profissional de SST no levantamento ambiental nos mais diversos ramos. Pensado para atender aos quesitos do eSocial, o GRO foi exclusivamente construído para aqueles que prezam pela qualidade e assertividade. Ao término do levantamento, o app fornece um relatório detalhado dos ambientes e funções analisadas."
+      ],
+      "audience": [
+        "Profissionais de SST (Saúde e Segurança do Trabalho) que fazem levantamentos ambientais",
+        "Quem precisa atender aos quesitos do eSocial",
+        "[perfil de público adicional, se houver]"
+      ],
+      "features": [
+        { "title": "Levantamento de ambientes", "text": "Registre os ambientes analisados, com local, área, pé-direito, piso, cobertura e iluminação." },
+        { "title": "Gestão de riscos", "text": "Cadastre os fatores de risco, as fontes geradoras e os níveis de ação de cada ambiente." },
+        { "title": "Relatórios automáticos", "text": "Ao término do levantamento, o app fornece um relatório detalhado dos ambientes e funções analisadas." },
+        { "title": "Relatórios em .docx", "text": "Receba os relatórios em .docx para personalizar da forma que preferir." },
+        { "title": "Pensado para o eSocial", "text": "Construído para atender aos quesitos do eSocial." }
+      ],
+      "versions_note": "[confirmar se o GRO tem as duas versões]",
+      "free_price": "R$ 0",
+      "free_items": ["Download gratuito na Google Play", "[recursos incluídos — confirmar]"],
+      "paid_price": "[inserir preço e período]",
+      "paid_items": ["[confirmar se existe versão paga]", "[recurso exclusivo]"],
+      "screenshots": ["Levantamento de ambientes", "Gestão de riscos", "Relatórios automáticos", "Relatórios em .docx"],
+      "faq_free_a": "O download do GRO na Google Play é gratuito. [confirmar se há versão paga e o que ela inclui]"
+    },
+    "balanca-diaria": {
+      "name": "Balança Diária",
+      "card": "Registre o seu peso diariamente, crie metas e acompanhe o IMC e o progresso em gráficos para alcançar o seu peso ideal.",
+      "versions_line": "download gratuito na Google Play, com anúncios · versão paga [confirmar]",
+      "badges": ["Download gratuito", "Contém anúncios", "Versão paga: [confirmar]", "Loja: Google Play", "App Store: [confirmar]"],
+      "lead": "Monitore diariamente o seu peso e crie metas para alcançar o seu peso ideal.",
+      "about": [
+        "O aplicativo Balança Diária tem como propósito auxiliar você a alcançar o seu peso ideal para viver uma vida mais saudável e sentir-se bem. Para isso, conta com registro diário de peso, registro de metas, cálculo do índice de massa corporal (IMC), gráfico do progresso e estatísticas gerais dos melhores e piores números."
+      ],
+      "audience": [
+        "Quem quer acompanhar o próprio peso todos os dias",
+        "Quem busca alcançar o peso ideal com metas",
+        "[perfil de público adicional, se houver]"
+      ],
+      "features": [
+        { "title": "Registro diário de peso", "text": "Anote o seu peso todos os dias e consulte o histórico de registros." },
+        { "title": "Registro de metas", "text": "Defina uma meta e acompanhe o peso inicial, o atual e o percentual alcançado." },
+        { "title": "Cálculo de IMC", "text": "Veja o seu índice de massa corporal (IMC) calculado automaticamente." },
+        { "title": "Gráfico do progresso", "text": "Acompanhe a evolução do seu peso ao longo do tempo." },
+        { "title": "Estatísticas gerais", "text": "Consulte os seus melhores e piores números, como menor e maior peso e IMC." }
+      ],
+      "versions_note": "[confirmar se o Balança Diária tem as duas versões]",
+      "free_price": "R$ 0",
+      "free_items": ["Download gratuito na Google Play", "Contém anúncios, segundo a Google Play", "[recursos incluídos — confirmar]"],
+      "paid_price": "[inserir preço e período]",
+      "paid_items": ["[confirmar se existe versão paga]", "[recurso exclusivo]"],
+      "screenshots": ["Tela inicial com o peso do dia, a meta e o IMC", "Histórico com gráfico de peso", "Perfil com o progresso"],
+      "faq_free_a": "Sim, o download do Balança Diária na Google Play é gratuito. Segundo a Google Play, o aplicativo contém anúncios. [confirmar se há versão paga]"
+    },
+    "spokn": {
+      "name": "Spokn",
+      "card": "Diário de voz com IA: você fala sobre o seu dia e o app transcreve, resume e identifica o seu humor, sem precisar digitar.",
+      "versions_line": "primeira entrada grátis · assinatura para entradas ilimitadas, com 7 dias de teste grátis",
+      "badges": ["Download gratuito", "Primeira entrada grátis", "Assinatura com 7 dias de teste grátis", "Loja: Google Play", "App Store: [confirmar]"],
+      "lead": "Diário de voz com IA. Fale sobre seu dia: a IA transcreve e resume — privado, local no seu celular.",
+      "about": [
+        "Spokn é um diário de voz que transforma sua fala em texto. Fale sobre um momento do seu dia e a IA transcreve, resume e identifica seu humor — sem precisar digitar nada.",
+        "Seu áudio é enviado de forma segura apenas pelo tempo necessário para gerar a transcrição e o resumo — depois é descartado. Nunca é armazenado nos servidores nem usado para treinar modelos de IA. A única cópia mantida é a que fica no seu aparelho, a menos que você ative o backup na nuvem opcional, que é criptografado antes de sair do seu celular."
+      ],
+      "audience": [
+        "Quem quer manter um diário sem precisar digitar",
+        "Quem processa o dia pensando em voz alta",
+        "Quem quer acompanhar o humor, os objetivos e as intenções ao longo do tempo"
+      ],
+      "features": [
+        { "title": "Transcrição de voz para diário", "text": "Toque no microfone e fale naturalmente: suas palavras viram uma entrada de diário automaticamente." },
+        { "title": "Resumos e tags de humor", "text": "Receba um resumo gerado por IA e uma tag de humor em cada entrada." },
+        { "title": "Objetivos e intenções", "text": "O Spokn identifica discretamente objetivos e intenções que você menciona, para você acompanhar o que importa." },
+        { "title": "Linha do tempo e resumo semanal", "text": "Acompanhe o seu humor ao longo do tempo e receba um resumo da semana." },
+        { "title": "Backup em nuvem opcional", "text": "Backup criptografado antes de sair do seu celular, ativado só se você quiser." },
+        { "title": "Sem precisar criar conta", "text": "Não é necessário criar conta para começar." }
+      ],
+      "versions_note": "",
+      "free_price": "R$ 0",
+      "free_items": ["Download gratuito na Google Play", "Experimente sua primeira entrada de graça"],
+      "paid_price": "[inserir preço e período da assinatura]",
+      "paid_items": ["Entradas ilimitadas com uma assinatura simples", "7 dias de teste grátis", "Cancele quando quiser"],
+      "screenshots": ["É só falar. A gente escreve.", "Cada registro, já escrito", "Veja como você realmente se sente", "Metas pequenas, lembretes gentis", "Sua semana, em um parágrafo"],
+      "faq_free_a": "O download é gratuito e você pode experimentar a primeira entrada de graça. Para continuar com entradas ilimitadas, há uma assinatura com 7 dias de teste grátis, que pode ser cancelada quando você quiser."
+    }
+  },
+
+  "not_found": {
+    "title": "Página não encontrada · Jotave Tech",
+    "h1": "Página não encontrada",
+    "p": "O endereço pode ter mudado ou não existir mais.",
+    "back": "Voltar para o início"
+  }
+}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% from "macros.html" import cta, simple_hero, note %}
+{% set p = t.pages.solutions %}
+{% set title = p.title %}
+{% set description = p.description %}
+{% block main %}
+{{ simple_hero(t, url, "h-sol", p.crumb, p.h1, p.lead) }}
+<section class="sec" aria-labelledby="h-ex"><div class="wrap" style="display:flex;flex-direction:column;gap:36px">
+{{ note(site, t.editorial.approval, p.note, icon=True) }}
+<h2 id="h-ex">{{ p.examples_h2 }}</h2>
+<div class="g3">{% for ex in p.examples %}<article class="card" style="display:flex;flex-direction:column;gap:14px">{{ svg('solution-' ~ loop.index) }}{% if site.show_editorial_notes %}<span class="sug" style="align-self:flex-start">{{ p.example_badge }}</span>{% endif %}<h3>{{ ex.title }}</h3><p style="font-size:17px">{{ ex.text }}</p></article>{% endfor %}</div></div></section>
+<section class="sec" style="background:var(--bege)" aria-labelledby="h-pub"><div class="wrap g2" style="align-items:center;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px"><span class="eyebrow">{{ p.audience_eyebrow }}</span><h2 id="h-pub">{{ p.audience_h2 }}</h2>
+<p style="font-size:19px">{{ p.audience_p }}</p></div>
+<div class="card" style="display:flex;flex-direction:column;gap:16px"><h3>{{ p.start_h3 }}</h3>
+<ol style="margin:0;padding-left:22px;color:var(--ink);display:flex;flex-direction:column;gap:12px">
+{% for step in p.start_steps %}<li>{{ step | rich }}</li>{% endfor %}</ol>
+<a class="btn pri" href="{{ url('contact') }}" style="align-self:flex-start;margin-top:6px">{{ p.start_cta }}</a></div></div></section>
+{{ cta(t, url, "cta-689", p.cta_h2, p.cta_p, "cta-solutions") }}
+{% endblock %}

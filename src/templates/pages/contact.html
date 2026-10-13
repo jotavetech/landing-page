@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "macros.html" import simple_hero, field %}
+{% set p = t.pages.contact %}
+{% set title = p.title %}
+{% set description = p.description %}
+{% set c = site.company %}
+{% block main %}
+{{ simple_hero(t, url, "h-cont", p.crumb, p.h1, p.lead) }}
+<section class="sec"><div class="wrap stack" style="display:flex;gap:40px;align-items:flex-start">
+<form class="card fcard" style="flex:1.4;display:flex;flex-direction:column;gap:22px" aria-labelledby="h-form" data-contact-form{% if site.contact_form.action_url %} action="{{ site.contact_form.action_url }}" method="post"{% endif %} data-to="{{ c.email }}" data-opening="{{ p.mail_opening }}" data-labels="{{ {'name': p.mail_body_name, 'email': p.mail_body_email, 'phone': p.mail_body_phone} | tojson_attr }}">
+<h2 id="h-form" style="font-size:30px">{{ p.form_h2 }}</h2>
+<p style="font-size:15px">{{ p.required_note }}</p>
+<div class="g2" style="gap:20px"><div class="field"><label for="f-nome">{{ p.name }}</label><input id="f-nome" name="nome" autocomplete="name" required></div>
+<div class="field"><label for="f-email">{{ p.email }}</label><input id="f-email" name="email" type="email" autocomplete="email" required></div></div>
+<div class="g2" style="gap:20px"><div class="field"><label for="f-tel">{{ p.phone }}</label><input id="f-tel" name="telefone" type="tel" autocomplete="tel" aria-describedby="f-tel-hint"><span class="hint" id="f-tel-hint">{{ p.optional }}</span></div>
+<div class="field"><label for="f-assunto">{{ p.subject }}</label><select id="f-assunto" name="assunto" required><option value="">{{ p.subject_select }}</option>{% for s in p.subjects %}<option>{{ s }}</option>{% endfor %}</select></div></div>
+<div class="field"><label for="f-msg">{{ p.message }}</label><textarea id="f-msg" name="mensagem" rows="5" required style="min-height:150px"></textarea></div>
+<label style="display:flex;gap:12px;align-items:flex-start;font-size:16px;color:var(--ink)"><input type="checkbox" name="consentimento" required style="width:22px;height:22px;margin-top:2px;accent-color:#1B2A41;flex:none"><span>{{ p.consent_before }}<a href="{{ url('privacy') }}">{{ p.consent_link }}</a>{{ p.consent_after }}</span></label>
+<button class="btn pri" type="submit" style="align-self:flex-start">{{ p.submit }}</button>
+<p style="font-size:15px" data-form-status role="status" aria-live="polite">{% if not c.email and not site.contact_form.action_url %}<span class="ph">{{ p.mail_missing }}</span>{% endif %}</p>
+<p style="font-size:15px">{{ p.after_submit | rich }}</p></form>
+<aside style="flex:1;display:flex;flex-direction:column;gap:16px" aria-labelledby="h-canais"><h2 id="h-canais" style="font-size:28px">{{ p.channels_h2 }}</h2>
+<div class="card" style="padding:22px 24px;display:flex;flex-direction:column;gap:4px"><span class="eyebrow">{{ p.channel_email }}</span><p>{{ field(c.email, t.placeholders.email, "mailto:" ~ c.email) }}</p></div>
+<div class="card" style="padding:22px 24px;display:flex;flex-direction:column;gap:4px"><span class="eyebrow">{{ p.channel_phone }}</span><p>{{ field(c.phone, t.placeholders.phone, "tel:+" ~ (c.phone | digits)) }}</p></div>
+<div class="card" style="padding:22px 24px;display:flex;flex-direction:column;gap:4px"><span class="eyebrow">{{ p.channel_whatsapp }}</span><p>{{ field(c.whatsapp, t.placeholders.whatsapp, "https://wa.me/" ~ (c.whatsapp | digits)) }}</p></div>
+<div class="card" style="padding:22px 24px;display:flex;flex-direction:column;gap:4px"><span class="eyebrow">{{ p.channel_social }}</span><p>{% set ns = namespace(any=false) %}{% for s in site.social if s.name and s.url %}{% set ns.any = true %}{% if not loop.first %} · {% endif %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>{% endfor %}{% if not ns.any %}<span class="ph">{{ t.placeholders.social_contact }}</span>{% endif %}</p></div>
+<div class="card" style="padding:22px 24px;display:flex;flex-direction:column;gap:4px"><span class="eyebrow">{{ p.channel_address }}</span><p>{% if c.address %}{{ c.address }}{% if c.city_state %} · {{ c.city_state }}{% endif %}{% else %}<span class="ph">{{ t.placeholders.address_contact }}</span>{% endif %}</p></div>
+<div class="card" style="padding:22px 24px;display:flex;flex-direction:column;gap:4px"><span class="eyebrow">{{ p.channel_hours }}</span><p>{{ field(c.business_hours[lang], t.placeholders.business_hours) }}</p></div></aside></div></section>
+{% endblock %}
