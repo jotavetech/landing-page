@@ -185,19 +185,18 @@
         "Esse caminho começou a ganhar forma com os primeiros aplicativos da Jotave Tech: GRO, Balança Diária e Spokn. Eles inauguram um portfólio em expansão, criado a partir de novas ideias e necessidades que podem ganhar vida no celular.",
         "A Jotave Tech segue avançando nessa direção: desenvolvendo seus próprios produtos e ajudando outras pessoas a transformar ideias e processos em soluções para celular. Uma trajetória que começou com a lógica da programação e continua crescendo a cada novo projeto."
       ],
-      "note": "missão, visão e valores abaixo são sugestões iniciais e não são declarações oficiais da empresa até serem aprovados.",
       "mvv_h2": "Missão, visão e valores",
-      "suggestion_badge": "Sugestão para aprovação",
       "mission_h3": "Missão",
       "mission": "Transformar ideias e processos em aplicativos simples de usar, que facilitam o dia a dia de quem os utiliza.",
       "vision_h3": "Visão",
       "vision": "Ser reconhecida pela qualidade, pela clareza e pelo cuidado com os detalhes dos aplicativos que desenvolve.",
       "values_h3": "Valores",
       "values": [
-        { "title": "Clareza", "text": "Explicar de forma simples e direta." },
-        { "title": "Cuidado com os detalhes", "text": "Atenção a cada tela, cada texto e cada pixel." },
-        { "title": "Transparência", "text": "Conversas abertas sobre o que é possível fazer." },
-        { "title": "Evolução contínua", "text": "Melhorar os aplicativos a cada versão." }
+        { "title": "Precisão em cada pixel", "text": "Cuidamos do detalhe que ninguém vê, porque é ele que faz o app funcionar bem." },
+        { "title": "Produto em primeiro lugar", "text": "Tudo o que entregamos para clientes, já construímos e operamos para nós." },
+        { "title": "Transparência", "text": "Prazos, custos e decisões técnicas explicados com clareza, sem jargão." },
+        { "title": "Parceria de longo prazo", "text": "Nosso trabalho não termina no lançamento: evoluímos junto com quem usa." },
+        { "title": "Evolução contínua", "text": "Medimos, aprendemos e melhoramos a cada versão." }
       ],
       "team_eyebrow": "Quem faz",
       "team_h2": "Equipe",

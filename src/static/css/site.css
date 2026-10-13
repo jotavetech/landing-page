@@ -32,6 +32,7 @@ body{margin:0}
 .g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
 .g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 .g4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.g5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}
 .ph{display:inline;background:#F4EEDB;color:#6E5A1C;border:1px dashed #C9B37A;border-radius:6px;padding:1px 6px;font-size:.92em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .sug{display:inline-flex;align-items:center;gap:6px;background:#F4EEDB;color:#6E5A1C;border-radius:999px;padding:4px 12px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:700}
 .note{display:flex;gap:14px;align-items:flex-start;background:#F4EEDB;border:1px dashed #C9B37A;border-radius:14px;padding:18px 22px;color:#5E4D18;font-size:16px}
@@ -72,7 +73,7 @@ body{margin:0}
  .site h3{font-size:21px}
  .lead{font-size:18px}
  .sec{padding:60px 0}
- .g2,.g3,.g4{grid-template-columns:minmax(0,1fr)}
+ .g2,.g3,.g4,.g5{grid-template-columns:minmax(0,1fr)}
  .nav,.hdr .cta{display:none}
  .menu{display:block}
  .hdr .wrap{height:68px}

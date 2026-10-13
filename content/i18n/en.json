@@ -185,19 +185,18 @@
         "That path began to take shape with Jotave Tech’s first apps: GRO, Balança Diária and Spokn. They open a growing portfolio, created from new ideas and needs that can come to life on a phone.",
         "Jotave Tech keeps moving in that direction: developing its own products and helping other people turn ideas and processes into mobile solutions. A journey that began with the logic of programming and keeps growing with each new project."
       ],
-      "note": "the mission, vision and values below are initial suggestions and are not official company statements until approved.",
       "mvv_h2": "Mission, vision and values",
-      "suggestion_badge": "Suggestion pending approval",
       "mission_h3": "Mission",
       "mission": "To turn ideas and processes into easy-to-use apps that make everyday life simpler for the people who use them.",
       "vision_h3": "Vision",
       "vision": "To be recognized for the quality, clarity and attention to detail of the apps we develop.",
       "values_h3": "Values",
       "values": [
-        { "title": "Clarity", "text": "Explain things simply and directly." },
-        { "title": "Attention to detail", "text": "Care for every screen, every word and every pixel." },
-        { "title": "Transparency", "text": "Open conversations about what can be done." },
-        { "title": "Continuous improvement", "text": "Make the apps better with every release." }
+        { "title": "Precision in every pixel", "text": "We care for the details no one sees, because they are what make an app work well." },
+        { "title": "Product first", "text": "Everything we deliver to clients, we have already built and run for ourselves." },
+        { "title": "Transparency", "text": "Timelines, costs and technical decisions explained clearly, without jargon." },
+        { "title": "Long-term partnership", "text": "Our work doesn’t end at launch: we keep evolving alongside the people who use it." },
+        { "title": "Continuous improvement", "text": "We measure, learn and improve with every release." }
       ],
       "team_eyebrow": "Who we are",
       "team_h2": "Team",
