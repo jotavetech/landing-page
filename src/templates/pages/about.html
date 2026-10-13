@@ -10,7 +10,7 @@
 {{ crumbs(t, url, [(None, p.crumb)]) }}
 <h1 id="h-sobre">{{ p.h1 }}</h1>
 <p class="lead">{{ p.lead | rich }}</p>
-<p>{{ p.history | rich }}</p></div>
+{% for para in p.history %}<p>{{ para | rich }}</p>{% endfor %}</div>
 <div style="flex:1;display:flex;justify-content:center" aria-hidden="true">{{ svg('about-illustration') }}</div></div></section>
 <section class="sec" aria-labelledby="h-mvv"><div class="wrap" style="display:flex;flex-direction:column;gap:36px">
 {{ note(site, t.editorial.approval, p.note) }}

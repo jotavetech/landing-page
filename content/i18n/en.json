@@ -177,9 +177,14 @@
       "title": "About · Jotave Tech",
       "description": "Meet Jotave Tech, a technology company dedicated to mobile solutions and its own apps.",
       "crumb": "About",
-      "h1": "About Jotave Tech",
-      "lead": "Jotave Tech is a technology company dedicated to mobile solutions. We help systematize ideas and processes on mobile devices and develop our own apps, available on Google Play and the App Store.",
-      "history": "[insert the company’s history, founding year and city, if desired]",
+      "h1": "About us",
+      "lead": "An idea that gained its own identity and path",
+      "history": [
+        "Jotave Tech was born from the meeting of a desire to build a business and João Vitor’s passion for the logic of programming. In technology, he found a way to turn reasoning into creation: understanding a problem, organizing its parts and building a solution.",
+        "The name carries that origin. JOTAVE combines JOTA, the Portuguese name of the letter J, and VE, the Portuguese name of the letter V: a reference to João Vitor’s initials and to the identity of the person who started the company. From the beginning, the goal was to build something of its own, with its own brand and its own path.",
+        "That path began to take shape with Jotave Tech’s first apps: GRO, Balança Diária and Spokn. They open a growing portfolio, created from new ideas and needs that can come to life on a phone.",
+        "Jotave Tech keeps moving in that direction: developing its own products and helping other people turn ideas and processes into mobile solutions. A journey that began with the logic of programming and keeps growing with each new project."
+      ],
       "note": "the mission, vision and values below are initial suggestions and are not official company statements until approved.",
       "mvv_h2": "Mission, vision and values",
       "suggestion_badge": "Suggestion pending approval",

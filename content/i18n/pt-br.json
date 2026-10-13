@@ -177,9 +177,14 @@
       "title": "Sobre · Jotave Tech",
       "description": "Conheça a Jotave Tech, empresa de tecnologia dedicada a soluções mobile e a aplicativos próprios.",
       "crumb": "Sobre",
-      "h1": "Sobre a Jotave Tech",
-      "lead": "A Jotave Tech é uma empresa de tecnologia dedicada a soluções mobile. Ajudamos a sistematizar ideias e processos em dispositivos móveis e desenvolvemos aplicativos próprios, disponíveis na Google Play e na App Store.",
-      "history": "[inserir história da empresa, ano de fundação e cidade, se desejar]",
+      "h1": "Sobre nós",
+      "lead": "Uma ideia que ganhou identidade e caminho próprio",
+      "history": [
+        "A Jotave Tech nasceu do encontro entre o desejo de empreender e a paixão de João Vitor pela lógica da programação. Foi na tecnologia que ele encontrou uma forma de transformar raciocínio em criação: entender um problema, organizar suas partes e construir uma solução.",
+        "O nome carrega essa origem. JOTAVE une JOTA, o nome da letra J, e VE, o nome da letra V: uma referência às iniciais de João Vitor e à identidade de quem deu início à empresa. Desde o começo, a proposta foi construir algo próprio, com uma marca e um caminho próprios.",
+        "Esse caminho começou a ganhar forma com os primeiros aplicativos da Jotave Tech: GRO, Balança Diária e Spokn. Eles inauguram um portfólio em expansão, criado a partir de novas ideias e necessidades que podem ganhar vida no celular.",
+        "A Jotave Tech segue avançando nessa direção: desenvolvendo seus próprios produtos e ajudando outras pessoas a transformar ideias e processos em soluções para celular. Uma trajetória que começou com a lógica da programação e continua crescendo a cada novo projeto."
+      ],
       "note": "missão, visão e valores abaixo são sugestões iniciais e não são declarações oficiais da empresa até serem aprovados.",
       "mvv_h2": "Missão, visão e valores",
       "suggestion_badge": "Sugestão para aprovação",
