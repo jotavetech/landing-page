@@ -164,9 +164,9 @@
       "audience_p": "Jotave Tech does not work with a single industry. The starting point is always your idea or your process, whether you are an individual, a professional or a company.",
       "start_h3": "How to get started",
       "start_steps": [
-        "Tell us your idea or the process you want to bring to mobile through the contact form.",
-        "[insert the next step of the process]",
-        "[insert the following step, if any]"
+        { "title": "Share your idea", "text": "Explain which process or need you would like to bring to mobile and who would use the solution." },
+        { "title": "We understand the context", "text": "We talk about the goal, the people involved and the key features." },
+        { "title": "We define the project", "text": "We agree on scope, timeline and investment to develop your solution." }
       ],
       "start_cta": "Share my idea",
       "cta_h2": "Your idea can become an app.",

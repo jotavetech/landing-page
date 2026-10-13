@@ -164,9 +164,9 @@
       "audience_p": "A Jotave Tech não trabalha com um único setor. O ponto de partida é sempre a sua ideia ou o seu processo, seja você uma pessoa, um profissional ou uma empresa.",
       "start_h3": "Como começar",
       "start_steps": [
-        "Conte sua ideia ou o processo que você quer levar ao celular pelo formulário de contato.",
-        "[inserir próximo passo do atendimento]",
-        "[inserir etapa seguinte, se houver]"
+        { "title": "Conte sua ideia", "text": "Explique qual processo ou necessidade você gostaria de levar para o celular e quem usaria a solução." },
+        { "title": "Vamos entender o contexto", "text": "Conversamos sobre o objetivo, as pessoas envolvidas e as funções importantes." },
+        { "title": "Definimos o projeto", "text": "Alinhamos escopo, prazo e investimento para desenvolver sua solução." }
       ],
       "start_cta": "Contar minha ideia",
       "cta_h2": "Sua ideia pode virar um aplicativo.",

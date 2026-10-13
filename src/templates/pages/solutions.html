@@ -14,7 +14,7 @@
 <p style="font-size:19px">{{ p.audience_p }}</p></div>
 <div class="card" style="display:flex;flex-direction:column;gap:16px"><h3>{{ p.start_h3 }}</h3>
 <ol style="margin:0;padding-left:22px;color:var(--ink);display:flex;flex-direction:column;gap:12px">
-{% for step in p.start_steps %}<li>{{ step | rich }}</li>{% endfor %}</ol>
+{% for step in p.start_steps %}<li><strong>{{ step.title }}</strong><br>{{ step.text }}</li>{% endfor %}</ol>
 <a class="btn pri" href="{{ url('contact') }}" style="align-self:flex-start;margin-top:6px">{{ p.start_cta }}</a></div></div></section>
 {{ cta(t, url, "cta-689", p.cta_h2, p.cta_p, "cta-solutions") }}
 {% endblock %}
