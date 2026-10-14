@@ -19,7 +19,7 @@
 <div class="card" style="display:flex;flex-direction:column;gap:22px"><h3 style="color:var(--eucp)">{{ p.values_h3 }}</h3>
 <div class="g5">{% for v in p["values"] %}<div style="display:flex;flex-direction:column;gap:8px">{{ svg('value-icon') }}<h3 style="font-size:20px">{{ v.title | rich }}</h3><p style="font-size:16px">{{ v.text | rich }}</p></div>{% endfor %}</div></div></div></section>
 <section class="sec" style="background:var(--bege)" aria-labelledby="h-eq"><div class="wrap g2" style="gap:56px;align-items:center">
-<div style="display:flex;flex-direction:column;gap:16px"><span class="eyebrow">{{ p.team_eyebrow }}</span><h2 id="h-eq">{{ p.team_h2 }}</h2><p>{{ p.team_p | rich }}</p></div>
-<div class="card" style="display:flex;gap:22px;align-items:center"><div class="tile" style="width:96px;height:96px;border-radius:50%;flex:none" role="img" aria-label="{{ p.team_photo_label }}">{{ p.team_photo }}</div><div><h3>{{ p.team_name | rich }}</h3><p>{{ p.team_role | rich }}</p></div></div></div></section>
+<div style="display:flex;flex-direction:column;gap:16px"><span class="eyebrow">{{ p.team_eyebrow }}</span><h2 id="h-eq">{{ p.team_h2 }}</h2>{% for para in p.team_ps %}<p>{{ para }}</p>{% endfor %}</div>
+<div style="display:flex;flex-direction:column;gap:20px">{% for m in p.team_members %}<div class="card" style="display:flex;gap:22px;align-items:center"><img src="{{ asset('img/team/' ~ m.photo ~ '.webp') }}" width="96" height="96" alt="{{ m.alt }}" loading="lazy" decoding="async" style="width:96px;height:96px;border-radius:50%;flex:none;object-fit:cover"><div><h3>{{ m.name }}</h3><p>{{ m.role }}</p></div></div>{% endfor %}</div></div></section>
 {{ cta(t, url, "cta-656", p.cta_h2, p.cta_p, "cta-about") }}
 {% endblock %}

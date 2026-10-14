@@ -200,11 +200,15 @@
       ],
       "team_eyebrow": "Quem faz",
       "team_h2": "Equipe",
-      "team_p": "[inserir apresentação da equipe ou dos fundadores, se desejar]",
-      "team_photo_label": "Espaço para foto",
-      "team_photo": "[foto]",
-      "team_name": "[nome]",
-      "team_role": "[função]",
+      "team_ps": [
+        "A Jotave Tech é construída por duas pessoas que compartilham a vontade de transformar boas ideias em soluções úteis.",
+        "João Vitor é o fundador da empresa e está à frente do desenvolvimento dos aplicativos. Ana Paula participa da criação dos produtos, com foco na experiência e no design.",
+        "Com habilidades complementares, os dois seguem na mesma direção: criar soluções que façam sentido para quem vai usar."
+      ],
+      "team_members": [
+        { "name": "João Vitor", "role": "CEO e CTO", "photo": "joao-vitor", "alt": "Foto de João Vitor" },
+        { "name": "Ana Paula", "role": "Designer de Produto", "photo": "ana-paula", "alt": "Foto de Ana Paula" }
+      ],
       "cta_h2": "Vamos conversar?",
       "cta_p": "Conte sua ideia ou tire dúvidas sobre nossos aplicativos."
     },
@@ -215,35 +219,34 @@
       "crumb": "Perguntas frequentes",
       "h1": "Perguntas frequentes",
       "lead": "Dúvidas sobre os produtos, as versões, o download e como falar com a equipe.",
-      "note": "as respostas aguardam informações confirmadas. Nenhuma resposta será publicada sem aprovação.",
       "groups": [
         {
           "title": "Produtos",
           "items": [
             { "q": "O que são o GRO, o Balança Diária e o Spokn?", "a": "São aplicativos da Jotave Tech. O GRO (Gestor de Riscos Ocupacionais) auxilia o profissional de SST no levantamento ambiental. O Balança Diária ajuda a registrar o peso diariamente e a criar metas para alcançar o peso ideal. O Spokn é um diário de voz: você fala sobre o seu dia e a IA transcreve e resume.", "links": "products" },
-            { "q": "Os aplicativos estão disponíveis para Android e iPhone?", "a": "Os três aplicativos estão disponíveis para Android, na Google Play. [confirmar disponibilidade para iPhone, na App Store]" }
+            { "q": "Os aplicativos estão disponíveis para Android e iPhone?", "a": "Os três aplicativos da Jotave Tech estão disponíveis para Android, na Google Play. As versões para iPhone estão em desenvolvimento e chegarão em breve à App Store." }
           ]
         },
         {
           "title": "Versões gratuitas e pagas",
           "items": [
-            { "q": "Qual a diferença entre a versão gratuita e a paga?", "a": "[inserir resposta confirmada]" },
-            { "q": "Como faço para assinar ou comprar a versão paga?", "a": "[inserir resposta confirmada]" },
-            { "q": "Posso cancelar a versão paga?", "a": "[inserir resposta confirmada]" }
+            { "q": "Qual é a diferença entre a versão gratuita e a paga?", "a": "Cada aplicativo oferece opções gratuitas e pagas, com recursos diferentes. Consulte a página do aplicativo na Google Play para ver o que cada versão inclui." },
+            { "q": "Como faço para assinar ou comprar a versão paga?", "a": "A assinatura ou compra é feita diretamente pelo aplicativo, usando as opções de pagamento da Google Play." },
+            { "q": "Posso cancelar a versão paga?", "a": "Sim. Se você tiver uma assinatura, poderá cancelá-la nas configurações da Google Play. O acesso aos recursos pagos continua até o fim do período já pago. Compras únicas não são assinaturas e não precisam ser canceladas." }
           ]
         },
         {
           "title": "Download e uso",
           "items": [
-            { "q": "Onde baixo os aplicativos?", "a": "Na Google Play, pelos links abaixo. [inserir links da App Store, se houver]", "links": "stores" },
-            { "q": "Preciso de internet para usar os aplicativos?", "a": "[inserir resposta confirmada]" },
+            { "q": "Onde baixo os aplicativos?", "a": "Na Google Play, pelos links abaixo.", "links": "stores" },
+            { "q": "Preciso de internet para usar os aplicativos?", "a": "A necessidade de internet varia conforme o aplicativo e o recurso. Consulte a descrição de cada app na Google Play para conferir quais funções podem ser usadas offline." },
             { "q": "Como recebo ajuda com algum problema no aplicativo?", "a": "Pela página de contato, escolhendo o assunto “Ajuda com um aplicativo”.", "links": "contact" }
           ]
         },
         {
           "title": "Ideias e projetos",
           "items": [
-            { "q": "Posso levar uma ideia ou um processo da minha empresa para o celular?", "a": "Sim. A Jotave Tech ajuda a sistematizar ideias e processos em dispositivos móveis, para pessoas e empresas de diferentes áreas. [inserir detalhes confirmados do atendimento]", "links": "solutions" },
+            { "q": "Posso levar uma ideia ou um processo da minha empresa para o celular?", "a": "Sim. A Jotave Tech ajuda pessoas e empresas de diferentes áreas a transformar ideias e processos em aplicativos para celular. Conte o que você precisa organizar e a equipe conversa com você sobre os próximos passos.", "links": "solutions" },
             { "q": "Como converso com a equipe sobre a minha ideia?", "a": "Pelo formulário da página de contato, escolhendo o assunto “Quero levar uma ideia ao celular”.", "links": "contact" }
           ]
         }
