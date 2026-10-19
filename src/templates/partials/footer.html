@@ -15,6 +15,5 @@
 <li>{{ t.footer.email }}: {{ field(c.email, t.placeholders.email, "mailto:" ~ c.email) }}</li><li>{{ t.footer.phone }}: {{ phone_whatsapp(c, t) }}</li><li>{{ field(c.address, t.placeholders.address) }} · {{ field(c.city_state, t.placeholders.city_state) }}</li></ul></div></div>
 <div style="height:1px;background:#2E3E57;margin:48px 0 24px"></div>
 <div class="stack" style="display:flex;justify-content:space-between;gap:16px;font-size:14px;align-items:flex-start">
-<p style="color:#C9C2B6;font-size:14px">© <span data-year>{{ year }}</span> {{ site.brand_name }}. {{ t.footer.rights }}<br>{{ field(c.legal_name, t.placeholders.legal_name) }} · {{ t.footer.cnpj }} {{ field(c.cnpj, t.placeholders.cnpj) }}</p>
-<p style="color:#C9C2B6;font-size:14px;max-width:480px">{{ field(c.extra_legal_info[lang], t.placeholders.extra_legal_info) }}</p></div>
+<p style="color:#C9C2B6;font-size:14px">© <span data-year>{{ year }}</span> {{ site.brand_name }}. {{ t.footer.rights }}<br>{{ field(c.legal_name, t.placeholders.legal_name) }} · {{ t.footer.cnpj }} {{ field(c.cnpj, t.placeholders.cnpj) }}</p></div>
 </div></footer>

@@ -47,8 +47,7 @@
     "email": "[insert email]",
     "phone": "[insert phone]",
     "address_contact": "[insert address, if applicable]",
-    "business_hours": "[insert business hours, if any]",
-    "extra_legal_info": "[space for additional legal or business information]"
+    "business_hours": "[insert business hours, if any]"
   },
 
   "footer": {
