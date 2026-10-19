@@ -7,15 +7,15 @@
   "company": {
     "legal_name": "",
     "cnpj": "",
-    "address": "",
-    "city_state": "",
-    "email": "",
-    "phone": "",
-    "whatsapp": "",
-    "_whatsapp_comment": "Use o número com DDI e DDD, por exemplo +55 11 90000-0000. O link do WhatsApp é gerado automaticamente.",
+    "address": "Rua C-244, nº 247, quadra 573, lote 18 · Setor Nova Suíça",
+    "city_state": "Goiânia – GO, CEP 74280-145",
+    "email": "contato@jotavetech.com",
+    "phone": "(62) 9 9477-4236",
+    "whatsapp": "+55 62 99477-4236",
+    "_whatsapp_comment": "Use o número com DDI e DDD, por exemplo +55 11 90000-0000. Telefone e WhatsApp aparecem num único item; os links tel: e do WhatsApp usam este número.",
     "business_hours": {
-      "pt-br": "",
-      "en": ""
+      "pt-br": "09:00 às 18:00",
+      "en": "9:00 a.m. to 6:00 p.m."
     },
     "extra_legal_info": {
       "pt-br": "",
@@ -23,15 +23,13 @@
     }
   },
 
-  "social": [
-    { "name": "", "url": "" },
-    { "name": "", "url": "" },
-    { "name": "", "url": "" }
-  ],
+  "_social_comment": "Redes sociais exibidas no rodapé e na página de contato. Lista vazia: nada aparece. Exemplo: { \"name\": \"Instagram\", \"url\": \"https://...\" }",
+  "social": [],
 
   "contact_form": {
-    "_comment": "O GitHub Pages não processa formulários. Sem um serviço externo, o formulário abre o programa de e-mail do visitante com a mensagem pronta, endereçada a company.email. Para usar um serviço de formulários, informe a URL de envio (action) abaixo.",
-    "action_url": ""
+    "_comment": "O GitHub Pages não processa formulários. As mensagens são enviadas pelo FormSubmit (formsubmit.co) para o e-mail no fim da URL abaixo. Sem action_url, o formulário abre o programa de e-mail do visitante com a mensagem pronta, endereçada a company.email.",
+    "action_url": "https://formsubmit.co/ajax/contato@jotavetech.com",
+    "subject": "Nova mensagem pelo site Jotave Tech"
   },
 
   "apps": {

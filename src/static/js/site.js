@@ -28,8 +28,40 @@
     });
   }
 
-  // Formulário de contato: sem serviço externo configurado, abre o e-mail do visitante.
+  // Formulário de contato com serviço externo (FormSubmit): envia sem sair da página.
   var form = document.querySelector("[data-contact-form]");
+  if (form && form.getAttribute("action") && window.fetch) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var status = form.querySelector("[data-form-status]");
+      var button = form.querySelector("[type=submit]");
+      var to = form.getAttribute("data-to");
+      button.disabled = true;
+      status.textContent = form.getAttribute("data-sending");
+      fetch(form.getAttribute("action"), {
+        method: "POST",
+        headers: { "Accept": "application/json" },
+        body: new FormData(form)
+      }).then(function (r) {
+        return r.json().then(function (data) {
+          if (!r.ok || String(data.success) !== "true") throw new Error(data.message || "envio falhou");
+        });
+      }).then(function () {
+        form.reset();
+        // Mantém o cartão e o título; troca os campos pela mensagem de agradecimento.
+        Array.prototype.forEach.call(form.children, function (el) {
+          if (el !== status && el.id !== "h-form") el.hidden = true;
+        });
+        status.textContent = form.getAttribute("data-sent");
+        status.focus();
+      }).catch(function () {
+        button.disabled = false;
+        status.textContent = form.getAttribute("data-error").replace("{email}", to);
+      });
+    });
+  }
+
+  // Formulário de contato: sem serviço externo configurado, abre o e-mail do visitante.
   if (form && !form.getAttribute("action")) {
     form.addEventListener("submit", function (e) {
       e.preventDefault();

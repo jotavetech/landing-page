@@ -52,9 +52,11 @@ páginas e no rodapé, leva à página equivalente no outro idioma e a escolha f
   forem aprovados.
 - **Link da App Store**: preencha `apps.<app>.app_store` em `content/site.json`; o botão
   "Baixar na App Store" aparece automaticamente.
-- **Formulário de contato**: o GitHub Pages não processa formulários. Com `company.email`
-  preenchido, o envio abre o programa de e-mail do visitante com a mensagem pronta. Para usar
-  um serviço de formulários, informe a URL em `contact_form.action_url`.
+- **Formulário de contato**: o GitHub Pages não processa formulários. As mensagens vão pelo
+  [FormSubmit](https://formsubmit.co) para o e-mail em `contact_form.action_url`
+  (`https://formsubmit.co/ajax/<e-mail>`), sem sair da página. No primeiro envio, o FormSubmit
+  manda um e-mail de ativação para esse endereço; clique no link para começar a receber.
+  Sem `action_url`, o envio abre o programa de e-mail do visitante, endereçado a `company.email`.
 - **Imagens dos aplicativos**: `src/static/img/apps/<app>/` (ícone e capturas de tela oficiais
   da Google Play, em WebP).
 

@@ -3,8 +3,9 @@
 {% if value %}{% if href %}<a href="{{ href }}">{{ value }}</a>{% else %}{{ value }}{% endif %}{% else %}<span class="ph">{{ placeholder }}</span>{% endif %}
 {%- endmacro %}
 
-{% macro social_links(items, t) -%}
-{% for s in items %}<li>{% if s.name and s.url %}<a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.name }}</a>{% else %}<span class="ph">{{ t.placeholders.social | fmt(n=loop.index) }}</span>{% endif %}</li>{% endfor %}
+{# Telefone e WhatsApp num único item: o número liga (tel:) e "WhatsApp" abre a conversa. #}
+{% macro phone_whatsapp(c, t) -%}
+{% set n = (c.whatsapp or c.phone) | digits %}{% if c.phone or c.whatsapp %}<a href="tel:+{{ n }}">{{ c.phone or c.whatsapp }}</a>{% if c.whatsapp %} · <a href="https://wa.me/{{ c.whatsapp | digits }}" target="_blank" rel="noopener">WhatsApp</a>{% endif %}{% else %}<span class="ph">{{ t.placeholders.phone }}</span>{% endif %}
 {%- endmacro %}
 
 {# Topo das páginas internas: migalhas, título e texto de apoio. #}

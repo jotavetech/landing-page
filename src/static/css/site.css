@@ -94,6 +94,7 @@ body{margin:0}
 /* ── Complementos para o site publicado (usam apenas as cores e medidas do design) ── */
 .site{position:relative;min-height:100vh}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+[hidden]{display:none!important}
 .hdr-end{display:flex;align-items:center;gap:24px}
 /* Seletor de idioma: faixa fina acima do cabeçalho, para não alterar a linha do cabeçalho do design */
 .hdr .langbar{border-bottom:1px solid #2B3B55}
