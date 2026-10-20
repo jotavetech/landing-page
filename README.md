@@ -14,6 +14,7 @@ as ilustrações em pixels foram extraídos do próprio arquivo.
 | `content/site.json` | **Dados editáveis da empresa**: razão social, CNPJ, endereço, e-mail, telefone, WhatsApp, redes sociais, links das lojas, opções |
 | `content/i18n/pt-br.json` | Todos os textos em português |
 | `content/i18n/en.json` | Todos os textos em inglês (mesmas chaves do português; o build falha se faltar alguma) |
+| `content/legal/pt-br.json` e `en.json` | Política de Privacidade e Termos de Uso de cada aplicativo (mesmas chaves nos dois idiomas) |
 | `src/templates/` | Páginas (Jinja2), cabeçalho, rodapé e ilustrações SVG do design |
 | `src/static/` | CSS, script, fontes (TeX Gyre Schola, usada pelo design) e imagens oficiais dos aplicativos |
 | `build.py` | Gera o site em `_site/` |
@@ -34,6 +35,8 @@ as ilustrações em pixels foram extraídos do próprio arquivo.
 | Contato | `/pt-br/contato/` | `/en/contact/` |
 | Política de Privacidade | `/pt-br/politica-de-privacidade/` | `/en/privacy-policy/` |
 | Termos de Uso | `/pt-br/termos-de-uso/` | `/en/terms-of-use/` |
+| Privacidade de um app | `/pt-br/produtos/<app>/politica-de-privacidade/` | `/en/products/<app>/privacy-policy/` |
+| Termos de um app | `/pt-br/produtos/<app>/termos-de-uso/` | `/en/products/<app>/terms-of-use/` |
 
 A raiz `/` envia o visitante ao idioma escolhido anteriormente ou, na primeira visita, ao idioma
 do navegador (português → `/pt-br/`, demais → `/en/`). O seletor PT/EN fica no topo de todas as
@@ -57,8 +60,13 @@ páginas e no rodapé, leva à página equivalente no outro idioma e a escolha f
   (`https://formsubmit.co/ajax/<e-mail>`), sem sair da página. No primeiro envio, o FormSubmit
   manda um e-mail de ativação para esse endereço; clique no link para começar a receber.
   Sem `action_url`, o envio abre o programa de e-mail do visitante, endereçado a `company.email`.
-- **Imagens dos aplicativos**: `src/static/img/apps/<app>/` (ícone e capturas de tela oficiais
-  da Google Play, em WebP).
+- **Imagens dos aplicativos**: `src/static/img/apps/<app>/` (ícone e capturas de tela em WebP;
+  `screen-1` aparece no topo da página do produto). Em `content/site.json`, `apps.<app>.screenshots`
+  é a quantidade de imagens e `apps.<app>.gallery` diz quais aparecem em "Telas do aplicativo".
+- **Políticas dos aplicativos**: o texto fica em `content/legal/`. As variáveis `{app}`, `{email}`,
+  `{company}`, `{cnpj}`, `{address}` e `{brand}` são preenchidas no build; `{email}` vem de
+  `apps.<app>.support_email` em `content/site.json`. Ao mudar um texto, atualize também a data
+  `updated` do documento.
 
 ## Rodar localmente
 

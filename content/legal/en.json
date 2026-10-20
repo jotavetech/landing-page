@@ -1,0 +1,805 @@
+{
+  "_comment": "Política de Privacidade e Termos de Uso de cada aplicativo. Variáveis: {app}, {email} (apps.<app>.support_email em site.json), {company}, {cnpj}, {address}, {brand}. O en.json deve ter as mesmas chaves (o build verifica).",
+  "gro": {
+    "privacy": {
+      "updated": "October 20, 2026",
+      "summary": [
+        "Your survey data (companies, departments, environments, job roles and risks) is saved on your phone. No account is needed.",
+        "This data only leaves the device when you request the report: the server builds the .docx file, sends it to the email you entered and doesn't keep a copy.",
+        "The free version shows ads from Google AdMob. The app also uses Firebase for usage statistics and crash reports.",
+        "We don't sell your data. To exercise your rights, write to {email}."
+      ],
+      "sections": [
+        {
+          "h": "Who we are and who this policy applies to",
+          "p": [
+            "This policy explains how the {app} app (Occupational Risk Manager) handles personal data. {app} is developed and published by {company} ({brand}), Brazilian company registration (CNPJ) {cnpj}, based at {address}, Brazil, which acts as the data controller under the Brazilian General Data Protection Law (Law No. 13,709/2018, LGPD).",
+            "By using {app}, you confirm that you have read this policy. It applies to the {app} Android app and should be read together with the {app} Terms of Use."
+          ],
+          "items": []
+        },
+        {
+          "h": "Data that stays on your phone",
+          "p": [
+            "Everything you enter in {app} is stored in the app's own database on your device: companies, departments, environments (and their characteristics), job roles, activities, number of workers, schedules and assessed risks. We have no access to this data while it is only on your phone.",
+            "{app} does not ask for sign-up, login, location, contacts, camera or photos. The only permission the app uses is internet access.",
+            "If Android automatic backup is turned on for your device, the system may include {app} data in your Google account backup, according to Google's settings and policy. You can turn this backup off in Android settings."
+          ],
+          "items": []
+        },
+        {
+          "h": "When data leaves the device: the report",
+          "p": [
+            "When you pick a company and tap Send, the app sends that company's survey data and the email address you entered to our server. The server generates the Word (.docx) report and emails it as an attachment to that address.",
+            "The report is generated on the spot and is not stored on the server after it's sent. To troubleshoot problems, the server keeps a technical log of each delivery with the recipient email, the company name and the file size. These logs are kept for a limited period of up to 30 days and are then deleted automatically.",
+            "We recommend not including workers' personal data (such as names or ID numbers) in surveys. {app} is designed to record environments, job roles and risks, not people."
+          ],
+          "items": []
+        },
+        {
+          "h": "Reference tables",
+          "p": [
+            "{app} automatically downloads and updates the lists of risk agents (eSocial Table 24 and NR-15) and the environment description options from our Google Firebase database. This download is read-only: none of your survey data is sent at this step."
+          ],
+          "items": []
+        },
+        {
+          "h": "Ads",
+          "p": [
+            "The free version of {app} shows ads (banners and one ad before the report is generated) provided by Google AdMob. To show and measure ads, Google may collect the device's advertising ID, IP address, device and system information and interactions with ads. Ads may be personalized according to your Google ad settings.",
+            "You can reset or delete your advertising ID and limit personalization in Android settings (Google › Ads). More information at https://policies.google.com/technologies/ads. GRO Pro subscribers don't see ads."
+          ],
+          "items": []
+        },
+        {
+          "h": "Usage statistics and crash reports",
+          "p": [
+            "We use Google Firebase Analytics to understand, in aggregate, how the app is used (for example, screens opened, app version, device model and approximate region) and Firebase Crashlytics to receive crash reports, with technical information about the device and the error. We don't send the content of your surveys to these services."
+          ],
+          "items": []
+        },
+        {
+          "h": "GRO Pro subscription",
+          "p": [
+            "The GRO Pro subscription is sold and billed by Google Play. We only receive the purchase confirmation and the subscription status, to know whether ads should be removed. Payment data, such as your card number, is handled only by Google."
+          ],
+          "items": []
+        },
+        {
+          "h": "Why we process data (legal bases)",
+          "p": [],
+          "items": [
+            "Generating and sending the report you requested: performance of a contract and of procedures at your request (LGPD art. 7, V).",
+            "Usage statistics, crash reports and service security: legitimate interest in keeping the app working and improving it (art. 7, IX).",
+            "Ads: legitimate interest in offering the app for free and, where required, the consent collected by Google for personalized ads (art. 7, I).",
+            "Subscription: performance of the subscription contract (art. 7, V) and compliance with legal obligations (art. 7, II)."
+          ]
+        },
+        {
+          "h": "Who we share data with",
+          "p": [
+            "We do not sell or rent personal data. We only share data with the service providers needed to run {app}, each with access only to what it needs:"
+          ],
+          "items": [
+            "Google (Firebase, Google Cloud, AdMob and Google Play): hosting the server that generates the report, reference tables, statistics, crash reports, ads and subscription billing.",
+            "Email delivery service: delivering the report to the address you entered.",
+            "Public authorities: when required by law or court order."
+          ]
+        },
+        {
+          "h": "International transfers",
+          "p": [
+            "The server that generates the report and Google's services may be located in the United States or other countries. These transfers are made with providers that adopt contractual clauses and security standards compatible with the LGPD (art. 33)."
+          ],
+          "items": []
+        },
+        {
+          "h": "How long we keep data",
+          "p": [],
+          "items": [
+            "Data on your phone: until you delete it in the app, clear the app's data or uninstall it.",
+            "Report: not kept on the server. The copy sent stays in your inbox, under your control.",
+            "Technical delivery logs: up to 30 days.",
+            "Ads, statistics and crash data: for the periods set by Google for those services."
+          ]
+        },
+        {
+          "h": "Your rights",
+          "p": [
+            "Under the LGPD, you can ask for confirmation that we process your data, access to it, correction of incomplete or outdated data, anonymization, blocking or deletion of unnecessary data, portability, information about sharing and review of automated decisions, and you can withdraw consent when it is the basis for processing.",
+            "To exercise these rights, write to {email}. We will reply within 15 days. You can also file a complaint with the Brazilian National Data Protection Authority (ANPD)."
+          ],
+          "items": []
+        },
+        {
+          "h": "Security",
+          "p": [
+            "Communication between the app and the server is encrypted (HTTPS). We take technical and administrative measures to protect data against unauthorized access. No system is completely immune to failures, so keep your device protected with a passcode or biometrics."
+          ],
+          "items": []
+        },
+        {
+          "h": "Children and teenagers",
+          "p": [
+            "{app} is a professional tool intended for people aged 18 or over. We do not knowingly collect data from children or teenagers."
+          ],
+          "items": []
+        },
+        {
+          "h": "Changes to this policy",
+          "p": [
+            "We may update this policy when the app or the law changes. The current version and the date of the last update are always on this page. If the change is significant, we will let you know in the app or on the Google Play page."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Questions, requests or complaints about privacy in {app}: {email}. The data protection officer can be reached at the same address."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "terms": {
+      "updated": "October 20, 2026",
+      "summary": [
+        "{app} organizes and formats the information you collect in the field. Risk assessment and technical responsibility for the documents belong to the qualified professional.",
+        "Data stays on your phone. Uninstalling the app or clearing its data deletes your surveys.",
+        "The app is free with ads. The GRO Pro subscription, billed by Google Play, only removes the ads.",
+        "Questions: {email}."
+      ],
+      "sections": [
+        {
+          "h": "Acceptance",
+          "p": [
+            "These Terms of Use govern the use of the {app} app, developed by {company} ({brand}), CNPJ {cnpj}. By downloading, installing or using {app}, you agree to these terms and to the {app} Privacy Policy. If you don't agree, don't use the app."
+          ],
+          "items": []
+        },
+        {
+          "h": "What {app} provides",
+          "p": [
+            "{app} is a tool that supports occupational risk surveys. It lets you record companies, departments, environments, job roles and risks, look up lists of agents (eSocial Table 24 and NR-15) and receive by email a Word (.docx) report with the information you recorded."
+          ],
+          "items": []
+        },
+        {
+          "h": "Technical responsibility",
+          "p": [
+            "{app} does not replace the work, judgment or technical responsibility of the occupational safety and health professional. It is up to you to:"
+          ],
+          "items": [
+            "assess the risks, measurements and methodologies applied in each case;",
+            "check agents, codes, exposure limits and other information before using them in official documents (PGR, LTCAT, PPP, eSocial and others);",
+            "review, complete and sign the report, which is delivered in an editable format precisely for that purpose.",
+            "The app's tables are updated often, but official standards and tables may change. The official source always prevails."
+          ]
+        },
+        {
+          "h": "Your data and your content",
+          "p": [
+            "The data you enter is yours. You are responsible for it and for having permission to collect and record information about the companies you assess.",
+            "Because data is saved only on your phone, uninstalling the app, clearing its data, or changing or losing the device may delete your surveys. We recommend generating reports for important companies and keeping copies of the files. We are not responsible for data lost in these situations."
+          ],
+          "items": []
+        },
+        {
+          "h": "Sending the report",
+          "p": [
+            "Sending the report requires internet and depends on third-party services (server and email). Check the address before sending: the report is delivered to the email you type. If it doesn't arrive, check your spam folder and try again, or contact us."
+          ],
+          "items": []
+        },
+        {
+          "h": "Free version, ads and GRO Pro",
+          "p": [
+            "{app} is free and shows ads. The GRO Pro subscription, on the monthly or yearly plan, removes all ads and doesn't change any other features."
+          ],
+          "items": [
+            "The subscription is purchased, billed and managed by Google Play, at the prices shown in the app at the time of purchase.",
+            "It renews automatically at the end of each period until you cancel it in your Google Play subscriptions. Cancellation takes effect from the next period, and the benefits continue until the end of the period already paid.",
+            "Refunds follow Google Play's policies and the rights guaranteed by consumer protection law."
+          ]
+        },
+        {
+          "h": "Permitted use",
+          "p": [
+            "We grant you a personal, non-exclusive, non-transferable license to use {app} under these terms. You may not:"
+          ],
+          "items": [
+            "copy, modify, decompile or reverse engineer the app, except where permitted by law;",
+            "try to gain unauthorized access to the server or other people's data, or bypass the ads or the subscription;",
+            "use the app for illegal purposes or to send messages to people who didn't request them."
+          ]
+        },
+        {
+          "h": "Intellectual property",
+          "p": [
+            "The app, the {app} brand, design, texts and code belong to {company}. The official tables included (such as eSocial Table 24 and NR-15) are public domain and remain the property of the respective government bodies."
+          ],
+          "items": []
+        },
+        {
+          "h": "Availability and updates",
+          "p": [
+            "We work to keep {app} available and working, but it may experience failures, interruptions or changes, or be discontinued. We may release updates that change, add or remove features. Some updates may be required to keep sending reports."
+          ],
+          "items": []
+        },
+        {
+          "h": "Limitation of liability",
+          "p": [
+            "To the fullest extent permitted by law, we are not liable for technical decisions made based on information in the app, for documents prepared from the report, for data lost on the device, or for indirect damages. Nothing in these terms limits the rights guaranteed to consumers by Brazilian law."
+          ],
+          "items": []
+        },
+        {
+          "h": "Changes to these terms",
+          "p": [
+            "We may update these terms. The current version and the date of the last update are always on this page. Continuing to use {app} after a change means you accept the new version."
+          ],
+          "items": []
+        },
+        {
+          "h": "Governing law and jurisdiction",
+          "p": [
+            "These terms are governed by the laws of Brazil. Disputes will be settled in the courts of the consumer's place of residence or, for professional use, in the courts of Goiânia, Goiás, Brazil."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Questions, suggestions or problems with {app}: {email}."
+          ],
+          "items": []
+        }
+      ]
+    }
+  },
+  "balanca-diaria": {
+    "privacy": {
+      "updated": "October 20, 2026",
+      "summary": [
+        "Your weight entries, goals, measurements and profile stay on your phone, and the app works offline. Creating an account is optional.",
+        "If you create an account, your data is copied to the cloud for backup and sync. Progress photos never leave the device.",
+        "The free plan shows a Google AdMob ad banner. Usage statistics never include your weight.",
+        "You can delete all your data and your account from within the app. Questions: {email}."
+      ],
+      "sections": [
+        {
+          "h": "Who we are and who this policy applies to",
+          "p": [
+            "This policy explains how the {app} (Daily Scale) app handles personal data. {app} is developed and published by {company} ({brand}), Brazilian company registration (CNPJ) {cnpj}, based at {address}, Brazil, which acts as the data controller under the Brazilian General Data Protection Law (Law No. 13,709/2018, LGPD) and, where applicable, the EU General Data Protection Regulation (GDPR).",
+            "This policy applies to the {app} apps for Android and iPhone, in every version and language, and should be read together with the {app} Terms of Use."
+          ],
+          "items": []
+        },
+        {
+          "h": "Data that stays on your phone",
+          "p": [
+            "We collect the minimum needed. Everything you record stays in the app's private storage on your device:"
+          ],
+          "items": [
+            "weight entries, with date, time and notes, and tags;",
+            "goals, milestones and goal history;",
+            "body measurements and body fat percentage you enter;",
+            "profile: height, birthday and sex, used to calculate BMI and apply the right ranges;",
+            "progress photos, kept only inside the app, outside the device gallery;",
+            "preferences, such as units, reminders, theme, language and no-numbers mode."
+          ]
+        },
+        {
+          "h": "Health data",
+          "p": [
+            "Weight, measurements, BMI and body photos are sensitive health-related personal data. We process this data only to provide the app features you use and, if you create an account, for backup and sync, based on your consent (LGPD art. 11, I, and GDPR art. 9(2)(a)). You can withdraw consent at any time by deleting the data or the account.",
+            "We never sell health data, never use it for advertising and never send it to ad or analytics services."
+          ],
+          "items": []
+        },
+        {
+          "h": "Account, backup and sync (optional)",
+          "p": [
+            "You can use {app} without an account. If you choose to create one, you can sign in with Google, Apple or your email (with a 6-digit code). In that case, we receive your email, your name (if the provider shares it) and the account identifier.",
+            "With an account, the app copies your entries, measurements, goals, profile and preferences to our server, so you don't lose your data and can use it on more than one device, including between Android and iPhone. Progress photos are not synced.",
+            "Communication is encrypted (HTTPS) and data is encrypted at rest. Our server runs on Google Cloud, and the database and authentication are provided by Supabase, both in the United States (Ohio)."
+          ],
+          "items": []
+        },
+        {
+          "h": "Ads",
+          "p": [
+            "The free plan shows a discreet Google AdMob banner. Ads never appear when logging weight, during onboarding or on the subscription screen, and the app does not collect your location.",
+            "To show and measure ads, Google may collect the device's advertising ID, IP address, device information and interactions with ads. In the European Economic Area, the United Kingdom and Switzerland, the app asks for your consent through Google's tool before showing personalized ads; without consent, it shows only non-personalized ads. On iPhone, the system tracking prompt only appears if personalized ads are used.",
+            "You can turn off personalized ads in Settings › Data and privacy. Premium removes all ads."
+          ],
+          "items": []
+        },
+        {
+          "h": "Usage statistics and crash reports",
+          "p": [
+            "We use Google Firebase for crash reports and anonymous usage statistics, with essential events only (for example, \"onboarding completed\" or \"entry created\"), never with your weight, measurements or other health data.",
+            "Outside Europe, these are on by default, based on our legitimate interest in keeping the app stable, and can be turned off at any time in Settings › Data and privacy. In the European Economic Area, the United Kingdom and Switzerland, statistics are only sent with your consent."
+          ],
+          "items": []
+        },
+        {
+          "h": "Premium purchases",
+          "p": [
+            "Purchases are processed by Google Play or the App Store and managed by RevenueCat, which receives an anonymous identifier (or your account identifier, if you're signed in) and your purchase history, to unlock Premium on your devices. We don't receive card details."
+          ],
+          "items": []
+        },
+        {
+          "h": "Feedback and support",
+          "p": [
+            "If you send a message through the feedback form, we keep the category, the text, the app language, your email (if you provide it) and the app and system versions (if you choose to include them). To prevent abuse, we keep a hashed version of the network address, which does not identify you. If you write to our email, we use your message only to reply."
+          ],
+          "items": []
+        },
+        {
+          "h": "Device backup",
+          "p": [
+            "The system's automatic backup (Android or iCloud), if turned on, may include the app's database and preferences, so you don't lose data when switching devices. Progress photos are excluded from this backup. This backup follows Google's or Apple's settings and policy."
+          ],
+          "items": []
+        },
+        {
+          "h": "Who we share data with",
+          "p": [
+            "We do not sell personal data. We only share data with the providers we need, each with access only to what it needs:"
+          ],
+          "items": [
+            "Supabase and Google Cloud: account, backup and sync (only if you create an account) and the feedback form.",
+            "Google and Apple: sign-in with Google or Apple, if you choose it.",
+            "Google AdMob: ads on the free plan.",
+            "Google Firebase: crash reports and usage statistics.",
+            "RevenueCat, Google Play and the App Store: purchases and subscriptions.",
+            "Public authorities: when required by law or court order."
+          ]
+        },
+        {
+          "h": "International transfers",
+          "p": [
+            "The servers of the providers above are located in the United States or other countries. These transfers are made with providers that adopt standard contractual clauses and data processing agreements compatible with the LGPD (art. 33) and the GDPR."
+          ],
+          "items": []
+        },
+        {
+          "h": "How long we keep data",
+          "p": [],
+          "items": [
+            "Data on the device: until you delete it or uninstall the app.",
+            "Account and synced data: while the account exists. When you delete the account, we delete the account and the data on the server.",
+            "Feedback messages: as long as needed to reply and improve the app.",
+            "Ads, statistics and crash data: for the periods set by Google for those services."
+          ]
+        },
+        {
+          "h": "How to delete your data",
+          "p": [],
+          "items": [
+            "Delete an entry, measurement or photo: directly on the corresponding screen.",
+            "Delete everything: in Settings › Data and privacy › Delete all my data. The app suggests exporting a CSV first and, if you have an account, also offers to delete the account and the data on the server.",
+            "Delete the account: in Profile › Delete account. Data on the device stays there unless you delete it too.",
+            "Export: as CSV or, with Premium, as PDF."
+          ]
+        },
+        {
+          "h": "Your rights",
+          "p": [
+            "Under the LGPD and the GDPR, you can ask for confirmation that we process your data, access, correction, anonymization, blocking or deletion, portability and information about sharing, object to processing based on legitimate interest and withdraw consent. Many of these requests can be made in the app itself.",
+            "For anything else, write to {email}. We will reply within 15 days. You can also complain to the Brazilian National Data Protection Authority (ANPD) or to the data protection authority in your country."
+          ],
+          "items": []
+        },
+        {
+          "h": "Security",
+          "p": [
+            "Data is kept in the app's private storage, communication with the server is encrypted (HTTPS) and cloud data is encrypted at rest. With Premium, you can protect the app with a PIN or biometrics; we never receive your biometric data."
+          ],
+          "items": []
+        },
+        {
+          "h": "Minimum age",
+          "p": [
+            "{app} is intended for people aged 13 or over. People under 18 should use the app with a parent's or guardian's permission. For users under 18, the app shows BMI without the adult ranges."
+          ],
+          "items": []
+        },
+        {
+          "h": "Changes to this policy",
+          "p": [
+            "We may update this policy when the app or the law changes. The current version and the date of the last update are always on this page. For significant changes, we will let you know in the app."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Questions, requests or complaints about privacy in {app}: {email}. The data protection officer can be reached at the same address."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "terms": {
+      "updated": "October 20, 2026",
+      "summary": [
+        "{app} helps you follow your weight but does not replace medical or nutritional advice.",
+        "Your data is yours and stays on your phone; account, backup and sync are optional and free.",
+        "The free plan has ads. Premium (monthly, yearly or lifetime) is billed by Google Play or the App Store.",
+        "Questions: {email}."
+      ],
+      "sections": [
+        {
+          "h": "Acceptance",
+          "p": [
+            "These Terms of Use govern the use of the {app} (Daily Scale) app, developed by {company} ({brand}), CNPJ {cnpj}. By downloading or using {app}, you agree to these terms and to the {app} Privacy Policy. If you don't agree, don't use the app."
+          ],
+          "items": []
+        },
+        {
+          "h": "What {app} provides",
+          "p": [
+            "{app} lets you log your weight, see the trend on charts, follow goals, BMI, measurements and statistics, get reminders and export your data."
+          ],
+          "items": []
+        },
+        {
+          "h": "Not medical advice",
+          "p": [
+            "{app} is for information only and does not replace consultation, diagnosis or treatment by doctors, dietitians or other health professionals. BMI, weight ranges, forecasts and warnings are general estimates and may not apply to you (for example, during pregnancy, for athletes or with specific health conditions).",
+            "Talk to a health professional before starting diets, rapid weight changes or exercise programs."
+          ],
+          "items": []
+        },
+        {
+          "h": "Minimum age",
+          "p": [
+            "You must be at least 13 years old to use {app}. People under 18 should use it with a parent's or guardian's permission."
+          ],
+          "items": []
+        },
+        {
+          "h": "Account",
+          "p": [
+            "The account is optional and free. If you create one, keep access to the email or the Google or Apple account you used and don't share it. You can sign out or delete the account at any time from Profile."
+          ],
+          "items": []
+        },
+        {
+          "h": "Your data",
+          "p": [
+            "The data you record is yours. Without an account, it stays only on your device: uninstalling the app, clearing its data, or changing or losing the device may delete it unless there is a system backup or an exported file. We recommend creating an account or exporting your data regularly."
+          ],
+          "items": []
+        },
+        {
+          "h": "Free plan and Premium",
+          "p": [
+            "The free plan includes the essential features and shows an ad banner. Premium removes the ads and unlocks the features marked as Premium in the app."
+          ],
+          "items": [
+            "Monthly and yearly plans, with 3 free days, and a one-time lifetime purchase, at the prices shown in the app at the time of purchase, as set by the store in your country.",
+            "Purchases are billed and managed by Google Play or the App Store. During the free trial, billing starts automatically after the 3 days unless you cancel before then.",
+            "Monthly and yearly plans renew automatically until you cancel them in the store's subscription settings. Cancellation takes effect from the next period, and Premium continues until the end of the period already paid.",
+            "If Premium ends, data created with it stays stored and visible, but you can't create new data in those features.",
+            "Use Restore purchases to recover Premium on a new device. Refunds follow the store's policies and the rights guaranteed by consumer protection law."
+          ]
+        },
+        {
+          "h": "Permitted use",
+          "p": [
+            "We grant you a personal, non-exclusive, non-transferable license to use {app} under these terms. You may not copy, modify or reverse engineer the app, except where permitted by law, bypass the ads or Premium, or try to gain unauthorized access to the server or other people's data."
+          ],
+          "items": []
+        },
+        {
+          "h": "Intellectual property",
+          "p": [
+            "The app, the {app} brand, the mascot, design, texts and code belong to {company}."
+          ],
+          "items": []
+        },
+        {
+          "h": "Availability and updates",
+          "p": [
+            "The main features work offline. Account, sync and purchases depend on internet access and third-party services and may experience failures or interruptions. We may release updates that change, add or remove features, or discontinue the service, giving reasonable notice when this affects current purchases."
+          ],
+          "items": []
+        },
+        {
+          "h": "Limitation of liability",
+          "p": [
+            "To the fullest extent permitted by law, we are not liable for health decisions made based on information in the app, for data lost on a device without backup, or for indirect damages. Nothing in these terms limits the rights guaranteed to consumers by applicable law."
+          ],
+          "items": []
+        },
+        {
+          "h": "Changes to these terms",
+          "p": [
+            "We may update these terms. The current version and the date of the last update are always on this page. Continuing to use {app} after a change means you accept the new version."
+          ],
+          "items": []
+        },
+        {
+          "h": "Governing law and jurisdiction",
+          "p": [
+            "These terms are governed by the laws of Brazil, without prejudice to the rights granted by the consumer protection laws of your country. Disputes will be settled in the courts of the consumer's place of residence."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Questions, suggestions or problems with {app}: {email}."
+          ],
+          "items": []
+        }
+      ]
+    }
+  },
+  "spokn": {
+    "privacy": {
+      "updated": "October 20, 2026",
+      "summary": [
+        "Your entries (transcripts, summaries, moods and goals) stay on your phone. You don't need to create an account.",
+        "Audio is sent to our transcription and AI providers only long enough to create the text and summary, then it's discarded. It is never stored on our servers.",
+        "We don't sell your data and we don't use your journal content for advertising.",
+        "To request deletion of your data or ask questions, write to {email}."
+      ],
+      "sections": [
+        {
+          "h": "Who we are and who this policy applies to",
+          "p": [
+            "This policy explains how the {app} app handles personal data. {app} is developed and published by {company} ({brand}), Brazilian company registration (CNPJ) {cnpj}, based at {address}, Brazil, which acts as the data controller under the Brazilian General Data Protection Law (Law No. 13,709/2018, LGPD).",
+            "This policy applies to the {app} apps for Android and iPhone and should be read together with the {app} Terms of Use."
+          ],
+          "items": []
+        },
+        {
+          "h": "What {app} does with what you say",
+          "p": [
+            "When you record an entry, the audio is sent securely (HTTPS) to our server, which passes it to the transcription provider to turn it into text. The transcript is then sent to the AI provider, which generates the title, summary, mood tag and goal suggestions.",
+            "The audio is used only for this and is discarded after processing. It is never stored on our servers. The finished entry comes back to the app and is saved on your device.",
+            "To create the weekly digest, the app sends the text and mood of the week's entries to the AI provider. The result is also kept on your device."
+          ],
+          "items": []
+        },
+        {
+          "h": "Data we process",
+          "p": [],
+          "items": [
+            "Journal content: the audio (only during processing), transcripts, summaries, moods, topics and goals. This is the most sensitive data we handle, and it is kept on your device.",
+            "Anonymous identifier: the first time you open the app, our server creates an anonymous identity to keep your requests separate from other people's and to enforce usage limits. You don't need to give us your name or email.",
+            "Google account (optional): if you choose to sign in with Google, we receive your name, email and Google account identifier and link them to your identity.",
+            "Subscription: your subscription status and purchase history, received from the app store through RevenueCat. We don't receive card details.",
+            "Technical data: device model and system, app version, language, usage events (such as screens opened and features used) and crash reports. This data never includes the text of your entries, your searches or the names of your goals."
+          ]
+        },
+        {
+          "h": "Sensitive data",
+          "p": [
+            "A journal may contain information about health, emotional life, religion, relationships and other sensitive personal data, about you or other people. We process this content only to create the transcript, summary, mood, goals and weekly digest you asked for, based on your consent, given when you record an entry (LGPD art. 11, I). You can stop recording and delete your entries at any time.",
+            "Avoid recording other people's data unnecessarily, such as their documents, addresses or health information."
+          ],
+          "items": []
+        },
+        {
+          "h": "Who we share data with",
+          "p": [
+            "We do not sell personal data. {app} uses a small number of service providers, and each one receives only what it needs for its job:"
+          ],
+          "items": [
+            "ElevenLabs: audio transcription.",
+            "Google (Gemini): creating the title, summary, mood, goals and weekly digest from the text.",
+            "Google Cloud: hosting our server.",
+            "Supabase: creating and verifying the anonymous identity and Google sign-in.",
+            "RevenueCat, Google Play and the App Store: managing and billing subscriptions.",
+            "Google Firebase: usage statistics (Analytics), crash reports (Crashlytics) and remote app configuration.",
+            "Public authorities: when required by law or court order."
+          ]
+        },
+        {
+          "h": "We don't use your journal to train AI or for advertising",
+          "p": [
+            "We don't use your journal content to train AI models or to show ads. {app} shows no ads. The transcription and AI providers process content only to return the result to us, under the contracts and data policies they offer for API use."
+          ],
+          "items": []
+        },
+        {
+          "h": "Where entries are stored",
+          "p": [
+            "Entries are stored in the app's database on your device. The system's automatic backup (Android or iCloud), if turned on, may include the app's data, according to your device settings.",
+            "When {app} cloud backup is available and you turn it on, entries will be encrypted on your device before they leave it. Backup is optional and off by default."
+          ],
+          "items": []
+        },
+        {
+          "h": "Device permissions",
+          "p": [],
+          "items": [
+            "Microphone: used only while you record an entry.",
+            "Notifications: for daily and goal reminders, scheduled on the device itself.",
+            "Biometrics (fingerprint or Face ID): used by the system for the app lock. We never receive your biometric data."
+          ]
+        },
+        {
+          "h": "International transfers",
+          "p": [
+            "{app} is developed in Brazil, and the providers above may process data in the United States, Europe or other countries. These transfers are made with providers that adopt contractual clauses and security standards compatible with the LGPD (art. 33) and applicable data protection laws."
+          ],
+          "items": []
+        },
+        {
+          "h": "How long we keep data",
+          "p": [],
+          "items": [
+            "Audio: discarded right after transcription.",
+            "Entries: on your device, until you delete them (one by one or in Settings › Delete all entries) or uninstall the app.",
+            "Identity, account and subscription: while you use the app, to honor your subscription and usage limits. You can request deletion at any time.",
+            "Statistics and crashes: for the periods set by Google for those services."
+          ]
+        },
+        {
+          "h": "Your rights",
+          "p": [
+            "Under the LGPD and other applicable data protection laws, you can ask for confirmation that we process your data, access, correction, anonymization, blocking or deletion, portability and information about sharing, and you can withdraw consent. You can also export your entries as PDF or text from the app's Settings.",
+            "To request deletion of your identity, account and subscription records, or to exercise other rights, write to {email}. We will reply within 15 days. You can also complain to the Brazilian National Data Protection Authority (ANPD) or to the authority in your country."
+          ],
+          "items": []
+        },
+        {
+          "h": "Subscriptions",
+          "p": [
+            "To view, change or cancel your subscription, use the subscription settings in Google Play or the App Store. Cancelling the subscription does not delete your entries."
+          ],
+          "items": []
+        },
+        {
+          "h": "Security",
+          "p": [
+            "All communication between the app and the server is encrypted (HTTPS), and provider keys are kept only on the server. You can turn on the app lock with fingerprint, Face ID or your device PIN in Settings › Privacy."
+          ],
+          "items": []
+        },
+        {
+          "h": "Children and teenagers",
+          "p": [
+            "{app} is not directed at children, and we do not knowingly collect data from anyone under 13 (or the minimum age required in your country). Teenagers should use the app with a parent's or guardian's permission. If you believe a child has used {app}, contact us and we will remove the data."
+          ],
+          "items": []
+        },
+        {
+          "h": "Changes to this policy",
+          "p": [
+            "If we change how {app} handles your information, we will update this page and the date above. For significant changes, we will let you know in the app."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Questions about this policy or your data: {email}. The data protection officer can be reached at the same address."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "terms": {
+      "updated": "October 20, 2026",
+      "summary": [
+        "{app} is a voice journal for personal reflection. It is not medical, psychological, legal or financial advice.",
+        "AI can make mistakes: check transcripts, summaries and moods.",
+        "Your entries are yours and stay on your device.",
+        "The Spokn Pro subscription is billed by Google Play or the App Store and can be cancelled whenever you want."
+      ],
+      "sections": [
+        {
+          "h": "Acceptance",
+          "p": [
+            "These Terms of Use govern the use of the {app} app, developed by {company} ({brand}), CNPJ {cnpj}. By downloading or using {app}, you agree to these terms and to the {app} Privacy Policy. If you don't agree, don't use the app."
+          ],
+          "items": []
+        },
+        {
+          "h": "What {app} provides",
+          "p": [
+            "{app} is a voice journal. It transcribes your recordings and generates titles, summaries, mood tags, goal suggestions, insights and a weekly digest, using artificial intelligence services."
+          ],
+          "items": []
+        },
+        {
+          "h": "Not professional advice",
+          "p": [
+            "{app}'s features are for personal reflection only. They are not medical, psychological, mental-health, legal or financial advice and do not replace a professional.",
+            "{app} does not monitor your entries and is not an emergency service. If you are in crisis or thinking about hurting yourself, seek help right away: in Brazil, call CVV at 188 or SAMU at 192; in the United States, call or text 988; elsewhere, call your local emergency number."
+          ],
+          "items": []
+        },
+        {
+          "h": "AI-generated results",
+          "p": [
+            "Transcripts, summaries, moods and goals are generated automatically and may contain errors, omissions or inaccurate interpretations. Check the content before relying on it. You can edit or delete your entries."
+          ],
+          "items": []
+        },
+        {
+          "h": "Your content",
+          "p": [
+            "You retain ownership of your entries. To generate results, you authorize us to process your audio and text with the providers described in the Privacy Policy, solely to provide the service.",
+            "Entries stay on your device. Uninstalling the app, clearing its data, or changing or losing the device may delete your entries unless you have a backup. We recommend exporting important entries from Settings."
+          ],
+          "items": []
+        },
+        {
+          "h": "Free plan and Spokn Pro",
+          "p": [
+            "The download is free and you can try {app} with a limited number of entries. For unlimited entries and features such as the mood timeline, insights and the weekly digest, there is the Spokn Pro subscription, on monthly or yearly plans."
+          ],
+          "items": [
+            "The subscription is billed and managed by Google Play or the App Store, at the prices shown in the app at the time of purchase.",
+            "When there is a free trial, billing starts automatically when the trial ends unless you cancel before then in the store's subscription settings.",
+            "The subscription renews automatically until you cancel it. Cancellation takes effect from the next period, and the benefits continue until the end of the period already paid.",
+            "Refunds follow the store's policies and the rights guaranteed by consumer protection law."
+          ]
+        },
+        {
+          "h": "Responsible use",
+          "p": [
+            "Use {app} lawfully and respectfully. You may not:"
+          ],
+          "items": [
+            "record other people without their knowledge or consent where the law requires it;",
+            "try to disrupt the service, bypass usage limits or the subscription, reverse engineer, or gain unauthorized access to the app, the server or other people's data;",
+            "use {app} for illegal purposes."
+          ]
+        },
+        {
+          "h": "License and intellectual property",
+          "p": [
+            "We grant you a personal, non-exclusive, non-transferable license to use {app} under these terms. The app, the {app} brand, design and code belong to {company}."
+          ],
+          "items": []
+        },
+        {
+          "h": "Availability",
+          "p": [
+            "We work to keep {app} available and reliable, but transcription and AI depend on internet access and third-party services, and the service may change, be interrupted or be discontinued. We may update or remove features when necessary."
+          ],
+          "items": []
+        },
+        {
+          "h": "Limitation of liability",
+          "p": [
+            "To the fullest extent permitted by law, we are not liable for decisions made based on AI-generated results, for entries lost on the device, or for indirect damages. Nothing in these terms limits the rights guaranteed to consumers by applicable law."
+          ],
+          "items": []
+        },
+        {
+          "h": "Changes to these terms",
+          "p": [
+            "We may update these terms from time to time. The current version and the date of the last update are always on this page. Continuing to use {app} after a change means you accept the new version."
+          ],
+          "items": []
+        },
+        {
+          "h": "Governing law and jurisdiction",
+          "p": [
+            "These terms are governed by the laws of Brazil, without prejudice to the rights granted by the consumer protection laws of your country. Disputes will be settled in the courts of the consumer's place of residence."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Questions about these terms: {email}."
+          ],
+          "items": []
+        }
+      ]
+    }
+  }
+}

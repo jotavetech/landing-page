@@ -28,21 +28,30 @@
     "subject": "Nova mensagem pelo site Jotave Tech"
   },
 
+  "_apps_comment": "Por aplicativo: screenshots = quantidade de imagens em src/static/img/apps/<app>/ (screen-1 é a do topo da página); gallery = quais aparecem em \"Telas do aplicativo\"; support_email = e-mail citado na página e nas políticas do app (vazio: usa company.email).",
   "apps": {
     "gro": {
       "google_play": "https://play.google.com/store/apps/details?id=br.com.joaoov",
       "app_store": "",
-      "screenshots": 4
+      "_ios_comment": "false: o app não tem versão para iPhone, e o aviso para preencher o link da App Store não aparece.",
+      "ios": false,
+      "screenshots": 7,
+      "gallery": [2, 3, 4, 5, 6, 7],
+      "support_email": "gro@jotavetech.com"
     },
     "balanca-diaria": {
       "google_play": "https://play.google.com/store/apps/details?id=com.br.weightcontrol",
       "app_store": "",
-      "screenshots": 3
+      "screenshots": 7,
+      "gallery": [2, 3, 4, 5, 6, 7],
+      "support_email": "contato@jotavetech.com"
     },
     "spokn": {
       "google_play": "https://play.google.com/store/apps/details?id=com.br.spokn",
       "app_store": "",
-      "screenshots": 5
+      "screenshots": 5,
+      "gallery": [2, 3, 4, 5],
+      "support_email": "contato@jotavetech.com"
     }
   },
 

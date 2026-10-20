@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "macros.html" import crumbs, app_icon, note %}
+{% set p = t.pages.app_legal %}
+{% set d = legal[doc] %}
+{% set other = "terms" if doc == "privacy" else "privacy" %}
+{% set c = site.company %}
+{% set vars = dict(app=app.name, email=app_site.support_email or c.email, company=c.legal_name, cnpj=c.cnpj, address=c.address ~ " · " ~ c.city_state, brand=site.brand_name) %}
+{% set title = p[doc ~ "_title"] | fmt(name=app.name) %}
+{% set description = p[doc ~ "_description"] | fmt(name=app.name) %}
+{% block main %}
+<section class="phhero" aria-labelledby="h-legal"><div class="wrap" style="padding-top:64px;padding-bottom:64px;display:flex;flex-direction:column;gap:20px">
+{{ crumbs(t, url, [(url('products'), t.ui.nav.products), (url(app_key), app.name), (None, p[doc ~ "_crumb"])]) }}
+<div style="display:flex;align-items:center;gap:18px">{{ app_icon(t, asset, app_key, 56, 14) }}<span class="eyebrow">{{ app.name }}</span></div>
+<h1 id="h-legal">{{ p[doc ~ "_h1"] | fmt(name=app.name) }}</h1>
+<p style="font-size:16px">{{ p.updated | fmt(date=d.updated) }}</p></div></section>
+<section class="sec"><div class="wrap legal" style="max-width:860px;display:flex;flex-direction:column;gap:32px">
+{{ note(site, t.editorial.approval, p.review_note, True) }}
+<div class="card" style="display:flex;flex-direction:column;gap:10px;border:2px solid var(--navy)"><h2 style="font-size:22px">{{ p.summary_h2 }}</h2><ul style="margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px;color:var(--ink)">{% for item in d.summary %}<li>{{ item | fmt(**vars) | links }}</li>{% endfor %}</ul></div>
+<nav aria-labelledby="toc-h"><h2 id="toc-h" style="font-size:22px">{{ p.toc }}</h2><ol style="margin:12px 0 0;padding-left:22px;display:flex;flex-direction:column;gap:6px">{% for s in d.sections %}<li><a href="#s{{ loop.index }}">{{ s.h | fmt(**vars) }}</a></li>{% endfor %}</ol></nav>
+{% for s in d.sections %}<section id="s{{ loop.index }}" aria-labelledby="s{{ loop.index }}-h" style="display:flex;flex-direction:column;gap:14px;scroll-margin-top:24px">
+<h2 id="s{{ loop.index }}-h" style="font-size:26px">{{ loop.index }}. {{ s.h | fmt(**vars) }}</h2>
+{% for para in s.p %}<p style="font-size:18px">{{ para | fmt(**vars) | links }}</p>{% endfor %}
+{% if s["items"] %}<ul style="margin:0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--ink);font-size:18px">{% for item in s["items"] %}<li>{{ item | fmt(**vars) | links }}</li>{% endfor %}</ul>{% endif %}
+</section>{% endfor %}
+<div class="card" style="display:flex;flex-direction:column;gap:10px"><h2 style="font-size:22px">{{ p.controller_h2 }}</h2>
+<p style="font-size:17px">{{ c.legal_name }} ({{ site.brand_name }}) · {{ t.footer.cnpj }} {{ c.cnpj }}<br>{{ c.address }} · {{ c.city_state }}<br>{{ t.footer.email }}: {{ vars.email | links }}</p></div>
+<p style="font-size:17px"><a href="{{ url(app_key ~ '-' ~ other) }}">{{ p["see_" ~ other] | fmt(name=app.name) }} <span aria-hidden="true">→</span></a> · <a href="{{ url(app_key) }}">{{ p.back | fmt(name=app.name) }}</a></p>
+</div></section>
+{% endblock %}

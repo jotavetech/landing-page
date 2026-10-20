@@ -10,6 +10,8 @@ Conteúdo editável:
     content/site.json           informações da empresa, links das lojas, opções
     content/i18n/pt-br.json     textos em português
     content/i18n/en.json        textos em inglês (mesmas chaves do pt-br.json)
+    content/legal/pt-br.json    políticas de privacidade e termos de uso de cada aplicativo
+    content/legal/en.json       o mesmo, em inglês (mesmas chaves do pt-br.json)
 """
 
 import datetime
@@ -49,6 +51,15 @@ ROUTES = {
     "terms":          {"pt-br": "termos-de-uso/",            "en": "terms-of-use/"},
 }
 
+# Política de privacidade e termos de uso de cada aplicativo, dentro da página do produto.
+LEGAL_DOCS = {
+    "privacy": {"pt-br": "politica-de-privacidade/", "en": "privacy-policy/"},
+    "terms":   {"pt-br": "termos-de-uso/",           "en": "terms-of-use/"},
+}
+for _app in APP_KEYS:
+    for _doc, _paths in LEGAL_DOCS.items():
+        ROUTES[_app + "-" + _doc] = {l: ROUTES[_app][l] + _paths[l] for l in _paths}
+
 TEMPLATES = {
     "home": "pages/home.html",
     "products": "pages/products.html",
@@ -62,6 +73,7 @@ TEMPLATES = {
     "privacy": "pages/legal.html",
     "terms": "pages/legal.html",
 }
+TEMPLATES.update({app + "-" + doc: "pages/app-legal.html" for app in APP_KEYS for doc in LEGAL_DOCS})
 
 PLACEHOLDER_RE = re.compile(r"\[[^\[\]]+\]")
 
@@ -106,6 +118,24 @@ def rich(text):
     return Markup("").join(out)
 
 
+LINK_RE = re.compile(r"(https?://[^\s<>()]+[^\s<>().,;:]|[\w.+-]+@[\w-]+(?:\.[\w-]+)+)")
+
+
+def links(text):
+    """Como rich(), e também transforma endereços de e-mail e URLs em links."""
+    out, last = [], 0
+    for m in LINK_RE.finditer(text or ""):
+        out.append(rich(text[last:m.start()]))
+        target = m.group(0)
+        if "@" in target and not target.startswith("http"):
+            out.append(Markup('<a href="mailto:%s">%s</a>') % (target, target))
+        else:
+            out.append(Markup('<a href="%s" target="_blank" rel="noopener">%s</a>') % (target, target))
+        last = m.end()
+    out.append(rich((text or "")[last:]))
+    return Markup("").join(out)
+
+
 def fmt(text, **kwargs):
     for k, v in kwargs.items():
         text = text.replace("{" + k + "}", str(v))
@@ -131,6 +161,7 @@ def make_env():
     )
     env.filters["rich"] = rich
     env.filters["fmt"] = fmt
+    env.filters["links"] = links
     env.filters["plain"] = plain
     env.filters["digits"] = digits
     env.filters["tojson_attr"] = lambda v: json.dumps(v, ensure_ascii=False)
@@ -162,7 +193,10 @@ def build():
     site = load_json(os.path.join(CONTENT, "site.json"))
     strings = {lang: load_json(os.path.join(CONTENT, "i18n", lang + ".json")) for lang in LANGS}
 
+    legal = {lang: load_json(os.path.join(CONTENT, "legal", lang + ".json")) for lang in LANGS}
+
     errors = check_same_shape(strings["pt-br"], strings["en"], "i18n")
+    errors += check_same_shape(legal["pt-br"], legal["en"], "legal")
     if errors:
         sys.exit("Textos de tradução incompletos:\n  " + "\n  ".join(errors))
 
@@ -201,10 +235,15 @@ def build():
                 other_lang=[l for l in LANGS if l != lang][0],
                 strings=strings,
             )
-            if key in APP_KEYS:
-                ctx["app_key"] = key
-                ctx["app"] = t["apps"][key]
-                ctx["app_site"] = site["apps"][key]
+            app_key, doc = key, ""
+            if key not in APP_KEYS and key.rsplit("-", 1)[0] in APP_KEYS:
+                app_key, doc = key.rsplit("-", 1)
+            if app_key in APP_KEYS:
+                ctx["app_key"] = app_key
+                ctx["app"] = t["apps"][app_key]
+                ctx["app_site"] = site["apps"][app_key]
+                ctx["legal"] = legal[lang][app_key]
+                ctx["doc"] = doc
             write(here + "index.html", env.get_template(template).render(**ctx))
             sitemap.append(alternates[lang])
 

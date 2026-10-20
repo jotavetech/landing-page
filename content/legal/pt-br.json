@@ -1,0 +1,805 @@
+{
+  "_comment": "Política de Privacidade e Termos de Uso de cada aplicativo. Variáveis: {app}, {email} (apps.<app>.support_email em site.json), {company}, {cnpj}, {address}, {brand}. O en.json deve ter as mesmas chaves (o build verifica).",
+  "gro": {
+    "privacy": {
+      "updated": "20 de outubro de 2026",
+      "summary": [
+        "Os dados dos seus levantamentos (empresas, setores, ambientes, funções e riscos) ficam salvos no seu celular. Não é preciso criar conta.",
+        "Esses dados só saem do aparelho quando você pede o relatório: o servidor monta o arquivo .docx, envia para o e-mail informado e não guarda uma cópia.",
+        "A versão gratuita exibe anúncios do Google AdMob. O app também usa o Firebase para estatísticas de uso e relatórios de falhas.",
+        "Não vendemos os seus dados. Para exercer os seus direitos, escreva para {email}."
+      ],
+      "sections": [
+        {
+          "h": "Quem somos e a quem esta política se aplica",
+          "p": [
+            "Esta política explica como o aplicativo {app} (Gestor de Riscos Ocupacionais) trata dados pessoais. O {app} é desenvolvido e publicado por {company} ({brand}), CNPJ {cnpj}, com sede em {address}, que atua como controladora dos dados nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018, LGPD).",
+            "Ao usar o {app}, você declara que leu esta política. Ela vale para o aplicativo Android {app} e deve ser lida junto com os Termos de Uso do {app}."
+          ],
+          "items": []
+        },
+        {
+          "h": "Dados que ficam no seu celular",
+          "p": [
+            "Tudo o que você cadastra no {app} é gravado no banco de dados do próprio aplicativo, no seu aparelho: empresas, setores, ambientes (com as suas características), funções, atividades, número de trabalhadores, jornadas e riscos avaliados. Nós não temos acesso a esses dados enquanto eles estiverem apenas no seu celular.",
+            "O {app} não pede cadastro, login, localização, contatos, câmera ou fotos. A única permissão que o app usa é o acesso à internet.",
+            "Se o backup automático do Android estiver ativado no seu aparelho, o sistema pode incluir os dados do {app} no backup da sua conta Google, conforme as configurações e a política do Google. Você pode desativar esse backup nas configurações do Android."
+          ],
+          "items": []
+        },
+        {
+          "h": "Quando os dados saem do aparelho: o relatório",
+          "p": [
+            "Quando você escolhe uma empresa e toca em Enviar, o app envia ao nosso servidor os dados do levantamento dessa empresa e o endereço de e-mail que você informou. O servidor gera o relatório em Word (.docx) e o envia como anexo para esse e-mail.",
+            "O relatório é gerado na hora e não fica armazenado no servidor depois do envio. Para diagnosticar problemas, o servidor guarda um registro técnico de cada envio com o e-mail de destino, o nome da empresa e o tamanho do arquivo. Esses registros ficam disponíveis por um período limitado, de até 30 dias, e depois são apagados automaticamente.",
+            "Recomendamos não incluir no levantamento dados pessoais de trabalhadores (como nomes ou CPF). O {app} foi pensado para registrar ambientes, funções e riscos, não pessoas."
+          ],
+          "items": []
+        },
+        {
+          "h": "Tabelas de referência",
+          "p": [
+            "O {app} baixa e atualiza automaticamente as listas de agentes de risco (Tabela 24 do eSocial e NR-15) e as opções de caracterização de ambientes a partir do nosso banco de dados no Google Firebase. Esse download é somente de leitura: nenhum dado dos seus levantamentos é enviado nessa etapa."
+          ],
+          "items": []
+        },
+        {
+          "h": "Anúncios",
+          "p": [
+            "A versão gratuita do {app} exibe anúncios (banners e um anúncio antes de gerar o relatório) fornecidos pelo Google AdMob. Para exibir e medir os anúncios, o Google pode coletar o identificador de publicidade do aparelho, o endereço IP, informações do aparelho e do sistema e as interações com os anúncios. Os anúncios podem ser personalizados conforme as suas configurações de anúncios do Google.",
+            "Você pode redefinir ou excluir o identificador de publicidade e limitar a personalização nas configurações do Android (Google › Anúncios). Mais informações em https://policies.google.com/technologies/ads. Quem assina o GRO Pro não vê anúncios."
+          ],
+          "items": []
+        },
+        {
+          "h": "Estatísticas de uso e relatórios de falhas",
+          "p": [
+            "Usamos o Google Firebase Analytics para entender, de forma agregada, como o app é usado (por exemplo, telas abertas, versão do app, modelo do aparelho e região aproximada) e o Firebase Crashlytics para receber relatórios de falhas, com informações técnicas do aparelho e do erro. Não enviamos o conteúdo dos seus levantamentos para esses serviços."
+          ],
+          "items": []
+        },
+        {
+          "h": "Assinatura GRO Pro",
+          "p": [
+            "A assinatura GRO Pro é vendida e cobrada pela Google Play. Nós recebemos apenas a confirmação da compra e o estado da assinatura, para saber se os anúncios devem ser removidos. Dados de pagamento, como o número do cartão, são tratados somente pelo Google."
+          ],
+          "items": []
+        },
+        {
+          "h": "Por que tratamos os dados (bases legais)",
+          "p": [],
+          "items": [
+            "Gerar e enviar o relatório que você pediu: execução de contrato e de procedimentos a seu pedido (art. 7º, V, da LGPD).",
+            "Estatísticas de uso, relatórios de falhas e segurança do serviço: legítimo interesse em manter o app funcionando e melhorá-lo (art. 7º, IX).",
+            "Anúncios: legítimo interesse em oferecer o app gratuitamente e, quando exigido, o consentimento coletado pelo Google para anúncios personalizados (art. 7º, I).",
+            "Assinatura: execução do contrato de assinatura (art. 7º, V) e cumprimento de obrigações legais (art. 7º, II)."
+          ]
+        },
+        {
+          "h": "Com quem compartilhamos",
+          "p": [
+            "Não vendemos nem alugamos dados pessoais. Compartilhamos dados apenas com os prestadores de serviço necessários para o funcionamento do {app}, cada um com acesso somente ao que precisa:"
+          ],
+          "items": [
+            "Google (Firebase, Google Cloud, AdMob e Google Play): hospedagem do servidor que gera o relatório, tabelas de referência, estatísticas, relatórios de falhas, anúncios e cobrança da assinatura.",
+            "Serviço de envio de e-mail: entrega do relatório ao endereço que você informou.",
+            "Autoridades públicas: quando houver obrigação legal ou ordem judicial."
+          ]
+        },
+        {
+          "h": "Transferência internacional",
+          "p": [
+            "O servidor que gera o relatório e os serviços do Google podem estar localizados nos Estados Unidos ou em outros países. Essas transferências são feitas com prestadores que adotam cláusulas contratuais e padrões de segurança compatíveis com a LGPD (art. 33)."
+          ],
+          "items": []
+        },
+        {
+          "h": "Por quanto tempo guardamos",
+          "p": [],
+          "items": [
+            "Dados no seu celular: até você excluí-los no app, limpar os dados do aplicativo ou desinstalá-lo.",
+            "Relatório: não fica guardado no servidor. A cópia enviada fica na sua caixa de e-mail, sob o seu controle.",
+            "Registros técnicos dos envios: até 30 dias.",
+            "Dados de anúncios, estatísticas e falhas: pelos prazos definidos pelo Google para esses serviços."
+          ]
+        },
+        {
+          "h": "Seus direitos",
+          "p": [
+            "Pela LGPD, você pode pedir a confirmação de que tratamos os seus dados, o acesso a eles, a correção de dados incompletos ou desatualizados, a anonimização, o bloqueio ou a eliminação de dados desnecessários, a portabilidade, informações sobre compartilhamento e a revisão de decisões automatizadas, além de revogar o consentimento quando ele for a base do tratamento.",
+            "Para exercer esses direitos, escreva para {email}. Responderemos em até 15 dias. Você também pode apresentar reclamação à Autoridade Nacional de Proteção de Dados (ANPD)."
+          ],
+          "items": []
+        },
+        {
+          "h": "Segurança",
+          "p": [
+            "A comunicação entre o app e o servidor é criptografada (HTTPS). Adotamos medidas técnicas e administrativas para proteger os dados contra acesso não autorizado. Nenhum sistema é totalmente imune a falhas; por isso, mantenha o seu aparelho protegido com senha ou biometria."
+          ],
+          "items": []
+        },
+        {
+          "h": "Crianças e adolescentes",
+          "p": [
+            "O {app} é uma ferramenta profissional, destinada a maiores de 18 anos. Não coletamos intencionalmente dados de crianças ou adolescentes."
+          ],
+          "items": []
+        },
+        {
+          "h": "Alterações nesta política",
+          "p": [
+            "Podemos atualizar esta política quando o app ou a legislação mudar. A versão em vigor e a data da última atualização ficam sempre nesta página. Se a mudança for relevante, avisaremos pelo app ou pela página da Google Play."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contato",
+          "p": [
+            "Dúvidas, pedidos ou reclamações sobre privacidade no {app}: {email}. O encarregado pelo tratamento de dados pessoais pode ser contatado pelo mesmo endereço."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "terms": {
+      "updated": "20 de outubro de 2026",
+      "summary": [
+        "O {app} organiza e formata as informações que você coleta em campo. A avaliação dos riscos e a responsabilidade técnica pelos documentos são do profissional habilitado.",
+        "Os dados ficam no seu celular. Desinstalar o app ou limpar os dados dele apaga os levantamentos.",
+        "O app é gratuito com anúncios. A assinatura GRO Pro, cobrada pela Google Play, apenas remove os anúncios.",
+        "Dúvidas: {email}."
+      ],
+      "sections": [
+        {
+          "h": "Aceitação",
+          "p": [
+            "Estes Termos de Uso regem o uso do aplicativo {app}, desenvolvido por {company} ({brand}), CNPJ {cnpj}. Ao baixar, instalar ou usar o {app}, você concorda com estes termos e com a Política de Privacidade do {app}. Se não concordar, não use o aplicativo."
+          ],
+          "items": []
+        },
+        {
+          "h": "O que o {app} oferece",
+          "p": [
+            "O {app} é uma ferramenta de apoio ao levantamento de riscos ocupacionais. Ele permite cadastrar empresas, setores, ambientes, funções e riscos, consultar listas de agentes (Tabela 24 do eSocial e NR-15) e receber por e-mail um relatório em Word (.docx) com as informações registradas."
+          ],
+          "items": []
+        },
+        {
+          "h": "Responsabilidade técnica",
+          "p": [
+            "O {app} não substitui o trabalho, o julgamento nem a responsabilidade técnica do profissional de segurança e saúde do trabalho. Cabe a você:"
+          ],
+          "items": [
+            "avaliar os riscos, as medições e as metodologias aplicadas em cada caso;",
+            "conferir os agentes, códigos, limites de tolerância e demais informações antes de usá-los em documentos oficiais (PGR, LTCAT, PPP, eSocial e outros);",
+            "revisar, completar e assinar o relatório, que é entregue em formato editável justamente para isso.",
+            "As tabelas do app são atualizadas com frequência, mas normas e tabelas oficiais podem mudar. A fonte oficial sempre prevalece."
+          ]
+        },
+        {
+          "h": "Seus dados e o seu conteúdo",
+          "p": [
+            "Os dados que você cadastra são seus. Você é responsável por eles e por ter autorização para coletar e registrar as informações das empresas que avalia.",
+            "Como os dados ficam salvos apenas no seu celular, desinstalar o app, limpar os dados dele, trocar ou perder o aparelho pode apagar os levantamentos. Recomendamos gerar os relatórios das empresas importantes e manter cópia dos arquivos. Não nos responsabilizamos por dados perdidos nessas situações."
+          ],
+          "items": []
+        },
+        {
+          "h": "Envio do relatório",
+          "p": [
+            "O envio do relatório precisa de internet e depende de serviços de terceiros (servidor e e-mail). Confira o endereço informado antes de enviar: o relatório é entregue ao e-mail que você digitar. Se ele não chegar, verifique a caixa de spam e tente novamente, ou fale conosco."
+          ],
+          "items": []
+        },
+        {
+          "h": "Versão gratuita, anúncios e GRO Pro",
+          "p": [
+            "O {app} é gratuito e exibe anúncios. A assinatura GRO Pro, nos planos mensal ou anual, remove todos os anúncios e não muda os demais recursos."
+          ],
+          "items": [
+            "A assinatura é contratada, cobrada e gerenciada pela Google Play, com os preços exibidos no app no momento da compra.",
+            "Ela é renovada automaticamente ao fim de cada período, até que você a cancele nas assinaturas da Google Play. O cancelamento vale a partir do período seguinte, e os benefícios continuam até o fim do período já pago.",
+            "Reembolsos seguem as políticas da Google Play e os direitos garantidos pelo Código de Defesa do Consumidor."
+          ]
+        },
+        {
+          "h": "Uso permitido",
+          "p": [
+            "Concedemos a você uma licença pessoal, não exclusiva e intransferível para usar o {app} conforme estes termos. Não é permitido:"
+          ],
+          "items": [
+            "copiar, modificar, descompilar ou fazer engenharia reversa do aplicativo, salvo nos casos permitidos por lei;",
+            "tentar acessar sem autorização o servidor, os dados de outras pessoas ou burlar os anúncios e a assinatura;",
+            "usar o app para fins ilegais ou para enviar mensagens a pessoas que não as solicitaram."
+          ]
+        },
+        {
+          "h": "Propriedade intelectual",
+          "p": [
+            "O aplicativo, a marca {app}, o design, os textos e o código pertencem a {company}. As tabelas oficiais incluídas (como a Tabela 24 do eSocial e a NR-15) são de domínio público e continuam pertencendo aos respectivos órgãos."
+          ],
+          "items": []
+        },
+        {
+          "h": "Disponibilidade e atualizações",
+          "p": [
+            "Trabalhamos para manter o {app} disponível e funcionando, mas ele pode passar por falhas, interrupções, mudanças ou ser descontinuado. Podemos lançar atualizações que alterem, incluam ou removam recursos. Algumas atualizações podem ser necessárias para continuar usando o envio do relatório."
+          ],
+          "items": []
+        },
+        {
+          "h": "Limitação de responsabilidade",
+          "p": [
+            "Na máxima extensão permitida pela lei, não respondemos por decisões técnicas tomadas com base nas informações do app, por documentos elaborados a partir do relatório, por dados perdidos no aparelho, nem por danos indiretos. Nada nestes termos afasta os direitos garantidos ao consumidor pela legislação brasileira."
+          ],
+          "items": []
+        },
+        {
+          "h": "Alterações nestes termos",
+          "p": [
+            "Podemos atualizar estes termos. A versão em vigor e a data da última atualização ficam sempre nesta página. Continuar usando o {app} depois de uma alteração significa concordar com a nova versão."
+          ],
+          "items": []
+        },
+        {
+          "h": "Lei aplicável e foro",
+          "p": [
+            "Estes termos seguem as leis do Brasil. Fica eleito o foro do domicílio do consumidor ou, se o uso for profissional, o foro da comarca de Goiânia, Goiás."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contato",
+          "p": [
+            "Dúvidas, sugestões ou problemas com o {app}: {email}."
+          ],
+          "items": []
+        }
+      ]
+    }
+  },
+  "balanca-diaria": {
+    "privacy": {
+      "updated": "20 de outubro de 2026",
+      "summary": [
+        "Os seus registros de peso, metas, medidas e perfil ficam no seu celular, e o app funciona sem internet. Criar conta é opcional.",
+        "Se você criar uma conta, os seus dados são copiados para a nuvem para backup e sincronização. As fotos de progresso nunca saem do aparelho.",
+        "O plano gratuito exibe um banner de anúncio do Google AdMob. Estatísticas de uso nunca incluem o valor do seu peso.",
+        "Você pode apagar todos os seus dados e a sua conta pelo próprio app. Dúvidas: {email}."
+      ],
+      "sections": [
+        {
+          "h": "Quem somos e a quem esta política se aplica",
+          "p": [
+            "Esta política explica como o aplicativo {app} trata dados pessoais. O {app} é desenvolvido e publicado por {company} ({brand}), CNPJ {cnpj}, com sede em {address}, que atua como controladora dos dados nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018, LGPD) e, quando aplicável, do Regulamento Geral de Proteção de Dados da União Europeia (GDPR).",
+            "Esta política vale para os aplicativos {app} para Android e iPhone, em todas as versões e idiomas, e deve ser lida junto com os Termos de Uso do {app}."
+          ],
+          "items": []
+        },
+        {
+          "h": "Dados que ficam no seu celular",
+          "p": [
+            "Coletamos o mínimo necessário. Tudo o que você registra fica no armazenamento privado do app, no seu aparelho:"
+          ],
+          "items": [
+            "registros de peso, com data, hora e notas, e etiquetas;",
+            "metas, marcos e histórico de metas;",
+            "medidas corporais e percentual de gordura informados por você;",
+            "perfil: altura, data de nascimento e sexo, usados para calcular o IMC e aplicar as faixas corretas;",
+            "fotos de progresso, guardadas apenas no app, fora da galeria do aparelho;",
+            "preferências, como unidades, lembretes, tema, idioma e modo sem números."
+          ]
+        },
+        {
+          "h": "Dados de saúde",
+          "p": [
+            "Peso, medidas, IMC e fotos do corpo são dados pessoais sensíveis relacionados à saúde. Tratamos esses dados apenas para oferecer os recursos do app que você usa e, se você criar uma conta, para o backup e a sincronização, com base no seu consentimento (art. 11, I, da LGPD, e art. 9(2)(a) do GDPR). Você pode revogar o consentimento a qualquer momento apagando os dados ou a conta.",
+            "Nunca vendemos dados de saúde, nunca os usamos para publicidade e nunca os enviamos aos serviços de anúncios ou de estatísticas."
+          ],
+          "items": []
+        },
+        {
+          "h": "Conta, backup e sincronização (opcionais)",
+          "p": [
+            "Você pode usar o {app} sem conta. Se escolher criar uma, pode entrar com o Google, com a Apple ou com o seu e-mail (por um código de 6 dígitos). Nesse caso, recebemos o seu e-mail, o nome (se o provedor informar) e o identificador da conta.",
+            "Com a conta, o app copia os seus registros, medidas, metas, perfil e preferências para o nosso servidor, para que você não perca os dados e possa usá-los em mais de um aparelho, inclusive entre Android e iPhone. As fotos de progresso não são sincronizadas.",
+            "A comunicação é criptografada (HTTPS) e os dados ficam criptografados em repouso. O nosso servidor fica no Google Cloud, e o banco de dados e a autenticação são da Supabase, ambos nos Estados Unidos (Ohio)."
+          ],
+          "items": []
+        },
+        {
+          "h": "Anúncios",
+          "p": [
+            "O plano gratuito exibe um banner discreto do Google AdMob. Os anúncios nunca aparecem no registro de peso, no onboarding ou na tela de assinatura, e o app não coleta a sua localização.",
+            "Para exibir e medir os anúncios, o Google pode coletar o identificador de publicidade do aparelho, o endereço IP, informações do aparelho e as interações com os anúncios. No Espaço Econômico Europeu, no Reino Unido e na Suíça, o app pede o seu consentimento pela ferramenta do Google antes de exibir anúncios personalizados; sem consentimento, mostra apenas anúncios não personalizados. No iPhone, o pedido de rastreamento do sistema só aparece se houver anúncios personalizados.",
+            "Você pode desativar os anúncios personalizados em Ajustes › Dados e privacidade. O Premium remove todos os anúncios."
+          ],
+          "items": []
+        },
+        {
+          "h": "Estatísticas de uso e relatórios de falhas",
+          "p": [
+            "Usamos o Google Firebase para relatórios de falhas e estatísticas de uso anônimas, apenas com eventos essenciais (por exemplo, \"onboarding concluído\" ou \"registro criado\"), nunca com o valor do peso, das medidas ou outros dados de saúde.",
+            "Fora da Europa, esses envios vêm ativados, com base no legítimo interesse em manter o app estável, e podem ser desligados a qualquer momento em Ajustes › Dados e privacidade. No Espaço Econômico Europeu, no Reino Unido e na Suíça, as estatísticas só são enviadas com o seu consentimento."
+          ],
+          "items": []
+        },
+        {
+          "h": "Assinatura Premium",
+          "p": [
+            "As compras são processadas pela Google Play ou pela App Store e gerenciadas pela RevenueCat, que recebe um identificador anônimo (ou o identificador da sua conta, se você estiver conectado) e o histórico de compras, para liberar o Premium nos seus aparelhos. Não recebemos dados de cartão."
+          ],
+          "items": []
+        },
+        {
+          "h": "Feedback e suporte",
+          "p": [
+            "Se você enviar uma mensagem pelo formulário de feedback, guardamos a categoria, o texto, o idioma do app, o e-mail (se você informar) e a versão do app e do sistema (se você escolher incluí-la). Para evitar abusos, guardamos uma versão cifrada (hash) do endereço de rede, que não permite identificar você. Se escrever para o nosso e-mail, usamos a sua mensagem apenas para responder."
+          ],
+          "items": []
+        },
+        {
+          "h": "Backup do aparelho",
+          "p": [
+            "O backup automático do sistema (Android ou iCloud), se estiver ativado, pode incluir o banco de dados e as preferências do app, para que você não perca os dados ao trocar de aparelho. As fotos de progresso ficam fora desse backup. Esse backup segue as configurações e a política do Google ou da Apple."
+          ],
+          "items": []
+        },
+        {
+          "h": "Com quem compartilhamos",
+          "p": [
+            "Não vendemos dados pessoais. Compartilhamos dados apenas com os prestadores necessários, cada um com acesso somente ao que precisa:"
+          ],
+          "items": [
+            "Supabase e Google Cloud: conta, backup e sincronização (só se você criar uma conta) e o formulário de feedback.",
+            "Google e Apple: login com Google ou Apple, se você escolher.",
+            "Google AdMob: anúncios do plano gratuito.",
+            "Google Firebase: relatórios de falhas e estatísticas de uso.",
+            "RevenueCat, Google Play e App Store: compras e assinaturas.",
+            "Autoridades públicas: quando houver obrigação legal ou ordem judicial."
+          ]
+        },
+        {
+          "h": "Transferência internacional",
+          "p": [
+            "Os servidores dos prestadores acima ficam nos Estados Unidos ou em outros países. Essas transferências são feitas com prestadores que adotam cláusulas contratuais padrão e acordos de tratamento de dados compatíveis com a LGPD (art. 33) e o GDPR."
+          ],
+          "items": []
+        },
+        {
+          "h": "Por quanto tempo guardamos",
+          "p": [],
+          "items": [
+            "Dados no aparelho: até você apagá-los ou desinstalar o app.",
+            "Conta e dados sincronizados: enquanto a conta existir. Ao excluir a conta, apagamos a conta e os dados do servidor.",
+            "Mensagens de feedback: pelo tempo necessário para responder e melhorar o app.",
+            "Anúncios, estatísticas e falhas: pelos prazos definidos pelo Google para esses serviços."
+          ]
+        },
+        {
+          "h": "Como apagar os seus dados",
+          "p": [],
+          "items": [
+            "Apagar um registro, uma medida ou uma foto: direto na tela correspondente.",
+            "Apagar tudo: em Ajustes › Dados e privacidade › Apagar todos os meus dados. O app sugere exportar um CSV antes e, se você tiver conta, oferece também excluir a conta e os dados do servidor.",
+            "Excluir a conta: em Perfil › Excluir conta. Os dados do aparelho continuam nele, a menos que você também os apague.",
+            "Exportar: em CSV ou, no Premium, em PDF."
+          ]
+        },
+        {
+          "h": "Seus direitos",
+          "p": [
+            "Pela LGPD e pelo GDPR, você pode pedir a confirmação de que tratamos os seus dados, o acesso, a correção, a anonimização, o bloqueio ou a eliminação, a portabilidade, informações sobre o compartilhamento, se opor a tratamentos baseados em legítimo interesse e revogar o consentimento. Muitos desses pedidos podem ser feitos no próprio app.",
+            "Para os demais, escreva para {email}. Responderemos em até 15 dias. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD) ou à autoridade de proteção de dados do seu país."
+          ],
+          "items": []
+        },
+        {
+          "h": "Segurança",
+          "p": [
+            "Os dados ficam no armazenamento privado do app, a comunicação com o servidor é criptografada (HTTPS) e os dados na nuvem ficam criptografados em repouso. No Premium, você pode proteger o app com PIN ou biometria; nós nunca recebemos os seus dados biométricos."
+          ],
+          "items": []
+        },
+        {
+          "h": "Idade mínima",
+          "p": [
+            "O {app} é destinado a pessoas com 13 anos ou mais. Menores de 18 anos devem usar o app com a autorização de um responsável. Para menores de 18, o app mostra o IMC sem as faixas para adultos."
+          ],
+          "items": []
+        },
+        {
+          "h": "Alterações nesta política",
+          "p": [
+            "Podemos atualizar esta política quando o app ou a legislação mudar. A versão em vigor e a data da última atualização ficam sempre nesta página. Para mudanças relevantes, avisaremos no aplicativo."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contato",
+          "p": [
+            "Dúvidas, pedidos ou reclamações sobre privacidade no {app}: {email}. O encarregado pelo tratamento de dados pessoais pode ser contatado pelo mesmo endereço."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "terms": {
+      "updated": "20 de outubro de 2026",
+      "summary": [
+        "O {app} ajuda a acompanhar o peso, mas não substitui orientação médica ou nutricional.",
+        "Os dados são seus e ficam no seu celular; a conta, o backup e a sincronização são opcionais e gratuitos.",
+        "O plano gratuito tem anúncios. O Premium (mensal, anual ou vitalício) é cobrado pela Google Play ou pela App Store.",
+        "Dúvidas: {email}."
+      ],
+      "sections": [
+        {
+          "h": "Aceitação",
+          "p": [
+            "Estes Termos de Uso regem o uso do aplicativo {app}, desenvolvido por {company} ({brand}), CNPJ {cnpj}. Ao baixar ou usar o {app}, você concorda com estes termos e com a Política de Privacidade do {app}. Se não concordar, não use o aplicativo."
+          ],
+          "items": []
+        },
+        {
+          "h": "O que o {app} oferece",
+          "p": [
+            "O {app} permite registrar o peso, ver a tendência em gráficos, acompanhar metas, IMC, medidas e estatísticas, receber lembretes e exportar os seus dados."
+          ],
+          "items": []
+        },
+        {
+          "h": "Não é orientação médica",
+          "p": [
+            "O {app} tem caráter informativo e não substitui consulta, diagnóstico ou tratamento por médicos, nutricionistas ou outros profissionais de saúde. O IMC, as faixas de peso, as previsões e os avisos são estimativas gerais e podem não se aplicar ao seu caso (por exemplo, na gravidez, para atletas ou em condições de saúde específicas).",
+            "Antes de iniciar dietas, mudanças bruscas de peso ou programas de exercício, procure um profissional de saúde."
+          ],
+          "items": []
+        },
+        {
+          "h": "Idade mínima",
+          "p": [
+            "Você precisa ter pelo menos 13 anos para usar o {app}. Menores de 18 anos devem usá-lo com a autorização de um responsável."
+          ],
+          "items": []
+        },
+        {
+          "h": "Conta",
+          "p": [
+            "A conta é opcional e gratuita. Se criar uma, mantenha o acesso ao e-mail ou à conta Google ou Apple usada e não a compartilhe. Você pode sair ou excluir a conta a qualquer momento pelo Perfil."
+          ],
+          "items": []
+        },
+        {
+          "h": "Seus dados",
+          "p": [
+            "Os dados que você registra são seus. Sem conta, eles ficam apenas no seu aparelho: desinstalar o app, limpar os dados dele, trocar ou perder o aparelho pode apagá-los, a menos que haja um backup do sistema ou um arquivo exportado. Recomendamos criar uma conta ou exportar os dados periodicamente."
+          ],
+          "items": []
+        },
+        {
+          "h": "Plano gratuito e Premium",
+          "p": [
+            "O plano gratuito inclui os recursos essenciais e exibe um banner de anúncio. O Premium remove os anúncios e libera os recursos marcados como Premium no app."
+          ],
+          "items": [
+            "Planos mensal e anual, com 3 dias grátis, e compra única vitalícia, com os preços exibidos no app no momento da compra, conforme a loja do seu país.",
+            "As compras são cobradas e gerenciadas pela Google Play ou pela App Store. No teste grátis, a cobrança começa automaticamente ao fim dos 3 dias, a menos que você cancele antes.",
+            "Os planos mensal e anual são renovados automaticamente até que você os cancele nas configurações de assinatura da loja. O cancelamento vale a partir do período seguinte, e o Premium continua até o fim do período já pago.",
+            "Se o Premium terminar, os dados criados com ele continuam guardados e visíveis, mas não é possível criar novos dados nesses recursos.",
+            "Use Restaurar compras para recuperar o Premium em um novo aparelho. Reembolsos seguem as políticas da loja e os direitos garantidos pela legislação de defesa do consumidor."
+          ]
+        },
+        {
+          "h": "Uso permitido",
+          "p": [
+            "Concedemos a você uma licença pessoal, não exclusiva e intransferível para usar o {app} conforme estes termos. Não é permitido copiar, modificar ou fazer engenharia reversa do app, salvo nos casos permitidos por lei, burlar os anúncios ou o Premium, ou tentar acessar sem autorização o servidor ou os dados de outras pessoas."
+          ],
+          "items": []
+        },
+        {
+          "h": "Propriedade intelectual",
+          "p": [
+            "O aplicativo, a marca {app}, o mascote, o design, os textos e o código pertencem a {company}."
+          ],
+          "items": []
+        },
+        {
+          "h": "Disponibilidade e atualizações",
+          "p": [
+            "Os recursos principais funcionam sem internet. A conta, a sincronização e as compras dependem de internet e de serviços de terceiros e podem passar por falhas ou interrupções. Podemos lançar atualizações que alterem, incluam ou removam recursos, ou descontinuar o serviço, avisando com antecedência razoável quando isso afetar compras vigentes."
+          ],
+          "items": []
+        },
+        {
+          "h": "Limitação de responsabilidade",
+          "p": [
+            "Na máxima extensão permitida pela lei, não respondemos por decisões de saúde tomadas com base nas informações do app, por dados perdidos no aparelho sem backup, nem por danos indiretos. Nada nestes termos afasta os direitos garantidos ao consumidor pela legislação aplicável."
+          ],
+          "items": []
+        },
+        {
+          "h": "Alterações nestes termos",
+          "p": [
+            "Podemos atualizar estes termos. A versão em vigor e a data da última atualização ficam sempre nesta página. Continuar usando o {app} depois de uma alteração significa aceitar a nova versão."
+          ],
+          "items": []
+        },
+        {
+          "h": "Lei aplicável e foro",
+          "p": [
+            "Estes termos seguem as leis do Brasil, sem prejuízo dos direitos garantidos pelas leis de proteção ao consumidor do seu país. Fica eleito o foro do domicílio do consumidor."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contato",
+          "p": [
+            "Dúvidas, sugestões ou problemas com o {app}: {email}."
+          ],
+          "items": []
+        }
+      ]
+    }
+  },
+  "spokn": {
+    "privacy": {
+      "updated": "20 de outubro de 2026",
+      "summary": [
+        "As suas entradas (transcrições, resumos, humores e metas) ficam no seu celular. Você não precisa criar conta.",
+        "O áudio é enviado aos provedores de transcrição e de IA apenas pelo tempo necessário para gerar o texto e o resumo e depois é descartado. Ele nunca é armazenado nos nossos servidores.",
+        "Não vendemos os seus dados e não usamos o conteúdo do seu diário para publicidade.",
+        "Para pedir a exclusão dos seus dados ou tirar dúvidas, escreva para {email}."
+      ],
+      "sections": [
+        {
+          "h": "Quem somos e a quem esta política se aplica",
+          "p": [
+            "Esta política explica como o aplicativo {app} trata dados pessoais. O {app} é desenvolvido e publicado por {company} ({brand}), CNPJ {cnpj}, com sede em {address}, que atua como controladora dos dados nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018, LGPD).",
+            "Esta política vale para os aplicativos {app} para Android e iPhone e deve ser lida junto com os Termos de Uso do {app}."
+          ],
+          "items": []
+        },
+        {
+          "h": "O que o {app} faz com o que você fala",
+          "p": [
+            "Quando você grava uma entrada, o áudio é enviado com segurança (HTTPS) para o nosso servidor, que o repassa ao provedor de transcrição para transformá-lo em texto. Em seguida, a transcrição é enviada ao provedor de IA, que gera o título, o resumo, a etiqueta de humor e as sugestões de metas.",
+            "O áudio é usado apenas para isso e é descartado depois do processamento. Ele nunca é armazenado nos nossos servidores. A entrada pronta volta para o app e é salva no seu aparelho.",
+            "Para gerar o resumo semanal, o app envia ao provedor de IA o texto e o humor das entradas da semana. O resultado também é guardado no seu aparelho."
+          ],
+          "items": []
+        },
+        {
+          "h": "Dados que tratamos",
+          "p": [],
+          "items": [
+            "Conteúdo do diário: o áudio (somente durante o processamento), as transcrições, os resumos, os humores, os temas e as metas. Esse é o dado mais sensível que tratamos e fica guardado no seu aparelho.",
+            "Identificador anônimo: na primeira vez que você abre o app, o nosso servidor cria uma identidade anônima para separar as suas solicitações das de outras pessoas e controlar os limites de uso. Não é preciso informar nome nem e-mail.",
+            "Conta Google (opcional): se você escolher entrar com o Google, recebemos o seu nome, e-mail e identificador da conta Google e os vinculamos à sua identidade.",
+            "Assinatura: o estado da sua assinatura e o histórico de compras, recebidos da loja de aplicativos por meio da RevenueCat. Não recebemos dados de cartão.",
+            "Dados técnicos: modelo e sistema do aparelho, versão do app, idioma, eventos de uso (como telas abertas e recursos usados) e relatórios de falhas. Esses dados nunca incluem o texto das suas entradas, as suas buscas ou os nomes das suas metas."
+          ]
+        },
+        {
+          "h": "Dados sensíveis",
+          "p": [
+            "Um diário pode conter informações sobre saúde, vida emocional, religião, relacionamentos e outros dados pessoais sensíveis, seus ou de outras pessoas. Tratamos esse conteúdo apenas para gerar a transcrição, o resumo, o humor, as metas e o resumo semanal que você pediu, com base no seu consentimento, manifestado quando você grava uma entrada (art. 11, I, da LGPD). Você pode deixar de gravar e apagar as suas entradas a qualquer momento.",
+            "Evite gravar dados de outras pessoas sem necessidade, como documentos, endereços ou informações de saúde de terceiros."
+          ],
+          "items": []
+        },
+        {
+          "h": "Com quem compartilhamos",
+          "p": [
+            "Não vendemos dados pessoais. O {app} usa poucos prestadores de serviço, e cada um recebe somente o necessário para a sua função:"
+          ],
+          "items": [
+            "ElevenLabs: transcrição do áudio.",
+            "Google (Gemini): geração do título, resumo, humor, metas e resumo semanal a partir do texto.",
+            "Google Cloud: hospedagem do nosso servidor.",
+            "Supabase: criação e verificação da identidade anônima e do login com Google.",
+            "RevenueCat, Google Play e App Store: gestão e cobrança das assinaturas.",
+            "Google Firebase: estatísticas de uso (Analytics), relatórios de falhas (Crashlytics) e configurações remotas do app.",
+            "Autoridades públicas: quando houver obrigação legal ou ordem judicial."
+          ]
+        },
+        {
+          "h": "Não usamos o seu diário para treinar IA nem para publicidade",
+          "p": [
+            "Não usamos o conteúdo do seu diário para treinar modelos de IA nem para mostrar anúncios. O {app} não exibe anúncios. Os provedores de transcrição e de IA tratam o conteúdo apenas para nos devolver o resultado, nos termos dos contratos e das políticas de dados que eles oferecem para uso via API."
+          ],
+          "items": []
+        },
+        {
+          "h": "Onde as entradas ficam guardadas",
+          "p": [
+            "As entradas ficam no banco de dados do app, no seu aparelho. O backup automático do sistema (Android ou iCloud), se estiver ativado, pode incluir os dados do app, conforme as configurações do seu aparelho.",
+            "Quando o backup em nuvem do {app} estiver disponível e você o ativar, as entradas serão criptografadas no aparelho antes de saírem dele. O backup é opcional e vem desativado."
+          ],
+          "items": []
+        },
+        {
+          "h": "Permissões do aparelho",
+          "p": [],
+          "items": [
+            "Microfone: usado somente enquanto você grava uma entrada.",
+            "Notificações: para lembretes diários e de metas, agendados no próprio aparelho.",
+            "Biometria (digital ou Face ID): usada pelo sistema para o bloqueio do app. Nós nunca recebemos os seus dados biométricos."
+          ]
+        },
+        {
+          "h": "Transferência internacional",
+          "p": [
+            "O {app} é desenvolvido no Brasil, e os prestadores acima podem processar dados nos Estados Unidos, na Europa ou em outros países. Essas transferências são feitas com prestadores que adotam cláusulas contratuais e padrões de segurança compatíveis com a LGPD (art. 33) e com as leis de proteção de dados aplicáveis."
+          ],
+          "items": []
+        },
+        {
+          "h": "Por quanto tempo guardamos",
+          "p": [],
+          "items": [
+            "Áudio: descartado logo após a transcrição.",
+            "Entradas: no seu aparelho, até você excluí-las (uma a uma ou em Ajustes › Excluir todas as entradas) ou desinstalar o app.",
+            "Identidade, conta e assinatura: enquanto você usar o app, para manter a assinatura e os limites de uso. Você pode pedir a exclusão a qualquer momento.",
+            "Estatísticas e falhas: pelos prazos definidos pelo Google para esses serviços."
+          ]
+        },
+        {
+          "h": "Seus direitos",
+          "p": [
+            "Pela LGPD e por outras leis de proteção de dados aplicáveis, você pode pedir a confirmação de que tratamos os seus dados, o acesso, a correção, a anonimização, o bloqueio ou a eliminação, a portabilidade, informações sobre o compartilhamento e revogar o consentimento. Você também pode exportar as suas entradas em PDF ou texto pelos Ajustes do app.",
+            "Para pedir a exclusão da sua identidade, da conta e dos registros de assinatura, ou para exercer outros direitos, escreva para {email}. Responderemos em até 15 dias. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD) ou à autoridade do seu país."
+          ],
+          "items": []
+        },
+        {
+          "h": "Assinaturas",
+          "p": [
+            "Para ver, mudar ou cancelar a assinatura, use as configurações de assinatura da Google Play ou da App Store. Cancelar a assinatura não apaga as suas entradas."
+          ],
+          "items": []
+        },
+        {
+          "h": "Segurança",
+          "p": [
+            "Toda a comunicação entre o app e o servidor é criptografada (HTTPS), e as chaves dos provedores ficam somente no servidor. Você pode ativar o bloqueio do app com digital, Face ID ou o PIN do aparelho em Ajustes › Privacidade."
+          ],
+          "items": []
+        },
+        {
+          "h": "Crianças e adolescentes",
+          "p": [
+            "O {app} não é direcionado a crianças, e não coletamos intencionalmente dados de menores de 13 anos (ou da idade mínima exigida no seu país). Adolescentes devem usar o app com a autorização de um responsável. Se você acredita que uma criança usou o {app}, fale conosco para que os dados sejam removidos."
+          ],
+          "items": []
+        },
+        {
+          "h": "Alterações nesta política",
+          "p": [
+            "Se mudarmos a forma como o {app} trata as suas informações, atualizaremos esta página e a data acima. Para mudanças relevantes, avisaremos no aplicativo."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contato",
+          "p": [
+            "Dúvidas sobre esta política ou sobre os seus dados: {email}. O encarregado pelo tratamento de dados pessoais pode ser contatado pelo mesmo endereço."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "terms": {
+      "updated": "20 de outubro de 2026",
+      "summary": [
+        "O {app} é um diário por voz para reflexão pessoal. Ele não é aconselhamento médico, psicológico, jurídico ou financeiro.",
+        "A IA pode errar: confira as transcrições, os resumos e os humores.",
+        "As suas entradas são suas e ficam no seu aparelho.",
+        "A assinatura Spokn Pro é cobrada pela Google Play ou pela App Store e pode ser cancelada quando você quiser."
+      ],
+      "sections": [
+        {
+          "h": "Aceitação",
+          "p": [
+            "Estes Termos de Uso regem o uso do aplicativo {app}, desenvolvido por {company} ({brand}), CNPJ {cnpj}. Ao baixar ou usar o {app}, você concorda com estes termos e com a Política de Privacidade do {app}. Se não concordar, não use o aplicativo."
+          ],
+          "items": []
+        },
+        {
+          "h": "O que o {app} oferece",
+          "p": [
+            "O {app} é um diário por voz. Ele transcreve as suas gravações e gera títulos, resumos, etiquetas de humor, sugestões de metas, análises e um resumo semanal, usando serviços de inteligência artificial."
+          ],
+          "items": []
+        },
+        {
+          "h": "Não é aconselhamento profissional",
+          "p": [
+            "Os recursos do {app} servem apenas para reflexão pessoal. Eles não são aconselhamento médico, psicológico, de saúde mental, jurídico ou financeiro, e não substituem um profissional.",
+            "O {app} não monitora as suas entradas e não é um serviço de emergência. Se você estiver em crise ou pensando em se machucar, procure ajuda imediatamente: no Brasil, ligue para o CVV no 188 ou para o SAMU no 192; em outros países, ligue para o serviço de emergência local."
+          ],
+          "items": []
+        },
+        {
+          "h": "Resultados gerados por IA",
+          "p": [
+            "Transcrições, resumos, humores e metas são gerados automaticamente e podem conter erros, omissões ou interpretações imprecisas. Confira o conteúdo antes de confiar nele. Você pode editar ou excluir as suas entradas."
+          ],
+          "items": []
+        },
+        {
+          "h": "Seu conteúdo",
+          "p": [
+            "Você mantém a propriedade das suas entradas. Para gerar os resultados, você nos autoriza a processar o seu áudio e o seu texto com os prestadores descritos na Política de Privacidade, somente para prestar o serviço.",
+            "As entradas ficam no seu aparelho. Desinstalar o app, limpar os dados dele, trocar ou perder o aparelho pode apagar as entradas, a menos que você tenha um backup. Recomendamos exportar as entradas importantes pelos Ajustes."
+          ],
+          "items": []
+        },
+        {
+          "h": "Plano gratuito e Spokn Pro",
+          "p": [
+            "O download é gratuito e você pode experimentar o {app} com um número limitado de entradas. Para entradas ilimitadas e recursos como a linha do tempo do humor, as análises e o resumo semanal, há a assinatura Spokn Pro, nos planos mensal ou anual."
+          ],
+          "items": [
+            "A assinatura é cobrada e gerenciada pela Google Play ou pela App Store, com os preços exibidos no app no momento da compra.",
+            "Quando houver período de teste grátis, a cobrança começa automaticamente ao fim do teste, a menos que você cancele antes, nas configurações de assinatura da loja.",
+            "A assinatura é renovada automaticamente até que você a cancele. O cancelamento vale a partir do período seguinte, e os benefícios continuam até o fim do período já pago.",
+            "Reembolsos seguem as políticas da loja e os direitos garantidos pela legislação de defesa do consumidor."
+          ]
+        },
+        {
+          "h": "Uso responsável",
+          "p": [
+            "Use o {app} de forma legal e respeitosa. Não é permitido:"
+          ],
+          "items": [
+            "gravar outras pessoas sem o conhecimento ou o consentimento delas, quando a lei exigir;",
+            "tentar interromper o serviço, burlar os limites de uso ou a assinatura, fazer engenharia reversa ou acessar sem autorização o app, o servidor ou os dados de outras pessoas;",
+            "usar o {app} para fins ilegais."
+          ]
+        },
+        {
+          "h": "Licença e propriedade intelectual",
+          "p": [
+            "Concedemos a você uma licença pessoal, não exclusiva e intransferível para usar o {app} conforme estes termos. O aplicativo, a marca {app}, o design e o código pertencem a {company}."
+          ],
+          "items": []
+        },
+        {
+          "h": "Disponibilidade",
+          "p": [
+            "Trabalhamos para manter o {app} disponível e confiável, mas a transcrição e a IA dependem de internet e de serviços de terceiros, e o serviço pode mudar, ser interrompido ou descontinuado. Podemos atualizar ou remover recursos quando necessário."
+          ],
+          "items": []
+        },
+        {
+          "h": "Limitação de responsabilidade",
+          "p": [
+            "Na máxima extensão permitida pela lei, não respondemos por decisões tomadas com base nos resultados gerados pela IA, por entradas perdidas no aparelho, nem por danos indiretos. Nada nestes termos afasta os direitos garantidos ao consumidor pela legislação aplicável."
+          ],
+          "items": []
+        },
+        {
+          "h": "Alterações nestes termos",
+          "p": [
+            "Podemos atualizar estes termos periodicamente. A versão em vigor e a data da última atualização ficam sempre nesta página. Continuar usando o {app} depois de uma alteração significa aceitar a nova versão."
+          ],
+          "items": []
+        },
+        {
+          "h": "Lei aplicável e foro",
+          "p": [
+            "Estes termos seguem as leis do Brasil, sem prejuízo dos direitos garantidos pelas leis de proteção ao consumidor do seu país. Fica eleito o foro do domicílio do consumidor."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contato",
+          "p": [
+            "Dúvidas sobre estes termos: {email}."
+          ],
+          "items": []
+        }
+      ]
+    }
+  }
+}

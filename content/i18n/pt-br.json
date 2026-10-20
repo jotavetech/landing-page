@@ -127,12 +127,33 @@
       "faq_free_q": "O {name} é gratuito?",
       "faq_devices_q": "Em quais celulares o {name} funciona?",
       "faq_contact_q": "Como falo com a equipe sobre o {name}?",
-      "faq_devices_a": "O {name} está disponível para Android, na Google Play. [confirmar disponibilidade para iPhone, na App Store]",
       "faq_contact_a": "Pela página de contato, escolhendo o assunto “Dúvida sobre um produto” ou “Ajuda com um aplicativo”.",
       "faq_contact_link": "Ir para a página de contato",
       "cta_h2": "Quer saber mais sobre o {name}?",
       "cta_p": "Fale com a equipe para tirar dúvidas, dar sugestões ou pedir ajuda com o aplicativo.",
-      "source_note": "Informações do aplicativo conforme a página oficial na Google Play."
+      "legal_eyebrow": "Privacidade",
+      "legal_h2": "Privacidade e termos",
+      "legal_privacy_p": "Quais dados o aplicativo usa, com quem compartilha e como exercer os seus direitos.",
+      "legal_terms_p": "As regras de uso do aplicativo, das versões gratuita e paga e das assinaturas."
+    },
+
+    "app_legal": {
+      "privacy_title": "Política de Privacidade do {name} · Jotave Tech",
+      "privacy_description": "Como o aplicativo {name}, da Jotave Tech, trata os seus dados.",
+      "privacy_crumb": "Política de Privacidade",
+      "privacy_h1": "Política de Privacidade do {name}",
+      "terms_title": "Termos de Uso do {name} · Jotave Tech",
+      "terms_description": "Termos de Uso do aplicativo {name}, da Jotave Tech.",
+      "terms_crumb": "Termos de Uso",
+      "terms_h1": "Termos de Uso do {name}",
+      "updated": "Última atualização: {date}",
+      "summary_h2": "Em resumo",
+      "toc": "Nesta página",
+      "controller_h2": "Responsável pelo aplicativo",
+      "see_privacy": "Ler a Política de Privacidade do {name}",
+      "see_terms": "Ler os Termos de Uso do {name}",
+      "back": "Voltar à página do {name}",
+      "review_note": "texto elaborado a partir do funcionamento atual do aplicativo. Recomenda-se revisão jurídica antes de considerá-lo definitivo."
     },
 
     "solutions": {
@@ -300,7 +321,9 @@
       "description": "Política de Privacidade da Jotave Tech.",
       "crumb": "Política de Privacidade",
       "h1": "Política de Privacidade",
-      "body": "[inserir o texto da Política de Privacidade, revisado pela empresa]"
+      "body": "[inserir o texto da Política de Privacidade, revisado pela empresa]",
+      "apps_h2": "Políticas dos aplicativos",
+      "apps_p": "Cada aplicativo da Jotave Tech tem a sua própria Política de Privacidade:"
     },
 
     "terms": {
@@ -308,75 +331,137 @@
       "description": "Termos de Uso do site da Jotave Tech.",
       "crumb": "Termos de Uso",
       "h1": "Termos de Uso",
-      "body": "[inserir o texto dos Termos de Uso, revisado pela empresa]"
+      "body": "[inserir o texto dos Termos de Uso, revisado pela empresa]",
+      "apps_h2": "Termos dos aplicativos",
+      "apps_p": "Cada aplicativo da Jotave Tech tem os seus próprios Termos de Uso:"
     }
   },
 
   "apps": {
     "gro": {
       "name": "GRO",
-      "card": "Gestor de Riscos Ocupacionais: auxilia o profissional de SST no levantamento ambiental e gera um relatório detalhado dos ambientes e funções analisadas.",
-      "badges": ["Download gratuito", "Versão paga: [confirmar]", "Loja: Google Play", "App Store: [confirmar]"],
-      "lead": "Gestor de Riscos Ocupacionais: auxilia o profissional de SST no levantamento ambiental, nos mais diversos ramos.",
+      "card": "Levantamento de riscos ocupacionais no celular, com mais de 960 agentes do eSocial e da NR-15, e relatório em Word (.docx) pronto para o PGR no seu e-mail.",
+      "badges": ["Download gratuito", "Contém anúncios", "GRO Pro: sem anúncios", "Sem cadastro", "Loja: Google Play"],
+      "lead": "Do levantamento de campo ao relatório pronto: cadastre empresas, ambientes, funções e riscos no celular e receba o inventário de riscos em Word (.docx) no e-mail.",
       "about": [
-        "O aplicativo Gestor de Riscos Ocupacionais (GRO) tem por objetivo auxiliar o profissional de SST no levantamento ambiental nos mais diversos ramos. Pensado para atender aos quesitos do eSocial, o GRO foi exclusivamente construído para aqueles que prezam pela qualidade e assertividade. Ao término do levantamento, o app fornece um relatório detalhado dos ambientes e funções analisadas."
+        "O GRO é o app de campo para quem faz levantamento de riscos ocupacionais. Você registra tudo durante a visita, na estrutura que o PGR pede (Empresa › Setor › Ambiente › Função › Risco), e recebe o relatório em Word (.docx) no seu e-mail, organizado e numerado, pronto para revisar e usar no PGR, no LTCAT ou no PPP.",
+        "Os dados ficam salvos no celular, então o app funciona sem sinal: galpão, subsolo, obra ou zona rural. A internet só é necessária para enviar o relatório. Não é preciso criar conta nem fazer login.",
+        "O GRO organiza e formata as informações coletadas em campo. A avaliação dos riscos e a responsabilidade técnica pelos documentos continuam com o profissional habilitado."
       ],
       "audience": [
-        "Profissionais de SST (Saúde e Segurança do Trabalho) que fazem levantamentos ambientais",
-        "Quem precisa atender aos quesitos do eSocial",
-        "[perfil de público adicional, se houver]"
+        "Técnicos e engenheiros de segurança do trabalho",
+        "Higienistas ocupacionais",
+        "Consultorias e empresas de SST",
+        "SESMT de indústrias, hospitais, construtoras e frigoríficos"
       ],
       "features": [
-        { "title": "Levantamento de ambientes", "text": "Registre os ambientes analisados, com local, área, pé-direito, piso, cobertura e iluminação." },
-        { "title": "Gestão de riscos", "text": "Cadastre os fatores de risco, as fontes geradoras e os níveis de ação de cada ambiente." },
-        { "title": "Relatórios automáticos", "text": "Ao término do levantamento, o app fornece um relatório detalhado dos ambientes e funções analisadas." },
-        { "title": "Relatórios em .docx", "text": "Receba os relatórios em .docx para personalizar da forma que preferir." },
-        { "title": "Pensado para o eSocial", "text": "Construído para atender aos quesitos do eSocial." }
+        { "title": "Organizado do jeito que o PGR pede", "text": "Empresa › Setor › Ambiente › Função › Risco. Cada informação fica no lugar certo, e a trilha no topo da tela mostra sempre onde você está." },
+        { "title": "Mais de 960 agentes prontos", "text": "A Tabela 24 do eSocial e a classificação trabalhista da NR-15 já estão no app. Digite parte do nome ou do código (ex.: “ruído” ou “02.01”) e selecione." },
+        { "title": "Avaliação completa de cada risco", "text": "Fonte geradora, trajetória, intensidade, nível de ação, limites NR-15 e ACGIH, EPI/EPC, modo de exposição, metodologia e grau de risco." },
+        { "title": "Ambientes em poucos toques", "text": "Piso, paredes, cobertura, iluminação e ventilação em listas prontas. Informe largura e comprimento, e o app calcula a área." },
+        { "title": "Funções, jornada e reaproveitamento", "text": "Registre atividades, número de trabalhadores e jornada por dia da semana. Duplique empresas, setores ou ambientes inteiros e ajuste só o que muda." },
+        { "title": "Relatório .docx no seu e-mail", "text": "Escolha a empresa, informe o e-mail e pronto. Por ser um arquivo Word, você edita, coloca o seu cabeçalho e anexa ao documento final." }
       ],
-      "versions_note": "[confirmar se o GRO tem as duas versões]",
+      "versions_note": "O GRO é gratuito e exibe anúncios. Com a assinatura GRO Pro, você usa o app sem nenhum anúncio.",
       "free_price": "R$ 0",
-      "free_items": ["Download gratuito na Google Play", "[recursos incluídos — confirmar]"],
-      "paid_price": "[inserir preço e período]",
-      "paid_items": ["[confirmar se existe versão paga]", "[recurso exclusivo]"],
-      "screenshots": ["Levantamento de ambientes", "Gestão de riscos", "Relatórios automáticos", "Relatórios em .docx"],
-      "faq_free_a": "O download do GRO na Google Play é gratuito. [confirmar se há versão paga e o que ela inclui]"
+      "free_items": [
+        "Todos os recursos de levantamento e o relatório .docx",
+        "Sem cadastro e sem login",
+        "Exibe anúncios, inclusive um antes de gerar o relatório"
+      ],
+      "paid_price": "GRO Pro · mensal ou anual",
+      "paid_items": [
+        "Tudo o que a versão gratuita oferece",
+        "Sem nenhum anúncio",
+        "Assine em Ajustes › Plano; o preço aparece no app, conforme a Google Play",
+        "Cancele quando quiser, nas assinaturas da Google Play"
+      ],
+      "screenshots": [
+        "Do levantamento de campo ao relatório pronto",
+        "Organizado do jeito que o PGR pede",
+        "Mais de 960 agentes prontos para escolher",
+        "Cada risco com os dados técnicos que importam",
+        "Descreva o ambiente em poucos toques",
+        "Escolha a empresa e receba o relatório no e-mail",
+        "Inventário de riscos formatado e numerado"
+      ],
+      "source_note": "Informações do aplicativo conforme a página oficial na Google Play.",
+      "faq_free_a": "Sim. O GRO é gratuito e exibe anúncios. Se preferir usar o app sem anúncios, assine o GRO Pro (plano mensal ou anual) em Ajustes › Plano.",
+      "faq_devices_a": "O GRO está disponível para celulares Android, na Google Play. No momento, não há versão para iPhone.",
+      "privacy_summary": "Os dados do levantamento ficam salvos no seu celular. Eles só saem do aparelho quando você pede o relatório: o servidor monta o arquivo .docx, envia para o e-mail informado e não guarda uma cópia."
     },
     "balanca-diaria": {
       "name": "Balança Diária",
-      "card": "Registre o seu peso diariamente, crie metas e acompanhe o IMC e o progresso em gráficos para alcançar o seu peso ideal.",
-      "badges": ["Download gratuito", "Contém anúncios", "Versão paga: [confirmar]", "Loja: Google Play", "App Store: [confirmar]"],
-      "lead": "Monitore diariamente o seu peso e crie metas para alcançar o seu peso ideal.",
+      "card": "Registre o peso em segundos, veja a tendência real no gráfico e acompanhe metas, IMC e medidas, com os dados guardados no seu celular.",
+      "badges": [
+        "Download gratuito",
+        "Contém anúncios",
+        "Premium: mensal, anual ou vitalício",
+        "Funciona sem internet",
+        "Loja: Google Play"
+      ],
+      "lead": "O peso oscila todo dia. O Balança Diária filtra essas oscilações e mostra a tendência: para onde o seu peso está indo de verdade.",
       "about": [
-        "O aplicativo Balança Diária tem como propósito auxiliar você a alcançar o seu peso ideal para viver uma vida mais saudável e sentir-se bem. Para isso, conta com registro diário de peso, registro de metas, cálculo do índice de massa corporal (IMC), gráfico do progresso e estatísticas gerais dos melhores e piores números."
+        "O Balança Diária ajuda você a acompanhar o peso com calma. Registrar leva poucos toques, e o app calcula a tendência, uma média que suaviza as variações do dia a dia (água, sal, horário), para que o gráfico, as metas e as estatísticas mostrem a sua evolução real.",
+        "Funciona 100% sem internet, e os seus dados ficam no seu celular. Se quiser, crie uma conta gratuita para ter backup e usar em mais de um aparelho.",
+        "Os textos são neutros e sem culpa: o app mostra “+0,4 kg nesta semana”, nunca “você engordou”. O Balança Diária não substitui orientação médica."
       ],
       "audience": [
-        "Quem quer acompanhar o próprio peso todos os dias",
-        "Quem busca alcançar o peso ideal com metas",
-        "[perfil de público adicional, se houver]"
+        "Quem quer acompanhar o próprio peso sem se preocupar com as oscilações diárias",
+        "Quem tem uma meta de perder, ganhar ou manter o peso",
+        "Quem quer levar um relatório do progresso para a consulta com um profissional de saúde"
       ],
       "features": [
-        { "title": "Registro diário de peso", "text": "Anote o seu peso todos os dias e consulte o histórico de registros." },
-        { "title": "Registro de metas", "text": "Defina uma meta e acompanhe o peso inicial, o atual e o percentual alcançado." },
-        { "title": "Cálculo de IMC", "text": "Veja o seu índice de massa corporal (IMC) calculado automaticamente." },
-        { "title": "Gráfico do progresso", "text": "Acompanhe a evolução do seu peso ao longo do tempo." },
-        { "title": "Estatísticas gerais", "text": "Consulte os seus melhores e piores números, como menor e maior peso e IMC." }
+        { "title": "Registro em poucos toques", "text": "O app sugere o último peso; é só ajustar e salvar. Dá para registrar datas passadas, anotar observações e lançar mais de um peso por dia." },
+        { "title": "Tendência que filtra as oscilações", "text": "Gráfico com o peso do dia, a linha de tendência e a meta, com períodos de 1 semana a todo o histórico. Toque em um ponto para ver o dia." },
+        { "title": "Metas com progresso e marcos", "text": "Metas de perder, ganhar ou manter o peso, com percentual do caminho, marcos intermediários e previsão de quando você chega lá." },
+        { "title": "IMC e medidas corporais", "text": "IMC calculado pela tendência, com as faixas da OMS (pode ser ocultado), e medidas de cintura, quadril, peito, braço, coxa e pescoço." },
+        { "title": "Histórico, estatísticas e conquistas", "text": "Histórico com busca nas notas, estatísticas da semana e do mês, sequência de dias e brasões para comemorar a constância." },
+        { "title": "Lembretes, widgets e privacidade", "text": "Lembrete diário, widgets na tela inicial, modo sem números, bloqueio por PIN ou biometria e exportação em CSV e PDF." }
       ],
-      "versions_note": "[confirmar se o Balança Diária tem as duas versões]",
+      "versions_note": "O plano gratuito tem o essencial para acompanhar o peso, com um banner de anúncio discreto. O Premium remove os anúncios e libera os recursos avançados.",
       "free_price": "R$ 0",
-      "free_items": ["Download gratuito na Google Play", "Contém anúncios, segundo a Google Play", "[recursos incluídos — confirmar]"],
-      "paid_price": "[inserir preço e período]",
-      "paid_items": ["[confirmar se existe versão paga]", "[recurso exclusivo]"],
-      "screenshots": ["Tela inicial com o peso do dia, a meta e o IMC", "Histórico com gráfico de peso", "Perfil com o progresso"],
-      "faq_free_a": "Sim, o download do Balança Diária na Google Play é gratuito. Segundo a Google Play, o aplicativo contém anúncios. [confirmar se há versão paga]"
+      "free_items": [
+        "Registro, gráfico com tendência, histórico e estatísticas",
+        "Metas, IMC, lembrete diário, conquistas e exportação em CSV",
+        "Conta, backup e sincronização gratuitos (opcionais)",
+        "Um banner de anúncio discreto nas telas principais"
+      ],
+      "paid_price": "Premium · mensal, anual ou vitalício",
+      "paid_items": [
+        "Sem anúncios",
+        "Medidas corporais, etiquetas, fotos de progresso e relatório em PDF",
+        "Vários lembretes, widget com gráfico, previsões, comparação de períodos e bloqueio por PIN",
+        "Planos mensal e anual com 3 dias grátis, ou compra única vitalícia; o preço aparece no app, conforme a loja"
+      ],
+      "screenshots": [
+        "Início com a tendência, a meta e o IMC",
+        "Registrar o peso com a régua",
+        "Gráfico com o peso, a tendência e a meta",
+        "Histórico de registros",
+        "Meta com o progresso",
+        "Medidas corporais",
+        "Conquistas e sequência de dias"
+      ],
+      "source_note": "Recursos e telas da nova versão do Balança Diária, que chega como atualização gratuita do app atual.",
+      "faq_free_a": "Sim, o download é gratuito, e o plano gratuito tem um banner de anúncio discreto. O Premium remove os anúncios e libera recursos avançados, em planos mensal ou anual (com 3 dias grátis) ou em compra única vitalícia.",
+      "faq_devices_a": "O Balança Diária está disponível para celulares Android, na Google Play. A nova versão também chegará ao iPhone, na App Store.",
+      "privacy_summary": "Os seus registros ficam no seu celular e o app funciona sem internet. Os dados só vão para a nuvem se você criar uma conta para ter backup e sincronização, e as fotos de progresso nunca saem do aparelho."
     },
     "spokn": {
       "name": "Spokn",
       "card": "Diário de voz com IA: você fala sobre o seu dia e o app transcreve, resume e identifica o seu humor, sem precisar digitar.",
-      "badges": ["Download gratuito", "Primeira entrada grátis", "Assinatura com 7 dias de teste grátis", "Loja: Google Play", "App Store: [confirmar]"],
-      "lead": "Diário de voz com IA. Fale sobre seu dia: a IA transcreve e resume — privado, local no seu celular.",
+      "badges": [
+        "Download gratuito",
+        "Primeira entrada grátis",
+        "Assinatura com 7 dias de teste grátis",
+        "Sem precisar criar conta",
+        "Loja: Google Play"
+      ],
+      "lead": "Diário de voz com IA. Fale sobre o seu dia: o Spokn transcreve, resume e identifica o seu humor, e as entradas ficam guardadas no seu celular.",
       "about": [
-        "Spokn é um diário de voz que transforma sua fala em texto. Fale sobre um momento do seu dia e a IA transcreve, resume e identifica seu humor — sem precisar digitar nada.",
-        "Seu áudio é enviado de forma segura apenas pelo tempo necessário para gerar a transcrição e o resumo — depois é descartado. Nunca é armazenado nos servidores nem usado para treinar modelos de IA. A única cópia mantida é a que fica no seu aparelho, a menos que você ative o backup na nuvem opcional, que é criptografado antes de sair do seu celular."
+        "Spokn é um diário de voz que transforma a sua fala em texto. Toque no microfone, fale sobre um momento do seu dia, e a IA transcreve, escreve um resumo, identifica o seu humor e percebe os objetivos que você menciona, sem precisar digitar nada.",
+        "O seu áudio é enviado de forma segura aos provedores de transcrição e de IA apenas pelo tempo necessário para gerar o texto e o resumo, e depois é descartado. Ele nunca é armazenado nos nossos servidores. A cópia das suas entradas fica no seu aparelho."
       ],
       "audience": [
         "Quem quer manter um diário sem precisar digitar",
@@ -384,20 +469,38 @@
         "Quem quer acompanhar o humor, os objetivos e as intenções ao longo do tempo"
       ],
       "features": [
-        { "title": "Transcrição de voz para diário", "text": "Toque no microfone e fale naturalmente: suas palavras viram uma entrada de diário automaticamente." },
-        { "title": "Resumos e tags de humor", "text": "Receba um resumo gerado por IA e uma tag de humor em cada entrada." },
-        { "title": "Objetivos e intenções", "text": "O Spokn identifica discretamente objetivos e intenções que você menciona, para você acompanhar o que importa." },
-        { "title": "Linha do tempo e resumo semanal", "text": "Acompanhe o seu humor ao longo do tempo e receba um resumo da semana." },
-        { "title": "Backup em nuvem opcional", "text": "Backup criptografado antes de sair do seu celular, ativado só se você quiser." },
-        { "title": "Sem precisar criar conta", "text": "Não é necessário criar conta para começar." }
+        { "title": "Fale, e o Spokn escreve", "text": "Toque no microfone e fale naturalmente. As suas palavras viram uma entrada de diário com título, transcrição e resumo." },
+        { "title": "Resumo e humor em cada entrada", "text": "Cada registro recebe um resumo gerado por IA e uma etiqueta de humor, como calma, empolgação ou cansaço." },
+        { "title": "Metas e lembretes gentis", "text": "O Spokn identifica objetivos que você menciona e transforma em metas, com lembretes diários, semanais ou mensais." },
+        { "title": "Veja como você realmente se sente", "text": "Análises com o humor ao longo do tempo, sequência de dias e padrões que se repetem nas suas entradas." },
+        { "title": "Sua semana em um parágrafo", "text": "Um resumo semanal escrito pela IA, com os temas e o humor que marcaram os seus dias." },
+        { "title": "Privado por padrão", "text": "Sem precisar criar conta, com bloqueio por digital ou Face ID, busca nas entradas e exportação em PDF ou texto." }
       ],
       "versions_note": "",
       "free_price": "R$ 0",
-      "free_items": ["Download gratuito na Google Play", "Experimente sua primeira entrada de graça"],
-      "paid_price": "[inserir preço e período da assinatura]",
-      "paid_items": ["Entradas ilimitadas com uma assinatura simples", "7 dias de teste grátis", "Cancele quando quiser"],
-      "screenshots": ["É só falar. A gente escreve.", "Cada registro, já escrito", "Veja como você realmente se sente", "Metas pequenas, lembretes gentis", "Sua semana, em um parágrafo"],
-      "faq_free_a": "O download é gratuito e você pode experimentar a primeira entrada de graça. Para continuar com entradas ilimitadas, há uma assinatura com 7 dias de teste grátis, que pode ser cancelada quando você quiser."
+      "free_items": [
+        "Download gratuito na Google Play",
+        "Experimente a sua primeira entrada de graça",
+        "Transcrição, resumo e humor em cada entrada"
+      ],
+      "paid_price": "Spokn Pro · mensal ou anual",
+      "paid_items": [
+        "Entradas ilimitadas",
+        "Linha do tempo do humor, análises e resumo semanal",
+        "7 dias de teste grátis; no plano anual, você economiza em relação ao mensal",
+        "Cancele quando quiser, nas assinaturas da Google Play"
+      ],
+      "screenshots": [
+        "É só falar. A gente escreve.",
+        "Cada registro, já escrito",
+        "Veja como você realmente se sente",
+        "Metas pequenas, lembretes gentis",
+        "Sua semana, em um parágrafo"
+      ],
+      "source_note": "Informações do aplicativo conforme a página oficial na Google Play.",
+      "faq_free_a": "O download é gratuito e você pode experimentar a primeira entrada de graça. Para continuar com entradas ilimitadas, há a assinatura Spokn Pro, mensal ou anual, com 7 dias de teste grátis, que pode ser cancelada quando você quiser.",
+      "faq_devices_a": "O Spokn está disponível para celulares Android, na Google Play. A versão para iPhone está em preparação para a App Store.",
+      "privacy_summary": "As suas entradas ficam no seu celular. O áudio é enviado apenas para gerar a transcrição e o resumo e depois é descartado: ele nunca é armazenado nos nossos servidores, e não usamos o seu diário para publicidade."
     }
   },
 

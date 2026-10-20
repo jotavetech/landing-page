@@ -127,12 +127,33 @@
       "faq_free_q": "Is {name} free?",
       "faq_devices_q": "Which phones does {name} work on?",
       "faq_contact_q": "How do I contact the team about {name}?",
-      "faq_devices_a": "{name} is available for Android on Google Play. [confirm availability for iPhone on the App Store]",
       "faq_contact_a": "Through the contact page, choosing the subject “Question about a product” or “Help with an app”.",
       "faq_contact_link": "Go to the contact page",
       "cta_h2": "Want to know more about {name}?",
       "cta_p": "Talk to the team to ask questions, share suggestions or get help with the app.",
-      "source_note": "App information as shown on its official Google Play page."
+      "legal_eyebrow": "Privacy",
+      "legal_h2": "Privacy and terms",
+      "legal_privacy_p": "What data the app uses, who it's shared with and how to exercise your rights.",
+      "legal_terms_p": "The rules for using the app, its free and paid versions and subscriptions."
+    },
+
+    "app_legal": {
+      "privacy_title": "{name} Privacy Policy · Jotave Tech",
+      "privacy_description": "How the {name} app, by Jotave Tech, handles your data.",
+      "privacy_crumb": "Privacy Policy",
+      "privacy_h1": "{name} Privacy Policy",
+      "terms_title": "{name} Terms of Use · Jotave Tech",
+      "terms_description": "Terms of Use of the {name} app, by Jotave Tech.",
+      "terms_crumb": "Terms of Use",
+      "terms_h1": "{name} Terms of Use",
+      "updated": "Last updated: {date}",
+      "summary_h2": "In short",
+      "toc": "On this page",
+      "controller_h2": "Who is responsible for the app",
+      "see_privacy": "Read the {name} Privacy Policy",
+      "see_terms": "Read the {name} Terms of Use",
+      "back": "Back to the {name} page",
+      "review_note": "this text is based on how the app currently works. A legal review is recommended before treating it as final."
     },
 
     "solutions": {
@@ -300,7 +321,9 @@
       "description": "Jotave Tech Privacy Policy.",
       "crumb": "Privacy Policy",
       "h1": "Privacy Policy",
-      "body": "[insert the Privacy Policy text, reviewed by the company]"
+      "body": "[insert the Privacy Policy text, reviewed by the company]",
+      "apps_h2": "App policies",
+      "apps_p": "Each Jotave Tech app has its own Privacy Policy:"
     },
 
     "terms": {
@@ -308,96 +331,176 @@
       "description": "Terms of Use for the Jotave Tech website.",
       "crumb": "Terms of Use",
       "h1": "Terms of Use",
-      "body": "[insert the Terms of Use text, reviewed by the company]"
+      "body": "[insert the Terms of Use text, reviewed by the company]",
+      "apps_h2": "App terms",
+      "apps_p": "Each Jotave Tech app has its own Terms of Use:"
     }
   },
 
   "apps": {
     "gro": {
       "name": "GRO",
-      "card": "Occupational Risk Manager: helps occupational safety and health professionals carry out environmental surveys and produces a detailed report of the environments and job roles analyzed.",
-      "badges": ["Free download", "Paid version: [confirm]", "Store: Google Play", "App Store: [confirm]"],
-      "lead": "Occupational Risk Manager: helps occupational safety and health professionals carry out environmental surveys in a wide range of fields.",
+      "card": "Occupational risk surveys on your phone, with more than 960 eSocial and NR-15 agents, and a Word (.docx) report ready for your PGR, delivered to your email.",
+      "badges": ["Free download", "Contains ads", "GRO Pro: no ads", "No sign-up", "Store: Google Play"],
+      "lead": "From the field survey to a finished report: record companies, environments, job roles and risks on your phone and get the risk inventory as a Word (.docx) file in your email.",
       "about": [
-        "The Occupational Risk Manager (GRO) app is designed to help occupational safety and health (OSH) professionals carry out environmental surveys in a wide range of fields. Built to meet Brazil’s eSocial requirements, GRO was made for those who value quality and accuracy. At the end of the survey, the app provides a detailed report of the environments and job roles analyzed."
+        "GRO is the field app for people who carry out occupational risk surveys. You record everything during the visit, in the structure the Brazilian PGR (risk management program) requires (Company › Department › Environment › Job role › Risk), and receive the report in Word (.docx) by email, organized and numbered, ready to review and use in the PGR, LTCAT or PPP.",
+        "Data is saved on the phone, so the app works without signal: warehouses, basements, construction sites or rural areas. You only need internet to send the report. No account or login is required.",
+        "GRO organizes and formats the information collected in the field. Risk assessment and technical responsibility for the documents remain with the qualified professional."
       ],
       "audience": [
-        "Occupational safety and health professionals who carry out environmental surveys",
-        "Anyone who needs to meet eSocial requirements",
-        "[additional audience profile, if any]"
+        "Occupational safety technicians and engineers",
+        "Occupational hygienists",
+        "Occupational safety and health (OSH) consultancies",
+        "In-house safety teams (SESMT) in industry, hospitals, construction and meat processing"
       ],
       "features": [
-        { "title": "Environment surveys", "text": "Record the environments analyzed, including location, area, ceiling height, flooring, roofing and lighting." },
-        { "title": "Risk management", "text": "Register risk factors, their sources and action levels for each environment." },
-        { "title": "Automatic reports", "text": "At the end of the survey, the app provides a detailed report of the environments and job roles analyzed." },
-        { "title": "Reports in .docx", "text": "Get your reports in .docx and customize them however you prefer." },
-        { "title": "Built for eSocial", "text": "Designed to meet eSocial requirements." }
+        { "title": "Organized the way the PGR requires", "text": "Company › Department › Environment › Job role › Risk. Every piece of information goes in the right place, and the trail at the top shows where you are." },
+        { "title": "More than 960 ready-made agents", "text": "eSocial Table 24 and the NR-15 labor classification are built in. Type part of the name or code (e.g. “ruído” or “02.01”) and pick it." },
+        { "title": "Complete assessment of each risk", "text": "Source, path, intensity, action level, NR-15 and ACGIH limits, PPE/collective protection, exposure mode, methodology and risk level." },
+        { "title": "Environments in a few taps", "text": "Floor, walls, roof, lighting and ventilation from ready-made lists. Enter width and length, and the app calculates the area." },
+        { "title": "Job roles, schedules and reuse", "text": "Record activities, number of workers and the schedule for each weekday. Duplicate whole companies, departments or environments and change only what differs." },
+        { "title": ".docx report in your email", "text": "Pick the company, enter the email and you're done. Because it's a Word file, you can edit it, add your letterhead and attach it to the final document." }
       ],
-      "versions_note": "[confirm whether GRO has both versions]",
+      "versions_note": "GRO is free and shows ads. With the GRO Pro subscription, you use the app with no ads at all.",
       "free_price": "R$ 0",
-      "free_items": ["Free download on Google Play", "[included features — confirm]"],
-      "paid_price": "[insert price and billing period]",
-      "paid_items": ["[confirm whether there is a paid version]", "[exclusive feature]"],
-      "screenshots": ["Environment survey", "Risk management", "Automatic reports", "Reports in .docx"],
-      "faq_free_a": "Downloading GRO from Google Play is free. [confirm whether there is a paid version and what it includes]"
+      "free_items": [
+        "Every survey feature and the .docx report",
+        "No sign-up and no login",
+        "Shows ads, including one before the report is generated"
+      ],
+      "paid_price": "GRO Pro · monthly or yearly",
+      "paid_items": [
+        "Everything in the free version",
+        "No ads at all",
+        "Subscribe in Settings › Plan; the price is shown in the app, as set on Google Play",
+        "Cancel at any time in your Google Play subscriptions"
+      ],
+      "screenshots": [
+        "From the field survey to a finished report",
+        "Organized the way the PGR requires",
+        "More than 960 agents ready to pick",
+        "Each risk with the technical data that matters",
+        "Describe the environment in a few taps",
+        "Pick the company and get the report by email",
+        "Risk inventory, formatted and numbered"
+      ],
+      "source_note": "App information from its official Google Play page.",
+      "faq_free_a": "Yes. GRO is free and shows ads. If you'd rather use it without ads, subscribe to GRO Pro (monthly or yearly plan) in Settings › Plan.",
+      "faq_devices_a": "GRO is available for Android phones on Google Play. There is no iPhone version at the moment.",
+      "privacy_summary": "Survey data is saved on your phone. It only leaves the device when you request the report: the server builds the .docx file, sends it to the email you entered and doesn't keep a copy."
     },
     "balanca-diaria": {
       "name": "Balança Diária",
-      "card": "Record your weight every day, set goals and track your BMI and progress in charts to reach your ideal weight.",
-      "badges": ["Free download", "Contains ads", "Paid version: [confirm]", "Store: Google Play", "App Store: [confirm]"],
-      "lead": "Track your weight every day and set goals to reach your ideal weight.",
+      "card": "Log your weight in seconds, see the real trend on the chart and follow goals, BMI and body measurements, with your data kept on your phone.",
+      "badges": [
+        "Free download",
+        "Contains ads",
+        "Premium: monthly, yearly or lifetime",
+        "Works offline",
+        "Store: Google Play"
+      ],
+      "lead": "Weight goes up and down every day. Balança Diária (Daily Scale) filters out those swings and shows the trend: where your weight is really heading.",
       "about": [
-        "Balança Diária (Daily Scale) is designed to help you reach your ideal weight so you can live a healthier life and feel good. To do so, it offers daily weight logging, goal tracking, body mass index (BMI) calculation, a progress chart and overall statistics of your best and worst numbers."
+        "Balança Diária helps you follow your weight calmly. Logging takes a few taps, and the app calculates the trend, an average that smooths out day-to-day swings (water, salt, time of day), so the chart, goals and statistics show your real progress.",
+        "It works 100% offline, and your data stays on your phone. If you want, create a free account for backup and to use it on more than one device.",
+        "The wording is neutral and guilt-free: the app says “+0.4 kg this week”, never “you gained weight”. Balança Diária does not replace medical advice."
       ],
       "audience": [
-        "Anyone who wants to track their weight every day",
-        "Anyone working toward their ideal weight with goals",
-        "[additional audience profile, if any]"
+        "People who want to follow their weight without worrying about daily swings",
+        "People with a goal to lose, gain or maintain weight",
+        "People who want to bring a progress report to an appointment with a health professional"
       ],
       "features": [
-        { "title": "Daily weight log", "text": "Record your weight every day and check your history." },
-        { "title": "Goal tracking", "text": "Set a goal and follow your starting weight, current weight and percentage achieved." },
-        { "title": "BMI calculation", "text": "See your body mass index (BMI) calculated automatically." },
-        { "title": "Progress chart", "text": "Follow how your weight changes over time." },
-        { "title": "Overall statistics", "text": "Check your best and worst numbers, such as lowest and highest weight and BMI." }
+        { "title": "Logging in a few taps", "text": "The app suggests your last weight; just adjust and save. You can log past dates, add notes and enter more than one weight per day." },
+        { "title": "A trend that filters out swings", "text": "Chart with the day's weight, the trend line and your goal, from 1 week to your whole history. Tap a point to see that day." },
+        { "title": "Goals with progress and milestones", "text": "Goals to lose, gain or maintain weight, with progress percentage, intermediate milestones and a forecast of when you'll get there." },
+        { "title": "BMI and body measurements", "text": "BMI calculated from the trend, with the WHO ranges (it can be hidden), plus waist, hip, chest, arm, thigh and neck measurements." },
+        { "title": "History, statistics and achievements", "text": "History with search in notes, weekly and monthly statistics, day streaks and badges that celebrate consistency." },
+        { "title": "Reminders, widgets and privacy", "text": "Daily reminder, home screen widgets, no-numbers mode, PIN or biometric lock, and CSV and PDF export." }
       ],
-      "versions_note": "[confirm whether Balança Diária has both versions]",
+      "versions_note": "The free plan has the essentials to follow your weight, with a discreet ad banner. Premium removes the ads and unlocks the advanced features.",
       "free_price": "R$ 0",
-      "free_items": ["Free download on Google Play", "Contains ads, according to Google Play", "[included features — confirm]"],
-      "paid_price": "[insert price and billing period]",
-      "paid_items": ["[confirm whether there is a paid version]", "[exclusive feature]"],
-      "screenshots": ["Home screen with today’s weight, goal and BMI", "History with weight chart", "Profile with progress"],
-      "faq_free_a": "Yes, downloading Balança Diária from Google Play is free. According to Google Play, the app contains ads. [confirm whether there is a paid version]"
+      "free_items": [
+        "Logging, chart with trend, history and statistics",
+        "Goals, BMI, daily reminder, achievements and CSV export",
+        "Free account, backup and sync (optional)",
+        "A discreet ad banner on the main screens"
+      ],
+      "paid_price": "Premium · monthly, yearly or lifetime",
+      "paid_items": [
+        "No ads",
+        "Body measurements, tags, progress photos and PDF report",
+        "Multiple reminders, chart widget, forecasts, period comparison and PIN lock",
+        "Monthly and yearly plans with 3 free days, or a one-time lifetime purchase; the price is shown in the app, as set by the store"
+      ],
+      "screenshots": [
+        "Home with the trend, goal and BMI",
+        "Logging weight with the ruler",
+        "Chart with weight, trend and goal",
+        "Entry history",
+        "Goal with progress",
+        "Body measurements",
+        "Achievements and day streak"
+      ],
+      "source_note": "Features and screens of the new version of Balança Diária, which arrives as a free update to the current app.",
+      "faq_free_a": "Yes, the download is free, and the free plan has a discreet ad banner. Premium removes the ads and unlocks advanced features, with monthly or yearly plans (with 3 free days) or a one-time lifetime purchase.",
+      "faq_devices_a": "Balança Diária is available for Android phones on Google Play. The new version is also coming to iPhone, on the App Store.",
+      "privacy_summary": "Your entries stay on your phone and the app works offline. Data only goes to the cloud if you create an account for backup and sync, and progress photos never leave the device."
     },
     "spokn": {
       "name": "Spokn",
       "card": "AI voice journal: talk about your day and the app transcribes it, summarizes it and tags your mood — no typing required.",
-      "badges": ["Free download", "First entry free", "Subscription with 7-day free trial", "Store: Google Play", "App Store: [confirm]"],
-      "lead": "AI voice journal. Talk it out: AI transcribes and summarizes your day — private, local-first.",
+      "badges": [
+        "Free download",
+        "First entry free",
+        "Subscription with 7-day free trial",
+        "No account needed",
+        "Store: Google Play"
+      ],
+      "lead": "AI voice journal. Talk about your day: Spokn transcribes it, summarizes it and tags your mood, and your entries stay on your phone.",
       "about": [
-        "Spokn is a voice journal that turns talking into writing. Speak about a moment from your day, and AI transcribes it, writes a summary and tags your mood — no typing required.",
-        "Your audio is sent securely just long enough to generate your transcript and summary — then it is discarded. It is never stored on the servers or used to train AI models. The only copy kept is the one on your device, unless you turn on the optional cloud backup, which is encrypted before it ever leaves your phone."
+        "Spokn is a voice journal that turns talking into writing. Tap the mic, speak about a moment from your day, and AI transcribes it, writes a summary, tags your mood and picks up the goals you mention — no typing required.",
+        "Your audio is sent securely to our transcription and AI providers just long enough to create the text and summary, then it's discarded. It is never stored on our servers. Your entries are kept on your device."
       ],
       "audience": [
-        "Anyone who wants to keep a journal without typing",
+        "People who want to keep a journal without typing",
         "People who process their day by thinking out loud",
-        "Anyone who wants to follow their mood, goals and intentions over time"
+        "People who want to follow their mood, goals and intentions over time"
       ],
       "features": [
-        { "title": "Voice-to-journal transcription", "text": "Tap the mic and speak naturally: your words become a written journal entry automatically." },
-        { "title": "Summaries and mood tags", "text": "Get an AI-generated summary and a mood tag for every entry." },
-        { "title": "Goals and intentions", "text": "Spokn quietly picks up on goals and intentions you mention, so you can track what matters to you." },
-        { "title": "Mood timeline and weekly digest", "text": "Follow your mood over time and get a summary of your week." },
-        { "title": "Optional cloud backup", "text": "Encrypted before it leaves your phone, and only turned on if you want it." },
-        { "title": "No account required", "text": "You don’t need an account to get started." }
+        { "title": "Talk, and Spokn writes", "text": "Tap the mic and speak naturally. Your words become a journal entry with a title, transcript and summary." },
+        { "title": "Summary and mood for every entry", "text": "Each entry gets an AI-generated summary and a mood tag, such as calm, excited or tired." },
+        { "title": "Goals and gentle reminders", "text": "Spokn spots goals you mention and turns them into goals, with daily, weekly or monthly reminders." },
+        { "title": "See how you really feel", "text": "Insights with your mood over time, day streaks and patterns that repeat across your entries." },
+        { "title": "Your week in a paragraph", "text": "A weekly summary written by AI, with the themes and moods that shaped your days." },
+        { "title": "Private by default", "text": "No account needed, with fingerprint or Face ID lock, search across entries and PDF or text export." }
       ],
       "versions_note": "",
       "free_price": "R$ 0",
-      "free_items": ["Free download on Google Play", "Try your first entry for free"],
-      "paid_price": "[insert subscription price and billing period]",
-      "paid_items": ["Unlimited entries with a simple subscription", "7-day free trial", "Cancel anytime"],
-      "screenshots": ["Just talk. We write it down.", "Every entry, already written", "See how you really feel", "Small goals, gentle reminders", "Your week, in one paragraph"],
-      "faq_free_a": "The download is free and you can try your first entry for free. To keep going with unlimited entries, there is a subscription with a 7-day free trial that you can cancel anytime."
+      "free_items": [
+        "Free download on Google Play",
+        "Try your first entry for free",
+        "Transcript, summary and mood for every entry"
+      ],
+      "paid_price": "Spokn Pro · monthly or yearly",
+      "paid_items": [
+        "Unlimited entries",
+        "Mood timeline, insights and weekly digest",
+        "7-day free trial; the yearly plan costs less than paying monthly",
+        "Cancel at any time in your Google Play subscriptions"
+      ],
+      "screenshots": [
+        "Just talk. We'll write.",
+        "Every entry, already written",
+        "See how you really feel",
+        "Small goals, gentle reminders",
+        "Your week, in one paragraph"
+      ],
+      "source_note": "App information from its official Google Play page.",
+      "faq_free_a": "The download is free and you can try your first entry for free. To keep going with unlimited entries, there's the Spokn Pro subscription, monthly or yearly, with a 7-day free trial, which you can cancel at any time.",
+      "faq_devices_a": "Spokn is available for Android phones on Google Play. The iPhone version is being prepared for the App Store.",
+      "privacy_summary": "Your entries stay on your phone. Audio is sent only to create the transcript and summary and then discarded: it's never stored on our servers, and we don't use your journal for advertising."
     }
   },
 

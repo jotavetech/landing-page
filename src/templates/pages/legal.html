@@ -8,5 +8,6 @@
 {{ crumbs(t, url, [(None, p.crumb)]) }}
 <h1 id="h-legal">{{ p.h1 }}</h1></div></section>
 <section class="sec"><div class="wrap" style="max-width:900px;display:flex;flex-direction:column;gap:18px">
-<p style="font-size:19px">{{ p.body | rich }}</p></div></section>
+<p style="font-size:19px">{{ p.body | rich }}</p>
+<div class="card" style="display:flex;flex-direction:column;gap:12px;margin-top:16px"><h2 style="font-size:24px">{{ p.apps_h2 }}</h2><p>{{ p.apps_p }}</p><ul style="margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px">{% for k in app_keys %}<li><a href="{{ url(k ~ '-' ~ page) }}">{{ t.pages.app_legal[page ~ '_h1'] | fmt(name=t.apps[k].name) }}</a></li>{% endfor %}</ul></div></div></section>
 {% endblock %}
