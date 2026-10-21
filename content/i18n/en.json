@@ -152,8 +152,7 @@
       "controller_h2": "Who is responsible for the app",
       "see_privacy": "Read the {name} Privacy Policy",
       "see_terms": "Read the {name} Terms of Use",
-      "back": "Back to the {name} page",
-      "review_note": "this text is based on how the app currently works. A legal review is recommended before treating it as final."
+      "back": "Back to the {name} page"
     },
 
     "solutions": {
@@ -321,7 +320,6 @@
       "description": "Jotave Tech Privacy Policy.",
       "crumb": "Privacy Policy",
       "h1": "Privacy Policy",
-      "body": "[insert the Privacy Policy text, reviewed by the company]",
       "apps_h2": "App policies",
       "apps_p": "Each Jotave Tech app has its own Privacy Policy:"
     },
@@ -331,7 +329,6 @@
       "description": "Terms of Use for the Jotave Tech website.",
       "crumb": "Terms of Use",
       "h1": "Terms of Use",
-      "body": "[insert the Terms of Use text, reviewed by the company]",
       "apps_h2": "App terms",
       "apps_p": "Each Jotave Tech app has its own Terms of Use:"
     }

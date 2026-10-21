@@ -152,8 +152,7 @@
       "controller_h2": "Responsável pelo aplicativo",
       "see_privacy": "Ler a Política de Privacidade do {name}",
       "see_terms": "Ler os Termos de Uso do {name}",
-      "back": "Voltar à página do {name}",
-      "review_note": "texto elaborado a partir do funcionamento atual do aplicativo. Recomenda-se revisão jurídica antes de considerá-lo definitivo."
+      "back": "Voltar à página do {name}"
     },
 
     "solutions": {
@@ -321,7 +320,6 @@
       "description": "Política de Privacidade da Jotave Tech.",
       "crumb": "Política de Privacidade",
       "h1": "Política de Privacidade",
-      "body": "[inserir o texto da Política de Privacidade, revisado pela empresa]",
       "apps_h2": "Políticas dos aplicativos",
       "apps_p": "Cada aplicativo da Jotave Tech tem a sua própria Política de Privacidade:"
     },
@@ -331,7 +329,6 @@
       "description": "Termos de Uso do site da Jotave Tech.",
       "crumb": "Termos de Uso",
       "h1": "Termos de Uso",
-      "body": "[inserir o texto dos Termos de Uso, revisado pela empresa]",
       "apps_h2": "Termos dos aplicativos",
       "apps_p": "Cada aplicativo da Jotave Tech tem os seus próprios Termos de Uso:"
     }
