@@ -16,7 +16,7 @@
 <div style="display:flex;align-items:center;gap:18px">{{ app_icon(t, asset, k, 72, 16) }}<span class="eyebrow">{{ t.ui.app_kind }}</span></div>
 <h1 id="h-{{ k }}">{{ app.name }}</h1>
 <p class="lead">{{ app.lead | rich }}</p>
-{{ store_buttons(t, app, app_site) }}{% if not app_site.app_store and app_site.get("ios", True) %}<p style="font-size:14px;margin-top:10px"><span class="ph">{{ t.ui.app_store_missing }}</span></p>{% endif %}</div>
+{{ store_buttons(t, app, app_site) }}</div>
 <div style="flex:1;display:flex;justify-content:center"><div class="phone"><div class="shot">{{ shot(1) }}</div></div></div></div></section>
 <section class="sec" aria-labelledby="o-{{ k }}"><div class="wrap g2" style="align-items:start;gap:56px">
 <div style="display:flex;flex-direction:column;gap:16px"><span class="eyebrow">{{ p.what_eyebrow }}</span><h2 id="o-{{ k }}">{{ p.what_h2 | fmt(name=app.name) }}</h2>{% for para in app.about %}<p style="font-size:19px">{{ para | rich }}</p>{% endfor %}<p style="font-size:14px">{{ app.source_note }}</p></div>

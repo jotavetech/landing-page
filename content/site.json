@@ -33,8 +33,6 @@
     "gro": {
       "google_play": "https://play.google.com/store/apps/details?id=br.com.joaoov",
       "app_store": "",
-      "_ios_comment": "false: o app não tem versão para iPhone, e o aviso para preencher o link da App Store não aparece.",
-      "ios": false,
       "screenshots": 7,
       "gallery": [2, 3, 4, 5, 6, 7],
       "support_email": "gro@jotavetech.com"
