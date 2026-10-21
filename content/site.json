@@ -49,8 +49,8 @@
     "spokn": {
       "google_play": "https://play.google.com/store/apps/details?id=com.br.spokn",
       "app_store": "",
-      "screenshots": 5,
-      "gallery": [2, 3, 4, 5],
+      "screenshots": 4,
+      "gallery": [2, 3, 4],
       "support_email": "contato@jotavetech.com"
     }
   },
