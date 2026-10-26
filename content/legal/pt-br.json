@@ -876,8 +876,9 @@
         {
           "h": "Estatísticas de uso e relatórios de erro",
           "p": [
-            "Na configuração inicial, o app pede dois consentimentos separados e opcionais: enviar estatísticas de uso anônimas e enviar relatórios de erro. Esses envios nunca incluem dados do ciclo, sintomas ou anotações.",
-            "Nesta versão, o {app} não inclui nenhum serviço de estatísticas ou de relatórios de erro, e nada é enviado mesmo que você autorize. Se passarmos a usar um serviço desse tipo, ele só funcionará com o seu consentimento, e esta política indicará o prestador. Você pode mudar essas escolhas a qualquer momento em Ajustes › Privacidade e dados."
+            "Na configuração inicial, o app pede dois consentimentos separados e opcionais: enviar estatísticas de uso anônimas e enviar relatórios de erro. Você pode mudar essas escolhas a qualquer momento em Ajustes › Privacidade e dados.",
+            "Relatórios de erro: se você autorizar, quando o app trava ele envia um relatório ao Google Firebase Crashlytics, para que possamos corrigir o problema. O relatório contém o rastro técnico do erro e informações do aparelho, como modelo, versão do sistema e versão do app, além de um identificador aleatório da instalação gerado pelo Firebase. Ele nunca inclui dados do ciclo, sintomas, anotações, nome ou e-mail. A coleta começa desligada e só é ativada com o seu consentimento (art. 7º, I, da LGPD, e art. 6(1)(a) do GDPR); ao revogá-lo, a coleta é desligada e os relatórios ainda não enviados são apagados.",
+            "Estatísticas de uso: nesta versão, o {app} não inclui nenhum serviço de estatísticas de uso (como o Google Analytics), e nada é enviado mesmo que você autorize. Se passarmos a usar um serviço desse tipo, ele só funcionará com o seu consentimento, nunca receberá dados do ciclo, e esta política indicará o prestador antes."
           ],
           "items": []
         },
@@ -895,14 +896,23 @@
           ],
           "items": [
             "Google Play e App Store: distribuem o app e podem coletar dados sobre o download e o uso conforme as próprias políticas. Quando o Premium existir, também processarão as compras.",
+            "Google Firebase Crashlytics: relatórios de erro, só se você autorizar.",
             "Autoridades públicas: quando houver obrigação legal ou ordem judicial. Como não guardamos os seus registros, não temos como entregá-los."
           ]
+        },
+        {
+          "h": "Transferência internacional",
+          "p": [
+            "Os seus dados do ciclo não saem do aparelho. Os relatórios de erro, quando autorizados, são processados pelo Google em servidores nos Estados Unidos ou em outros países, com cláusulas contratuais padrão e termos de tratamento de dados compatíveis com a LGPD (art. 33) e o GDPR."
+          ],
+          "items": []
         },
         {
           "h": "Por quanto tempo guardamos",
           "p": [],
           "items": [
             "Dados no aparelho: até você apagá-los, revogar o consentimento para os dados do ciclo ou desinstalar o app.",
+            "Relatórios de erro: pelo prazo definido pelo Google para o Firebase Crashlytics, depois do qual são apagados automaticamente.",
             "Mensagens enviadas ao nosso e-mail: pelo tempo necessário para responder."
           ]
         },
