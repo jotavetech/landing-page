@@ -801,5 +801,271 @@
         }
       ]
     }
+  },
+  "nalu": {
+    "privacy": {
+      "updated": "26 de outubro de 2026",
+      "summary": [
+        "Os seus registros de menstruação, sintomas, humor, vida sexual e anticoncepcional ficam só no seu celular, criptografados. Não é preciso criar conta.",
+        "O {app} não tem servidor para os seus dados: as previsões são calculadas no aparelho, os lembretes são agendados nele e nada do seu ciclo é enviado pela internet.",
+        "Sem anúncios. Nunca vendemos os seus dados, nem os compartilhamos ou usamos para publicidade.",
+        "Você pode exportar ou apagar tudo pelo próprio app, a qualquer momento. Dúvidas: {email}."
+      ],
+      "sections": [
+        {
+          "h": "Quem somos e a quem esta política se aplica",
+          "p": [
+            "Esta política explica como o aplicativo {app} trata dados pessoais. O {app} é desenvolvido e publicado por {company} ({brand}), CNPJ {cnpj}, com sede em {address}, que atua como controladora dos dados nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018, LGPD) e, quando aplicável, do Regulamento Geral de Proteção de Dados da União Europeia (GDPR).",
+            "Esta política vale para os aplicativos {app} para Android e iPhone, em todas as versões e idiomas, e deve ser lida junto com os Termos de Uso do {app}."
+          ],
+          "items": []
+        },
+        {
+          "h": "Dados que ficam no seu celular",
+          "p": [
+            "Coletamos o mínimo necessário para o app funcionar. Tudo o que você registra fica no armazenamento privado do app, no seu aparelho:"
+          ],
+          "items": [
+            "ano de nascimento, usado apenas para confirmar a idade mínima;",
+            "datas das menstruações, intensidade do fluxo e duração média do ciclo e da menstruação;",
+            "registros do dia: sintomas, humor, corrimento, libido, relações sexuais (com ou sem proteção), uso de medicamentos, temperatura basal, testes de ovulação e anotações;",
+            "método anticoncepcional, calendário de uso e registros de doses, trocas ou aplicações;",
+            "lembretes, configuração do bloqueio do app e preferências, como tema, idioma e primeiro dia da semana;",
+            "as suas escolhas de consentimento."
+          ]
+        },
+        {
+          "h": "Dados sensíveis",
+          "p": [
+            "Informações sobre menstruação, sintomas e vida sexual são dados pessoais sensíveis. Tratamos esses dados apenas para oferecer os recursos do app que você usa (previsões, calendário, estatísticas e lembretes), com base no seu consentimento específico e destacado, pedido antes de qualquer registro (art. 11, I, da LGPD, e art. 9(2)(a) do GDPR).",
+            "Você pode revogar esse consentimento a qualquer momento em Ajustes › Privacidade e dados. Como o app não funciona sem esses dados, revogar o consentimento apaga os seus registros.",
+            "Nunca vendemos esses dados, nunca os compartilhamos com terceiros e nunca os usamos para publicidade."
+          ],
+          "items": []
+        },
+        {
+          "h": "Sem conta e sem servidor",
+          "p": [
+            "Nesta versão, o {app} não tem cadastro, login nem servidor para os seus dados. Os seus registros não são enviados para nós nem para terceiros, e as previsões, as estatísticas e os lembretes são calculados e agendados no próprio aparelho. Nós não temos acesso ao que você registra.",
+            "Se no futuro oferecermos conta e backup (planejados para o Nalu Premium), eles serão opcionais e com criptografia de ponta a ponta, e esta política será atualizada antes do lançamento desses recursos."
+          ],
+          "items": []
+        },
+        {
+          "h": "Criptografia e segurança",
+          "p": [
+            "O banco de dados do app é criptografado com AES-256. A chave é gerada no aparelho e guardada no Android Keystore ou nas Chaves do iPhone (Keychain), e o app se recusa a abrir os dados se a criptografia não estiver ativa.",
+            "Você pode proteger o app com um PIN de 4 dígitos e com a biometria do aparelho (digital ou rosto). A biometria é verificada pelo próprio sistema: nós nunca recebemos os seus dados biométricos."
+          ],
+          "items": []
+        },
+        {
+          "h": "Backup e troca de aparelho",
+          "p": [
+            "Para que os seus dados não saiam do aparelho, o {app} desativa o backup automático e a transferência entre aparelhos do Android, e no iPhone a chave de criptografia não sai do aparelho. Por isso, os dados não são restaurados em outro celular: se você trocar ou perder o aparelho, ou desinstalar o app, eles se perdem. Para guardar uma cópia, use a exportação em CSV."
+          ],
+          "items": []
+        },
+        {
+          "h": "Notificações",
+          "p": [
+            "Os lembretes são agendados localmente no aparelho, sem servidor de notificações. Por padrão, os textos são discretos e não mencionam a menstruação na tela bloqueada; você pode escolher textos detalhados em Ajustes › Lembretes. O app pede a permissão de notificações ao fim da configuração inicial e funciona normalmente se você recusar."
+          ],
+          "items": []
+        },
+        {
+          "h": "Estatísticas de uso e relatórios de erro",
+          "p": [
+            "Na configuração inicial, o app pede dois consentimentos separados e opcionais: enviar estatísticas de uso anônimas e enviar relatórios de erro. Esses envios nunca incluem dados do ciclo, sintomas ou anotações.",
+            "Nesta versão, o {app} não inclui nenhum serviço de estatísticas ou de relatórios de erro, e nada é enviado mesmo que você autorize. Se passarmos a usar um serviço desse tipo, ele só funcionará com o seu consentimento, e esta política indicará o prestador. Você pode mudar essas escolhas a qualquer momento em Ajustes › Privacidade e dados."
+          ],
+          "items": []
+        },
+        {
+          "h": "Exportação dos dados",
+          "p": [
+            "Quando você pede, o app gera um arquivo CSV com todos os seus dados e abre o compartilhamento do sistema. A partir daí, o arquivo fica sob o seu controle, e o destino que você escolher (e-mail, nuvem ou outro app) segue a política desse serviço."
+          ],
+          "items": []
+        },
+        {
+          "h": "Com quem compartilhamos",
+          "p": [
+            "Não vendemos nem compartilhamos os seus dados do ciclo. Como eles não saem do aparelho, nenhum prestador de serviço tem acesso a eles."
+          ],
+          "items": [
+            "Google Play e App Store: distribuem o app e podem coletar dados sobre o download e o uso conforme as próprias políticas. Quando o Premium existir, também processarão as compras.",
+            "Autoridades públicas: quando houver obrigação legal ou ordem judicial. Como não guardamos os seus registros, não temos como entregá-los."
+          ]
+        },
+        {
+          "h": "Por quanto tempo guardamos",
+          "p": [],
+          "items": [
+            "Dados no aparelho: até você apagá-los, revogar o consentimento para os dados do ciclo ou desinstalar o app.",
+            "Mensagens enviadas ao nosso e-mail: pelo tempo necessário para responder."
+          ]
+        },
+        {
+          "h": "Como apagar os seus dados",
+          "p": [],
+          "items": [
+            "Corrigir ou apagar uma menstruação ou um registro do dia: direto no calendário.",
+            "Apagar tudo: em Ajustes › Privacidade e dados › Apagar todos os meus dados, com confirmação dupla.",
+            "Desinstalar o app também apaga todos os dados do aparelho.",
+            "Exportar: em Ajustes › Privacidade e dados › Exportar meus dados (CSV)."
+          ]
+        },
+        {
+          "h": "Seus direitos",
+          "p": [
+            "Pela LGPD e pelo GDPR, você pode pedir a confirmação de que tratamos os seus dados, o acesso, a correção, a anonimização, o bloqueio ou a eliminação, a portabilidade, informações sobre o compartilhamento e revogar o consentimento. Como os seus dados ficam só no aparelho, você exerce a maior parte desses direitos no próprio app: vê e corrige no calendário, exporta em CSV e apaga tudo em Ajustes.",
+            "Para os demais pedidos, escreva para {email}. Responderemos em até 15 dias. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD) ou à autoridade de proteção de dados do seu país."
+          ],
+          "items": []
+        },
+        {
+          "h": "Idade mínima",
+          "p": [
+            "O {app} é destinado a pessoas com 16 anos ou mais. O ano de nascimento é pedido no início e, abaixo dessa idade, o app não continua. Menores de 18 anos devem usar o app com a autorização de um responsável."
+          ],
+          "items": []
+        },
+        {
+          "h": "Alterações nesta política",
+          "p": [
+            "Podemos atualizar esta política quando o app ou a legislação mudar. A versão em vigor e a data da última atualização ficam sempre nesta página. Para mudanças relevantes, avisaremos no aplicativo."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contato e encarregado",
+          "p": [
+            "Dúvidas, pedidos ou reclamações sobre privacidade no {app}: {email}. O encarregado pelo tratamento de dados pessoais (DPO) pode ser contatado pelo mesmo endereço."
+          ],
+          "items": []
+        }
+      ]
+    },
+    "terms": {
+      "updated": "26 de outubro de 2026",
+      "summary": [
+        "O {app} ajuda a acompanhar o ciclo menstrual e a entender o seu corpo. Ele é um app de bem-estar: não faz diagnóstico e não substitui orientação médica.",
+        "As previsões são estimativas e não servem como método contraceptivo.",
+        "Os dados são seus e ficam só no seu celular, sem backup: se o aparelho for trocado ou perdido, ou o app for desinstalado, eles se perdem.",
+        "Todos os recursos desta versão são gratuitos e sem anúncios. Dúvidas: {email}."
+      ],
+      "sections": [
+        {
+          "h": "Aceitação",
+          "p": [
+            "Estes Termos de Uso regem o uso do aplicativo {app}, desenvolvido por {company} ({brand}), CNPJ {cnpj}. Ao baixar ou usar o {app}, você concorda com estes termos e com a Política de Privacidade do {app}. Se não concordar, não use o aplicativo."
+          ],
+          "items": []
+        },
+        {
+          "h": "O que o {app} oferece",
+          "p": [
+            "O {app} permite registrar a menstruação e o fluxo, ver o calendário com as previsões da próxima menstruação, da ovulação e do período fértil, registrar sintomas, humor e outros dados do dia, acompanhar o método anticoncepcional, receber lembretes, ver estatísticas do ciclo e exportar os seus dados."
+          ],
+          "items": []
+        },
+        {
+          "h": "Não é método contraceptivo",
+          "p": [
+            "As previsões usam o método do calendário com o seu próprio histórico e são estimativas. O período fértil é mostrado como um intervalo de dias, e o app nunca indica dias \"seguros\". Não use o {app} para evitar uma gravidez.",
+            "Os recursos de anticoncepcional apenas ajudam a lembrar o horário e a registrar o uso: o app não recomenda métodos nem avalia a eficácia deles. Em caso de dúvida, fale com um profissional de saúde.",
+            "O sistema do aparelho pode atrasar ou bloquear notificações (por exemplo, no modo de economia de bateria ou se a permissão for negada). Não dependa apenas do app para usar o seu anticoncepcional no horário."
+          ],
+          "items": []
+        },
+        {
+          "h": "Não é orientação médica",
+          "p": [
+            "O {app} é um app de bem-estar e autoconhecimento. Ele não é um dispositivo médico, não faz diagnóstico e não substitui consulta, exame ou tratamento por profissionais de saúde. Avisos como atraso, ciclo irregular ou menstruação longa apenas sugerem procurar um profissional.",
+            "Em caso de dor intensa, sangramento fora do habitual, suspeita de gravidez ou qualquer outra preocupação com a sua saúde, procure um médico."
+          ],
+          "items": []
+        },
+        {
+          "h": "Idade mínima",
+          "p": [
+            "Você precisa ter pelo menos 16 anos para usar o {app}. Menores de 18 anos devem usá-lo com a autorização de um responsável."
+          ],
+          "items": []
+        },
+        {
+          "h": "Seus dados",
+          "p": [
+            "Os dados que você registra são seus e ficam apenas no seu aparelho, criptografados. Não há conta nem backup na nuvem: desinstalar o app, limpar os dados dele, trocar ou perder o aparelho apaga os registros, e nós não temos como recuperá-los. Recomendamos exportar uma cópia em CSV de vez em quando."
+          ],
+          "items": []
+        },
+        {
+          "h": "Bloqueio do app",
+          "p": [
+            "Se você ativar o PIN e esquecer o código, a única forma de voltar a usar o app é reinstalá-lo, o que apaga todos os dados. O app avisa sobre isso ao ativar o PIN."
+          ],
+          "items": []
+        },
+        {
+          "h": "Preço e Nalu Premium",
+          "p": [
+            "Todos os recursos desta versão são gratuitos, e o app não exibe anúncios.",
+            "No futuro, poderemos oferecer o Nalu Premium, uma assinatura opcional cobrada pela Google Play ou pela App Store, com recursos extras como o backup criptografado. O registro, o calendário, as previsões, os lembretes, a exportação em CSV e a exclusão dos dados continuarão gratuitos. Preço, teste grátis, renovação e cancelamento serão informados no app e nestes termos antes de qualquer cobrança."
+          ],
+          "items": []
+        },
+        {
+          "h": "Uso permitido",
+          "p": [
+            "Concedemos a você uma licença pessoal, não exclusiva e intransferível para usar o {app} conforme estes termos. Não é permitido copiar, modificar ou fazer engenharia reversa do app, salvo nos casos permitidos por lei, burlar recursos pagos ou usar o app para acessar sem autorização os dados de outras pessoas."
+          ],
+          "items": []
+        },
+        {
+          "h": "Propriedade intelectual",
+          "p": [
+            "O aplicativo, a marca {app}, o logotipo, o design, os textos e o código pertencem a {company}."
+          ],
+          "items": []
+        },
+        {
+          "h": "Disponibilidade e atualizações",
+          "p": [
+            "O {app} funciona sem internet. Podemos lançar atualizações que alterem, incluam ou removam recursos, ou descontinuar o app, avisando com antecedência razoável. Os seus dados continuam no aparelho enquanto o app estiver instalado."
+          ],
+          "items": []
+        },
+        {
+          "h": "Limitação de responsabilidade",
+          "p": [
+            "Na máxima extensão permitida pela lei, não respondemos por decisões de saúde, de contracepção ou de planejamento familiar tomadas com base nas previsões ou nos lembretes do app, por lembretes atrasados ou bloqueados pelo sistema do aparelho, por dados perdidos no aparelho sem uma cópia exportada, nem por danos indiretos. Nada nestes termos afasta os direitos garantidos ao consumidor pela legislação aplicável."
+          ],
+          "items": []
+        },
+        {
+          "h": "Alterações nestes termos",
+          "p": [
+            "Podemos atualizar estes termos. A versão em vigor e a data da última atualização ficam sempre nesta página. Continuar usando o {app} depois de uma alteração significa aceitar a nova versão."
+          ],
+          "items": []
+        },
+        {
+          "h": "Lei aplicável e foro",
+          "p": [
+            "Estes termos seguem as leis do Brasil, sem prejuízo dos direitos garantidos pelas leis de proteção ao consumidor do seu país. Fica eleito o foro do domicílio do consumidor."
+          ],
+          "items": []
+        },
+        {
+          "h": "Contato",
+          "p": [
+            "Dúvidas, sugestões ou problemas com o {app}: {email}."
+          ],
+          "items": []
+        }
+      ]
+    }
   }
 }

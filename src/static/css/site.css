@@ -106,6 +106,9 @@ body{margin:0}
 .ftr .lang{align-self:flex-start}
 /* Selos de informação confirmada (os amarelos .sug continuam indicando "a confirmar") */
 .sug.fact{background:var(--bege);color:var(--navy)}
+/* App ainda não lançado: selo no lugar dos botões das lojas */
+.soon{display:inline-flex;align-items:center;min-height:52px;padding:0 26px;border-radius:999px;border:2px dashed var(--navy);color:var(--navy);font-weight:700;font-size:17px;margin:0}
+@container (max-width:900px){.soon{width:100%;justify-content:center;text-align:center;padding:10px 20px}}
 /* Ícones e capturas de tela oficiais dos aplicativos */
 .appicon{display:block;object-fit:cover;background:#fff;box-shadow:0 0 0 1px var(--line)}
 .phone>div.shot{padding:0;overflow:hidden}

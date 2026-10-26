@@ -39,5 +39,5 @@
 {%- endmacro %}
 
 {% macro store_buttons(t, app, app_site, extra_style="") -%}
-<div class="btns"{% if extra_style %} style="{{ extra_style }}"{% endif %}><a class="btn pri" href="{{ app_site.google_play }}" target="_blank" rel="noopener" aria-label="{{ t.ui.get_on_google_play_label | fmt(name=app.name) }} {{ t.ui.new_tab }}">{{ svg('google-play') }} {{ t.ui.get_on_google_play }}</a>{% if app_site.app_store %}<a class="btn out" href="{{ app_site.app_store }}" target="_blank" rel="noopener" aria-label="{{ t.ui.get_on_app_store_label | fmt(name=app.name) }} {{ t.ui.new_tab }}">{{ t.ui.get_on_app_store }}</a>{% endif %}</div>
+<div class="btns"{% if extra_style %} style="{{ extra_style }}"{% endif %}>{% if not app_site.google_play and not app_site.app_store %}<p class="soon">{{ t.ui.coming_soon }}</p>{% endif %}{% if app_site.google_play %}<a class="btn pri" href="{{ app_site.google_play }}" target="_blank" rel="noopener" aria-label="{{ t.ui.get_on_google_play_label | fmt(name=app.name) }} {{ t.ui.new_tab }}">{{ svg('google-play') }} {{ t.ui.get_on_google_play }}</a>{% endif %}{% if app_site.app_store %}<a class="btn out" href="{{ app_site.app_store }}" target="_blank" rel="noopener" aria-label="{{ t.ui.get_on_app_store_label | fmt(name=app.name) }} {{ t.ui.new_tab }}">{{ t.ui.get_on_app_store }}</a>{% endif %}</div>
 {%- endmacro %}

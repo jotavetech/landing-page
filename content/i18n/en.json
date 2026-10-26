@@ -34,6 +34,7 @@
     "get_on_google_play_label": "Get {name} on Google Play",
     "get_on_app_store": "Download on the App Store",
     "get_on_app_store_label": "Download {name} on the App Store",
+    "coming_soon": "Coming soon to Google Play and the App Store",
     "learn_more": "Discover {name}",
     "new_tab": "(opens in a new tab)"
   },
@@ -73,7 +74,7 @@
   "pages": {
     "home": {
       "title": "Jotave Tech · Mobile solutions and apps",
-      "description": "Jotave Tech helps turn ideas and processes into mobile apps and develops its own apps, such as Spokn, Balança Diária and GRO.",
+      "description": "Jotave Tech helps turn ideas and processes into mobile apps and develops its own apps, such as Spokn, Balança Diária, GRO and Nalu.",
       "eyebrow": "Next-level mobile solutions",
       "h1": "Ideas and processes that fit in your phone.",
       "lead": "Jotave Tech helps systematize ideas and processes on mobile devices and develops its own apps, available on Google Play and the App Store, in free and paid versions.",
@@ -98,7 +99,7 @@
 
     "products": {
       "title": "Products · Jotave Tech",
-      "description": "Meet the Jotave Tech apps: Spokn, Balança Diária and GRO, in free and paid versions.",
+      "description": "Meet the Jotave Tech apps: Spokn, Balança Diária, GRO and Nalu, in free and paid versions.",
       "crumb": "Products",
       "h1": "Our products",
       "lead": "Apps built and maintained by Jotave Tech, available for download on Google Play and the App Store, in free and paid versions.",
@@ -196,7 +197,7 @@
       "history": [
         "Jotave Tech was born from the meeting of a desire to build a business and João Vitor’s passion for the logic of programming. In technology, he found a way to turn reasoning into creation: understanding a problem, organizing its parts and building a solution.",
         "The name carries that origin. JOTAVE combines JOTA, the Portuguese name of the letter J, and VE, the Portuguese name of the letter V: a reference to João Vitor’s initials and to the identity of the person who started the company. From the beginning, the goal was to build something of its own, with its own brand and its own path.",
-        "That path began to take shape with Jotave Tech’s first apps: Spokn, Balança Diária and GRO. They open a growing portfolio, created from new ideas and needs that can come to life on a phone.",
+        "That path began to take shape with Jotave Tech’s first apps: Spokn, Balança Diária, GRO and Nalu. They open a growing portfolio, created from new ideas and needs that can come to life on a phone.",
         "Jotave Tech keeps moving in that direction: developing its own products and helping other people turn ideas and processes into mobile solutions. A journey that began with the logic of programming and keeps growing with each new project."
       ],
       "mvv_h2": "Mission, vision and values",
@@ -237,8 +238,8 @@
         {
           "title": "Products",
           "items": [
-            { "q": "What are Spokn, Balança Diária and GRO?", "a": "They are Jotave Tech apps. Spokn is a voice journal: you talk about your day and AI transcribes and summarizes it. Balança Diária helps you record your weight every day and set goals to reach your ideal weight. GRO (Occupational Risk Manager) helps occupational safety and health professionals carry out environmental surveys.", "links": "products" },
-            { "q": "Are the apps available for Android and iPhone?", "a": "All three Jotave Tech apps are available for Android on Google Play. The iPhone versions are in development and will be available on the App Store soon." }
+            { "q": "What are Spokn, Balança Diária, GRO and Nalu?", "a": "They are Jotave Tech apps. Spokn is a voice journal: you talk about your day and AI transcribes and summarizes it. Balança Diária helps you record your weight every day and set goals to reach your ideal weight. GRO (Occupational Risk Manager) helps occupational safety and health professionals carry out environmental surveys. Nalu tracks the menstrual cycle, with predictions, a daily log and contraceptive reminders, and keeps the data on the phone only.", "links": "products" },
+            { "q": "Are the apps available for Android and iPhone?", "a": "Spokn, Balança Diária and GRO are available for Android on Google Play. The iPhone versions are in development and will be available on the App Store soon. Nalu will launch soon for Android and iPhone." }
           ]
         },
         {
@@ -496,6 +497,57 @@
       "faq_free_a": "The download is free and you can try your first entry for free. To keep going with unlimited entries, there's the Spokn Pro subscription, monthly or yearly, with a 7-day free trial, which you can cancel at any time.",
       "faq_devices_a": "Spokn is available for Android phones on Google Play. The iPhone version is being prepared for the App Store.",
       "privacy_summary": "Your entries stay on your phone. Audio is sent only to create the transcript and summary and then discarded: it's never stored on our servers, and we don't use your journal for advertising."
+    },
+    "nalu": {
+      "name": "Nalu",
+      "card": "Track your period, fertile window and contraceptive, with your data encrypted on your phone only, no account and no ads.",
+      "badges": [
+        "Coming soon",
+        "Free",
+        "No ads",
+        "No account needed",
+        "Data stays on your phone",
+        "Android and iPhone"
+      ],
+      "lead": "Your cycle, with ease. Know when your next period and fertile window are coming, log how you feel and understand your body, without worrying that your data will be sold.",
+      "about": [
+        "Nalu is a menstrual cycle tracker. One tap marks the start of your period, and the app works out the next one, ovulation and the fertile window from your own history, showing how confident each prediction is. Day to day, you log flow, symptoms, mood and your contraceptive in a few taps.",
+        "Privacy is the core promise: everything stays encrypted on your phone, with no account, no server and no ads. Nalu is a wellness and self-knowledge app, not a health app. Predictions are estimates and do not work as a contraceptive method."
+      ],
+      "audience": [
+        "People who menstruate and want to know when their next cycle is coming",
+        "People who want to understand their symptoms and mood across the cycle",
+        "People who use the pill, ring, patch, injection, IUD or implant and want reminders on time",
+        "People who won't compromise on the privacy of their intimate data"
+      ],
+      "features": [
+        { "title": "Predictions for your cycle", "text": "Next period, ovulation and fertile window for the next 6 cycles, calculated on the device from your own history, with a confidence level for each prediction." },
+        { "title": "Calendar and statistics", "text": "Logged and predicted period, fertile window and ovulation, each with its own color and shape, plus the average length of your cycles over time." },
+        { "title": "Log your day in 3 taps", "text": "Flow, symptoms, mood, discharge, libido, intercourse, temperature, ovulation test and notes, saved automatically." },
+        { "title": "Contraceptive on track", "text": "Pill, ring, patch, injection, IUD or implant, with your pack or usage schedule and reminders at the time you choose." },
+        { "title": "Discreet reminders", "text": "Reminders for your next period, fertile window, contraceptive and daily log, with texts that never mention your period on the lock screen." },
+        { "title": "Truly private", "text": "No account and no ads, with data encrypted on your phone, PIN or biometric lock, CSV export and one button to erase everything." }
+      ],
+      "versions_note": "Every Nalu feature is free and ad-free. The optional Nalu Premium arrives after launch.",
+      "free_price": "R$ 0",
+      "free_items": [
+        "Cycle predictions, calendar and statistics",
+        "Daily log and contraceptive tracking",
+        "Reminders, app lock, CSV export and data deletion",
+        "No ads and no account needed"
+      ],
+      "paid_price": "Nalu Premium · coming soon",
+      "paid_items": [
+        "Automatic backup with end-to-end encryption",
+        "Advanced statistics: symptoms and mood by cycle phase",
+        "7-day free trial",
+        "Logging, calendar, predictions, reminders, export and data deletion stay free forever"
+      ],
+      "screenshots": [],
+      "source_note": "Nalu is in the final stage of development. The features described may change before launch.",
+      "faq_free_a": "Yes. Every Nalu feature is free and the app has no ads. Later there will be Nalu Premium, optional, with encrypted backup and advanced statistics. Logging, the calendar, predictions, reminders, export and data deletion will stay free.",
+      "faq_devices_a": "Nalu will launch for Android phones running Android 10 or newer, on Google Play, and for iPhones running iOS 16 or newer, on the App Store. The app works in Portuguese, English, Spanish, French and German.",
+      "privacy_summary": "Your records stay encrypted on your phone only. Nalu has no account and no server for your data, shows no ads and never sells or shares information about your cycle."
     }
   },
 

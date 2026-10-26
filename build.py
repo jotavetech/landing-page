@@ -34,7 +34,7 @@ OUT = os.path.join(ROOT, "_site")
 
 LANGS = ["pt-br", "en"]
 DEFAULT_LANG = "pt-br"
-APP_KEYS = ["spokn", "balanca-diaria", "gro"]
+APP_KEYS = ["spokn", "balanca-diaria", "gro", "nalu"]
 
 # Chave da página -> caminho em cada idioma (sempre terminando em "/").
 ROUTES = {
@@ -43,6 +43,7 @@ ROUTES = {
     "gro":            {"pt-br": "produtos/gro/",             "en": "products/gro/"},
     "balanca-diaria": {"pt-br": "produtos/balanca-diaria/",  "en": "products/balanca-diaria/"},
     "spokn":          {"pt-br": "produtos/spokn/",           "en": "products/spokn/"},
+    "nalu":           {"pt-br": "produtos/nalu/",            "en": "products/nalu/"},
     "solutions":      {"pt-br": "solucoes/",                 "en": "solutions/"},
     "about":          {"pt-br": "sobre/",                    "en": "about/"},
     "faq":            {"pt-br": "perguntas-frequentes/",     "en": "faq/"},
@@ -66,6 +67,7 @@ TEMPLATES = {
     "gro": "pages/product.html",
     "balanca-diaria": "pages/product.html",
     "spokn": "pages/product.html",
+    "nalu": "pages/product.html",
     "solutions": "pages/solutions.html",
     "about": "pages/about.html",
     "faq": "pages/faq.html",

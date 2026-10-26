@@ -29,6 +29,7 @@ as ilustrações em pixels foram extraídos do próprio arquivo.
 | GRO | `/pt-br/produtos/gro/` | `/en/products/gro/` |
 | Balança Diária | `/pt-br/produtos/balanca-diaria/` | `/en/products/balanca-diaria/` |
 | Spokn | `/pt-br/produtos/spokn/` | `/en/products/spokn/` |
+| Nalu | `/pt-br/produtos/nalu/` | `/en/products/nalu/` |
 | Soluções e possibilidades | `/pt-br/solucoes/` | `/en/solutions/` |
 | Sobre | `/pt-br/sobre/` | `/en/about/` |
 | Perguntas frequentes | `/pt-br/perguntas-frequentes/` | `/en/faq/` |
@@ -55,6 +56,9 @@ páginas e no rodapé, leva à página equivalente no outro idioma e a escolha f
   forem aprovados.
 - **Link da App Store**: preencha `apps.<app>.app_store` em `content/site.json`; o botão
   "Baixar na App Store" aparece automaticamente.
+- **App ainda não lançado**: com `google_play` e `app_store` vazios, a página mostra "Em breve na
+  Google Play e na App Store" no lugar dos botões. Com `screenshots` em `0`, o topo da página mostra
+  o ícone do app e a seção "Telas do aplicativo" não aparece.
 - **Formulário de contato**: o GitHub Pages não processa formulários. As mensagens vão pelo
   [FormSubmit](https://formsubmit.co) para o e-mail em `contact_form.action_url`
   (`https://formsubmit.co/ajax/<e-mail>`), sem sair da página. No primeiro envio, o FormSubmit
