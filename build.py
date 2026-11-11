@@ -259,6 +259,7 @@ def build():
 
     write("CNAME", domain.split("://", 1)[1] + "\n")
     write(".nojekyll", "")
+    write("app-ads.txt", f"google.com, {site['admob_publisher_id']}, DIRECT, f08c47fec0942fa0\n")
     write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {domain}/sitemap.xml\n")
     urls = "\n".join(f"  <url><loc>{u}</loc></url>" for u in sitemap)
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n'

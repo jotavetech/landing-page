@@ -4,6 +4,9 @@
   "domain": "https://www.jotavetech.com",
   "brand_name": "Jotave Tech",
 
+  "_admob_comment": "Publisher ID da conta AdMob da Jotave Tech. Gera o /app-ads.txt, que o AdMob exige para verificar os apps que têm este site como site do desenvolvedor na loja.",
+  "admob_publisher_id": "pub-3362545521372210",
+
   "company": {
     "legal_name": "João Vitor Freitas Consultoria em Tecnologia da Informação Ltda.",
     "cnpj": "50.680.630/0001-22",
