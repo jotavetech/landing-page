@@ -804,11 +804,11 @@
   },
   "nalu": {
     "privacy": {
-      "updated": "26 de outubro de 2026",
+      "updated": "20 de novembro de 2026",
       "summary": [
         "Os seus registros de menstruação, sintomas, humor, vida sexual e anticoncepcional ficam só no seu celular, criptografados. Não é preciso criar conta.",
         "O {app} não tem servidor para os seus dados: as previsões são calculadas no aparelho, os lembretes são agendados nele e nada do seu ciclo é enviado pela internet.",
-        "Sem anúncios. Nunca vendemos os seus dados, nem os compartilhamos ou usamos para publicidade.",
+        "O {app} exibe alguns anúncios não personalizados, que nunca usam os seus dados do ciclo; o Nalu Plus remove os anúncios. Nunca vendemos os seus dados, e os seus dados do ciclo nunca são compartilhados nem usados para publicidade.",
         "Você pode exportar ou apagar tudo pelo próprio app, a qualquer momento. Dúvidas: {email}."
       ],
       "sections": [
@@ -847,7 +847,7 @@
           "h": "Sem conta e sem servidor",
           "p": [
             "Nesta versão, o {app} não tem cadastro, login nem servidor para os seus dados. Os seus registros não são enviados para nós nem para terceiros, e as previsões, as estatísticas e os lembretes são calculados e agendados no próprio aparelho. Nós não temos acesso ao que você registra.",
-            "Se no futuro oferecermos conta e backup (planejados para o Nalu Premium), eles serão opcionais e com criptografia de ponta a ponta, e esta política será atualizada antes do lançamento desses recursos."
+            "Se no futuro oferecermos conta e backup, eles serão opcionais e com criptografia de ponta a ponta, e esta política será atualizada antes do lançamento desses recursos."
           ],
           "items": []
         },
@@ -878,7 +878,24 @@
           "p": [
             "Na configuração inicial, o app pede dois consentimentos separados e opcionais: enviar estatísticas de uso anônimas e enviar relatórios de erro. Você pode mudar essas escolhas a qualquer momento em Ajustes › Privacidade e dados.",
             "Relatórios de erro: se você autorizar, quando o app trava ele envia um relatório ao Google Firebase Crashlytics, para que possamos corrigir o problema. O relatório contém o rastro técnico do erro e informações do aparelho, como modelo, versão do sistema e versão do app, além de um identificador aleatório da instalação gerado pelo Firebase. Ele nunca inclui dados do ciclo, sintomas, anotações, nome ou e-mail. A coleta começa desligada e só é ativada com o seu consentimento (art. 7º, I, da LGPD, e art. 6(1)(a) do GDPR); ao revogá-lo, a coleta é desligada e os relatórios ainda não enviados são apagados.",
-            "Estatísticas de uso: nesta versão, o {app} não inclui nenhum serviço de estatísticas de uso (como o Google Analytics), e nada é enviado mesmo que você autorize. Se passarmos a usar um serviço desse tipo, ele só funcionará com o seu consentimento, nunca receberá dados do ciclo, e esta política indicará o prestador antes."
+            "Estatísticas de uso: se você autorizar, o app envia eventos de uso anônimos ao Google Firebase Analytics, para entendermos quais recursos são usados: quais telas principais são abertas (Hoje, Calendário, Estatísticas, Ajustes e algumas telas de ajustes), o fim da configuração inicial, a exportação e a exclusão dos dados e preferências do app, como idioma, tema, bloqueio ligado ou desligado e a quantidade de lembretes ativos. O Firebase também registra o início e a duração das sessões, a versão do app e do sistema, o modelo e o idioma do aparelho e o país e a região aproximados obtidos pelo endereço IP, junto com um identificador aleatório da instalação. Nenhum evento leva dados do ciclo, e nenhum evento é enviado quando você registra uma menstruação ou um dia ou usa as telas do anticoncepcional, para que o horário do evento não revele isso. Os recursos de publicidade ficam desligados: o Analytics não usa o identificador de publicidade e os seus dados não são ligados a anúncios. A coleta começa desligada e só é ativada com o seu consentimento (art. 7º, I, da LGPD, e art. 6(1)(a) do GDPR); ao revogá-lo, a coleta é desligada e o identificador da instalação e os eventos ainda não enviados são apagados."
+          ],
+          "items": []
+        },
+        {
+          "h": "Anúncios",
+          "p": [
+            "O {app} é gratuito e exibe pequenos anúncios em banner, fornecidos pelo Google AdMob, apenas no fim de Estatísticas e em Ajustes. Os anúncios nunca aparecem em telas com os seus dados do ciclo, nas notificações ou com o app bloqueado, e só são exibidos a pessoas com 18 anos ou mais.",
+            "Os anúncios são sempre não personalizados: não são escolhidos com base no seu perfil nem na sua atividade em outros apps. O {app} nunca pede o identificador de publicidade (no iPhone, não pede permissão de rastreamento, e no Android a permissão do ID de publicidade é removida), e os pedidos de anúncio não levam nenhuma informação sobre a tela, os seus registros ou o seu ciclo.",
+            "Para exibir os anúncios, medi-los, limitar quantas vezes se repetem e evitar fraudes, o Google recebe dados do aparelho, como o endereço IP (e a localização aproximada obtida por ele), o modelo do aparelho, a versão do sistema e do app e as interações com os anúncios, conforme a política de privacidade do Google (policies.google.com/privacy). No Espaço Econômico Europeu, no Reino Unido e na Suíça, o app pede a sua escolha pelo formulário de consentimento do Google, que você pode mudar em Ajustes › Privacidade e dados › Escolhas de anúncios."
+          ],
+          "items": []
+        },
+        {
+          "h": "Compras do Nalu Plus",
+          "p": [
+            "O Nalu Plus é uma compra opcional (assinatura mensal ou anual, ou compra única) que remove os anúncios. O pagamento é processado pela Google Play ou pela App Store; nunca recebemos os dados do seu cartão.",
+            "Para saber se você tem o Nalu Plus, o app usa o RevenueCat, um serviço de gestão de compras. O RevenueCat recebe um identificador aleatório e anônimo criado pelo app, o seu histórico de compras (produto, data, preço, país e loja) e informações técnicas, como a versão do app e do sistema. Ele não recebe dados do ciclo, nome nem e-mail. Esse tratamento é necessário para entregar o que você comprou (art. 7º, V, da LGPD, e art. 6(1)(b) do GDPR)."
           ],
           "items": []
         },
@@ -895,15 +912,18 @@
             "Não vendemos nem compartilhamos os seus dados do ciclo. Como eles não saem do aparelho, nenhum prestador de serviço tem acesso a eles."
           ],
           "items": [
-            "Google Play e App Store: distribuem o app e podem coletar dados sobre o download e o uso conforme as próprias políticas. Quando o Premium existir, também processarão as compras.",
+            "Google Play e App Store: distribuem o app, processam os pagamentos do Nalu Plus e podem coletar dados sobre o download e o uso conforme as próprias políticas.",
             "Google Firebase Crashlytics: relatórios de erro, só se você autorizar.",
+            "Google Firebase Analytics: estatísticas de uso anônimas, só se você autorizar.",
+            "Google AdMob: anúncios não personalizados, como descrito na seção Anúncios.",
+            "RevenueCat: situação das compras do Nalu Plus, como descrito na seção Compras do Nalu Plus.",
             "Autoridades públicas: quando houver obrigação legal ou ordem judicial. Como não guardamos os seus registros, não temos como entregá-los."
           ]
         },
         {
           "h": "Transferência internacional",
           "p": [
-            "Os seus dados do ciclo não saem do aparelho. Os relatórios de erro, quando autorizados, são processados pelo Google em servidores nos Estados Unidos ou em outros países, com cláusulas contratuais padrão e termos de tratamento de dados compatíveis com a LGPD (art. 33) e o GDPR."
+            "Os seus dados do ciclo não saem do aparelho. Os relatórios de erro e as estatísticas de uso (quando autorizados), os dados dos anúncios e os dados das compras são processados pelo Google e pelo RevenueCat em servidores nos Estados Unidos ou em outros países, com cláusulas contratuais padrão e termos de tratamento de dados compatíveis com a LGPD (art. 33) e o GDPR."
           ],
           "items": []
         },
@@ -913,6 +933,9 @@
           "items": [
             "Dados no aparelho: até você apagá-los, revogar o consentimento para os dados do ciclo ou desinstalar o app.",
             "Relatórios de erro: pelo prazo definido pelo Google para o Firebase Crashlytics, depois do qual são apagados automaticamente.",
+            "Estatísticas de uso: 2 meses no Firebase Analytics, depois dos quais são apagadas automaticamente.",
+            "Dados dos anúncios: pelos prazos definidos pelo Google para o AdMob.",
+            "Dados das compras do Nalu Plus: enquanto você tiver o Nalu Plus e pelo tempo necessário para cumprir obrigações fiscais e do direito do consumidor.",
             "Mensagens enviadas ao nosso e-mail: pelo tempo necessário para responder."
           ]
         },
@@ -958,12 +981,12 @@
       ]
     },
     "terms": {
-      "updated": "26 de outubro de 2026",
+      "updated": "20 de novembro de 2026",
       "summary": [
         "O {app} ajuda a acompanhar o ciclo menstrual e a entender o seu corpo. Ele é um app de bem-estar: não faz diagnóstico e não substitui orientação médica.",
         "As previsões são estimativas e não servem como método contraceptivo.",
         "Os dados são seus e ficam só no seu celular, sem backup: se o aparelho for trocado ou perdido, ou o app for desinstalado, eles se perdem.",
-        "Todos os recursos desta versão são gratuitos e sem anúncios. Dúvidas: {email}."
+        "O {app} é gratuito e exibe alguns anúncios não personalizados. O Nalu Plus, uma compra opcional, remove os anúncios. Dúvidas: {email}."
       ],
       "sections": [
         {
@@ -1019,10 +1042,11 @@
           "items": []
         },
         {
-          "h": "Preço e Nalu Premium",
+          "h": "Preço, anúncios e Nalu Plus",
           "p": [
-            "Todos os recursos desta versão são gratuitos, e o app não exibe anúncios.",
-            "No futuro, poderemos oferecer o Nalu Premium, uma assinatura opcional cobrada pela Google Play ou pela App Store, com recursos extras como o backup criptografado. O registro, o calendário, as previsões, os lembretes, a exportação em CSV e a exclusão dos dados continuarão gratuitos. Preço, teste grátis, renovação e cancelamento serão informados no app e nestes termos antes de qualquer cobrança."
+            "O {app} é gratuito e exibe anúncios em banner não personalizados em algumas telas, como descrito na Política de Privacidade. O registro, o calendário, as previsões, os lembretes, a exportação em CSV e a exclusão dos dados são gratuitos.",
+            "O Nalu Plus é uma compra opcional que remove os anúncios, oferecida como assinatura mensal ou anual ou como compra única (vitalícia). Os preços aparecem no app, na sua moeda, antes da compra. As compras são feitas e cobradas pela Google Play ou pela App Store, conforme os termos delas.",
+            "As assinaturas são renovadas automaticamente ao fim de cada período, a menos que sejam canceladas pelo menos 24 horas antes do fim, e você pode cancelar a qualquer momento nas configurações da sua conta da Google Play ou da App Store; o Nalu Plus continua ativo até o fim do período já pago. Quando houver teste grátis, ele aparece antes da assinatura e, se você não cancelar antes do fim, a assinatura é cobrada. Reembolsos seguem as políticas da Google Play ou da App Store e os direitos do consumidor garantidos por lei. Para recuperar uma compra em outro aparelho, use a opção de restaurar compras na tela do Nalu Plus."
           ],
           "items": []
         },
